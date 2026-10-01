@@ -24,8 +24,8 @@
     "use_instructions": false,
     "training_datasets": [
         "Libri-Light",
-        "GigaSpeechA2TRetrieval",
-        "VoxPopuliLanguageID"
+        "VoxPopuliLanguageID",
+        "GigaSpeechA2TRetrieval"
     ],
     "adapted_from": null,
     "superseded_by": null,

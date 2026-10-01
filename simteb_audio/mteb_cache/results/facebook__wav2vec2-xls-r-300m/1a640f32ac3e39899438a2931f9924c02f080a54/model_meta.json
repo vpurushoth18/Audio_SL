@@ -77,9 +77,9 @@
     "similarity_fn_name": "cosine",
     "use_instructions": false,
     "training_datasets": [
+        "CommonVoiceMini17A2TRetrieval",
         "VoxLingua107_Top10",
-        "VoxPopuliLanguageID",
-        "CommonVoiceMini17A2TRetrieval"
+        "VoxPopuliLanguageID"
     ],
     "adapted_from": null,
     "superseded_by": null,

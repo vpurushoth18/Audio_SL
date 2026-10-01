@@ -1,13 +1,13 @@
-model	OpenSLR30SpeakerClassification	OpenSLR30SpeakerClustering	OpenSLR30SpeakerPairClassification	OpenSLR52AudioReranking	OpenSLR52AudioRetrieval	OpenSLR52SpeakerClassification	OpenSLR52SpeakerClustering	OpenSLR52SpeakerPairClassification	WorldSpeechSinhalaQualityClassification	WorldSpeechSinhalaSessionClustering
-microsoft/wavlm-large	80.14	39.30	73.28	4.16	15.31	43.73	54.06	77.72	44.48	92.84
-facebook/mms-300m	49.17	34.23	67.94	0.01	1.31	16.75	58.79	74.95	46.67	92.66
-facebook/w2v-bert-2.0	50.14	38.71	81.63	0.36	0.95	22.66	60.96	87.34	36.70	91.76
-facebook/wav2vec2-xls-r-2b	91.11	27.35	67.18	0.29	1.47	77.56	54.26	70.76	44.67	91.46
-openai/whisper-base	63.61	31.54	65.86	8.01	26.70	31.98	49.18	72.00	36.22	91.83
-openai/whisper-tiny	60.83	31.09	66.39	7.54	25.23	26.75	50.61	70.86	37.40	91.98
-facebook/wav2vec2-xls-r-1b	71.67	30.25	68.17	0.26	2.09	51.32	53.59	66.25	39.46	91.78
-openai/whisper-small	68.06	30.73	65.41	8.49	26.70	46.89	47.35	73.85	36.03	91.59
-openai/whisper-medium	65.28	27.44	61.80	12.00	36.71	44.08	46.91	70.66	37.08	91.80
-openai/whisper-large-v3	61.25	32.40	62.88	8.40	28.57	35.61	48.14	69.67	37.08	91.37
-facebook/hubert-large-ls960-ft	38.06	31.71	63.32	4.42	15.71	7.10	48.20	62.22	34.89	92.94
-facebook/wav2vec2-xls-r-300m	34.72	20.43	59.38	0.10	0.59	6.86	54.68	62.76	34.38	91.43
+model	OmnilingualSinhalaContentRetrieval	OmnilingualSinhalaSpeakerClassification	OmnilingualSinhalaSpeakerClustering	OpenSLR30SpeakerClassification	OpenSLR30SpeakerClustering	OpenSLR30SpeakerPairClassification	OpenSLR52AudioReranking	OpenSLR52AudioRetrieval	OpenSLR52SpeakerClassification	OpenSLR52SpeakerClustering	OpenSLR52SpeakerPairClassification	VoxLingua107SinhalaVideoClustering	WorldSpeechSinhalaQualityClassification	WorldSpeechSinhalaSessionClustering
+microsoft/wavlm-large	3.21	93.06	76.92	80.14	39.30	73.28	4.16	15.31	43.73	54.06	77.72	97.30	44.48	92.84
+facebook/w2v-bert-2.0	0.53	82.58	73.76	50.14	38.71	81.63	0.36	0.95	22.66	60.96	87.34	97.40	36.70	91.76
+facebook/wav2vec2-xls-r-1b	0.80	84.11	74.61	71.67	30.25	68.17	0.26	2.09	51.32	53.59	66.25	96.55	39.46	91.78
+facebook/wav2vec2-xls-r-2b	1.87	87.66	75.85	91.11	27.35	67.18	0.29	1.47	77.56	54.26	70.76	95.23	44.67	91.46
+openai/whisper-tiny	6.42	83.23	66.71	60.83	31.09	66.39	7.54	25.23	26.75	50.61	70.86	95.96	37.40	91.98
+openai/whisper-small	8.02	80.97	64.63	68.06	30.73	65.41	8.49	26.70	46.89	47.35	73.85	96.13	36.03	91.59
+openai/whisper-base	4.81	81.85	64.91	63.61	31.54	65.86	8.01	26.70	31.98	49.18	72.00	96.05	36.22	91.83
+facebook/mms-300m	1.34	74.19	79.10	49.17	34.23	67.94	0.01	1.31	16.75	58.79	74.95	95.92	46.67	92.66
+openai/whisper-medium	10.43	80.65	61.27	65.28	27.44	61.80	12.00	36.71	44.08	46.91	70.66	96.10	37.08	91.80
+openai/whisper-large-v3	7.75	81.85	64.00	61.25	32.40	62.88	8.40	28.57	35.61	48.14	69.67	96.07	37.08	91.37
+facebook/hubert-large-ls960-ft	4.28	64.92	67.55	38.06	31.71	63.32	4.42	15.71	7.10	48.20	62.22	96.89	34.89	92.94
+facebook/wav2vec2-xls-r-300m	0.80	46.05	63.42	34.72	20.43	59.38	0.10	0.59	6.86	54.68	62.76	95.49	34.38	91.43

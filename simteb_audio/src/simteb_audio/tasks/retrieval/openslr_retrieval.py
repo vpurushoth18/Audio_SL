@@ -241,3 +241,67 @@ class OpenSLR52AudioReranking(_OpenSLR52RetrievalBase):
         queries = (src.select(q_idx).select_columns(["audio"])
                       .add_column("id", [utt_ids[i] for i in q_idx]))
         return queries, corpus, dict(qrels)
+
+
+class OmnilingualSinhalaContentRetrieval(_OpenSLR52RetrievalBase):
+    """Cross-speaker content retrieval on Meta's Omnilingual ASR corpus.
+
+    Same construction as OpenSLR52AudioRetrieval - a correct answer is another
+    recording of the SAME prompt by a DIFFERENT speaker - on an independent
+    corpus. Only 158 of the 411 Sinhala prompts have more than one speaker, so
+    the candidate pool is small; read it as a cross-corpus check rather than a
+    replacement.
+    """
+
+    local_dir_name = "omnilingual_sin_retrieval"
+
+    metadata = mteb.TaskMetadata(
+        name="OmnilingualSinhalaContentRetrieval",
+        description=(
+            "Sinhala audio-to-audio content retrieval on Meta's Omnilingual ASR "
+            "corpus. Given an utterance, retrieve recordings of the same prompt "
+            "by other speakers; the query's own speaker is never a correct "
+            "answer, so voice matching does not solve it."
+        ),
+        reference="https://huggingface.co/datasets/facebook/omnilingual-asr-corpus",
+        dataset={
+            "path": "Sinhala-NLP/SiMTEB-Audio-Omnilingual-Sinhala",
+            "revision": "main",
+        },
+        type="Any2AnyRetrieval",
+        category="a2a",
+        modalities=["audio"],
+        eval_splits=["test"],
+        eval_langs=["sin-Sinh"],
+        main_score="hit_rate_at_5",
+        date=("2025-01-01", "2025-12-31"),
+        domains=["Spoken"],
+        task_subtypes=["Speech Retrieval"],
+        license="cc-by-4.0",
+        annotations_creators="human-annotated",
+        dialect=[],
+        sample_creation="created",
+        bibtex_citation="",
+    )
+
+    def _build(self, src):
+        utt_ids = src["utt_id"]
+        sids = src["sentence_id"]
+        spks = src["speaker_id"]
+
+        by_sentence = defaultdict(list)
+        for i, sid in enumerate(sids):
+            by_sentence[sid].append(i)
+
+        qrels, keep_q = {}, []
+        for i, (utt, sid, spk) in enumerate(zip(utt_ids, sids, spks)):
+            rel = {utt_ids[j]: 1 for j in by_sentence[sid]
+                   if j != i and spks[j] != spk}
+            if rel:
+                qrels[utt] = rel
+                keep_q.append(i)
+
+        corpus = src.select_columns(["audio"]).add_column("id", utt_ids)
+        queries = (src.select(keep_q).select_columns(["audio"])
+                      .add_column("id", [utt_ids[i] for i in keep_q]))
+        return queries, corpus, qrels

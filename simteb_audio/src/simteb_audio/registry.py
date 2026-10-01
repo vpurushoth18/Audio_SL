@@ -3,8 +3,11 @@ from simteb_audio.tasks.classification import (
     OpenSLR52SpeakerClassification,
 )
 from simteb_audio.tasks.clustering import (
+    OmnilingualSinhalaSpeakerClassification,
+    OmnilingualSinhalaSpeakerClustering,
     OpenSLR30SpeakerClustering,
     OpenSLR52SpeakerClustering,
+    VoxLingua107SinhalaVideoClustering,
     WorldSpeechSinhalaQualityClassification,
     WorldSpeechSinhalaSessionClustering,
 )
@@ -13,6 +16,7 @@ from simteb_audio.tasks.pair_classification import (
     OpenSLR52SpeakerPairClassification,
 )
 from simteb_audio.tasks.retrieval import (
+    OmnilingualSinhalaContentRetrieval,
     OpenSLR52A2TRetrieval,
     OpenSLR52AudioReranking,
     OpenSLR52AudioRetrieval,
@@ -29,6 +33,10 @@ TASK_REGISTRY = {
     "OpenSLR52AudioRetrieval": OpenSLR52AudioRetrieval,
     "OpenSLR52AudioReranking": OpenSLR52AudioReranking,
     "WorldSpeechSinhalaSessionClustering": WorldSpeechSinhalaSessionClustering,
+    "VoxLingua107SinhalaVideoClustering": VoxLingua107SinhalaVideoClustering,
+    "OmnilingualSinhalaSpeakerClustering": OmnilingualSinhalaSpeakerClustering,
+    "OmnilingualSinhalaSpeakerClassification": OmnilingualSinhalaSpeakerClassification,
+    "OmnilingualSinhalaContentRetrieval": OmnilingualSinhalaContentRetrieval,
     "WorldSpeechSinhalaQualityClassification": WorldSpeechSinhalaQualityClassification,
     "OpenSLR52A2TRetrieval": OpenSLR52A2TRetrieval,
     "OpenSLR52T2ARetrieval": OpenSLR52T2ARetrieval,
@@ -39,17 +47,20 @@ CATEGORY_REGISTRY = {
         "OpenSLR52SpeakerClustering",
         "OpenSLR30SpeakerClustering",
         "WorldSpeechSinhalaSessionClustering",
+        "VoxLingua107SinhalaVideoClustering",
+        "OmnilingualSinhalaSpeakerClustering",
     ],
     "Classification": [
         "OpenSLR52SpeakerClassification",
         "OpenSLR30SpeakerClassification",
         "WorldSpeechSinhalaQualityClassification",
+        "OmnilingualSinhalaSpeakerClassification",
     ],
     "PairClassification": [
         "OpenSLR52SpeakerPairClassification",
         "OpenSLR30SpeakerPairClassification",
     ],
-    "Retrieval": ["OpenSLR52AudioRetrieval"],
+    "Retrieval": ["OpenSLR52AudioRetrieval", "OmnilingualSinhalaContentRetrieval"],
     "Reranking": ["OpenSLR52AudioReranking"],
     # need a model that embeds audio AND text into one space
     "CrossModal": ["OpenSLR52A2TRetrieval", "OpenSLR52T2ARetrieval"],

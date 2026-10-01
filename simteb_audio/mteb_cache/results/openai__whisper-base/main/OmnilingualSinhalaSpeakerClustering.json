@@ -1,0 +1,75 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OmnilingualSinhalaSpeakerClustering",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "v_measures": {
+          "Level 0": [
+            0.697433,
+            0.564998,
+            0.592142,
+            0.655164,
+            0.540433,
+            0.696887,
+            0.640819,
+            0.629131,
+            0.735916,
+            0.738443
+          ]
+        },
+        "v_measure": 0.649137,
+        "v_measure_std": 0.065398,
+        "ami_scores": {
+          "Level 0": [
+            0.697234,
+            0.56472,
+            0.591891,
+            0.65495,
+            0.540136,
+            0.696686,
+            0.640581,
+            0.628891,
+            0.735746,
+            0.738275
+          ]
+        },
+        "ami": 0.648911,
+        "ami_std": 0.065438,
+        "main_score": 0.649137,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 2.995801841141656,
+  "kg_co2_emissions": null,
+  "date": 1790887692.757358,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.004576851148158312,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding",
+      "start": 0.007658469025045633,
+      "end": 2.404781592078507,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 2.4058667039498687,
+      "end": 2.9868433671072125,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

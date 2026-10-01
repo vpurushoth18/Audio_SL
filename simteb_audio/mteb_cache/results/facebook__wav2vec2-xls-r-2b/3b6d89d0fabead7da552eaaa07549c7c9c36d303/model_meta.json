@@ -78,8 +78,8 @@
     "use_instructions": false,
     "training_datasets": [
         "CommonVoiceMini17A2TRetrieval",
-        "VoxLingua107_Top10",
-        "VoxPopuliLanguageID"
+        "VoxPopuliLanguageID",
+        "VoxLingua107_Top10"
     ],
     "adapted_from": null,
     "superseded_by": null,
