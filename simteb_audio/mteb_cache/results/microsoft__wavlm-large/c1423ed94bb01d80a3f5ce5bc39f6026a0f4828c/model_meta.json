@@ -1,0 +1,45 @@
+{
+    "loader_kwargs": {},
+    "name": "microsoft/wavlm-large",
+    "revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+    "release_date": "2022-07-19",
+    "languages": [
+        "eng-Latn"
+    ],
+    "n_parameters": 316620000,
+    "n_active_parameters_override": null,
+    "n_embedding_parameters": 0,
+    "memory_usage_mb": 1208.0,
+    "max_tokens": Infinity,
+    "embed_dim": 1024,
+    "license": "mit",
+    "open_weights": true,
+    "public_training_code": null,
+    "public_training_data": null,
+    "framework": [
+        "PyTorch"
+    ],
+    "reference": "https://huggingface.co/microsoft/wavlm-large",
+    "similarity_fn_name": "cosine",
+    "use_instructions": false,
+    "training_datasets": [
+        "Libri-Light",
+        "GigaSpeechA2TRetrieval",
+        "VoxPopuliLanguageID"
+    ],
+    "adapted_from": null,
+    "superseded_by": null,
+    "modalities": [
+        "audio"
+    ],
+    "model_type": [
+        "dense"
+    ],
+    "citation": "\n@article{Chen_2022,\n   title={WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing},\n   volume={16},\n   ISSN={1941-0484},\n   url={http://dx.doi.org/10.1109/JSTSP.2022.3188113},\n   DOI={10.1109/jstsp.2022.3188113},\n   number={6},\n   journal={IEEE Journal of Selected Topics in Signal Processing},\n   publisher={Institute of Electrical and Electronics Engineers (IEEE)},\n   author={Chen, Sanyuan and Wang, Chengyi and Chen, Zhengyang and Wu, Yu and Liu, Shujie and Chen, Zhuo and Li, Jinyu and Kanda, Naoyuki and Yoshioka, Takuya and Xiao, Xiong and Wu, Jian and Zhou, Long and Ren, Shuo and Qian, Yanmin and Qian, Yao and Wu, Jian and Zeng, Michael and Yu, Xiangzhan and Wei, Furu},\n   year={2022},\n   month=oct, pages={1505\u20131518} }\n",
+    "contacts": null,
+    "experiment_kwargs": null,
+    "output_dtypes": null,
+    "extra_requirements_groups": null,
+    "loader": "WavlmWrapper",
+    "is_cross_encoder": false
+}

@@ -1,0 +1,5 @@
+model	maeb_rank	mean_score	borda_points	mean_classification	mean_clustering	mean_pair	mean_reranking	mean_retrieval
+w2vbert2	1	0.5789	41.0000	0.5362	0.6348	0.7461	0.0429	0.5770
+whisper	2	0.4934	37.0000	0.4185	0.4458	0.7094	0.3127	0.4600
+mms300m	3	0.4855	34.0000	0.3850	0.4709	0.6777	0.0542	0.5520
+xlsr300m	4	0.3935	18.0000	0.3499	0.3824	0.5837	0.0547	0.3710

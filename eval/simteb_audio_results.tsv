@@ -1,0 +1,121 @@
+model	task	task_type	revision	split	subset	main_score	v_measure	v_measure_std	ami	mteb_version	eval_time_s
+facebook/hubert-large-ls960-ft	OpenSLR30SpeakerClassification	AudioClassification	ece5fabbf034	test	default	0.380556				2.21.10	18.571320
+facebook/hubert-large-ls960-ft	OpenSLR30SpeakerClustering	AudioClustering	ece5fabbf034	test	default	0.317099	0.317099	0.013682	0.316043	2.21.10	18.824916
+facebook/hubert-large-ls960-ft	OpenSLR30SpeakerPairClassification	AudioPairClassification	ece5fabbf034	test	default	0.633238				2.21.10	132.236622
+facebook/hubert-large-ls960-ft	OpenSLR52AudioReranking	AudioReranking	ece5fabbf034	test	default	0.044190				2.21.10	152.290377
+facebook/hubert-large-ls960-ft	OpenSLR52AudioRetrieval	AudioRetrieval	ece5fabbf034	test	default	0.157070				2.21.10	312.865996
+facebook/hubert-large-ls960-ft	OpenSLR52SpeakerClassification	AudioClassification	ece5fabbf034	test	default	0.071015				2.21.10	512.490345
+facebook/hubert-large-ls960-ft	OpenSLR52SpeakerClustering	AudioClustering	ece5fabbf034	test	default	0.481955	0.481955	0.001485	0.228456	2.21.10	517.744255
+facebook/hubert-large-ls960-ft	OpenSLR52SpeakerPairClassification	AudioPairClassification	ece5fabbf034	test	default	0.622238				2.21.10	401.585011
+facebook/hubert-large-ls960-ft	WorldSpeechSinhalaQualityClassification	AudioClassification	ece5fabbf034	test	default	0.348889				2.21.10	95.802436
+facebook/hubert-large-ls960-ft	WorldSpeechSinhalaSessionClustering	AudioClustering	ece5fabbf034	test	default	0.929359	0.929359	0.008710	0.928838	2.21.10	9.588968
+facebook/mms-300m	OpenSLR30SpeakerClassification	AudioClassification	4ee317ce793c	test	default	0.491667				2.21.10	17.391253
+facebook/mms-300m	OpenSLR30SpeakerClustering	AudioClustering	4ee317ce793c	test	default	0.342334	0.342334	0.016999	0.341323	2.21.10	74.572550
+facebook/mms-300m	OpenSLR30SpeakerPairClassification	AudioPairClassification	4ee317ce793c	test	default	0.679433				2.21.10	131.799570
+facebook/mms-300m	OpenSLR52AudioReranking	AudioReranking	4ee317ce793c	test	default	0.000130				2.21.10	152.769844
+facebook/mms-300m	OpenSLR52AudioRetrieval	AudioRetrieval	4ee317ce793c	test	default	0.013090				2.21.10	314.301632
+facebook/mms-300m	OpenSLR52SpeakerClassification	AudioClassification	4ee317ce793c	test	default	0.167492				2.21.10	495.388371
+facebook/mms-300m	OpenSLR52SpeakerClustering	AudioClustering	4ee317ce793c	test	default	0.587933	0.587933	0.002160	0.331029	2.21.10	606.450568
+facebook/mms-300m	OpenSLR52SpeakerPairClassification	AudioPairClassification	4ee317ce793c	test	default	0.749506				2.21.10	397.072956
+facebook/mms-300m	WorldSpeechSinhalaQualityClassification	AudioClassification	4ee317ce793c	test	default	0.466667				2.21.10	94.606800
+facebook/mms-300m	WorldSpeechSinhalaSessionClustering	AudioClustering	4ee317ce793c	test	default	0.926561	0.926561	0.006467	0.926018	2.21.10	9.741540
+facebook/w2v-bert-2.0	OpenSLR30SpeakerClassification	AudioClassification	da985ba0987f	test	default	0.501389				2.21.10	27.813442
+facebook/w2v-bert-2.0	OpenSLR30SpeakerClustering	AudioClustering	da985ba0987f	test	default	0.387147	0.387147	0.024371	0.386210	2.21.10	94.666051
+facebook/w2v-bert-2.0	OpenSLR30SpeakerPairClassification	AudioPairClassification	da985ba0987f	test	default	0.816336				2.21.10	219.764319
+facebook/w2v-bert-2.0	OpenSLR52AudioReranking	AudioReranking	da985ba0987f	test	default	0.003630				2.21.10	246.738663
+facebook/w2v-bert-2.0	OpenSLR52AudioRetrieval	AudioRetrieval	da985ba0987f	test	default	0.009490				2.21.10	506.985600
+facebook/w2v-bert-2.0	OpenSLR52SpeakerClassification	AudioClassification	da985ba0987f	test	default	0.226613				2.21.10	794.288965
+facebook/w2v-bert-2.0	OpenSLR52SpeakerClustering	AudioClustering	da985ba0987f	test	default	0.609557	0.609557	0.001984	0.360099	2.21.10	907.742138
+facebook/w2v-bert-2.0	OpenSLR52SpeakerPairClassification	AudioPairClassification	da985ba0987f	test	default	0.873434				2.21.10	662.796597
+facebook/w2v-bert-2.0	WorldSpeechSinhalaQualityClassification	AudioClassification	da985ba0987f	test	default	0.366984				2.21.10	157.378512
+facebook/w2v-bert-2.0	WorldSpeechSinhalaSessionClustering	AudioClustering	da985ba0987f	test	default	0.917621	0.917621	0.004207	0.917013	2.21.10	13.973936
+facebook/wav2vec2-xls-r-1b	OpenSLR30SpeakerClassification	AudioClassification	35eaea9a0ed0	test	default	0.716667				2.21.10	35.702545
+facebook/wav2vec2-xls-r-1b	OpenSLR30SpeakerClustering	AudioClustering	35eaea9a0ed0	test	default	0.302509	0.302509	0.015596	0.301422	2.21.10	36.880268
+facebook/wav2vec2-xls-r-1b	OpenSLR30SpeakerPairClassification	AudioPairClassification	35eaea9a0ed0	test	default	0.681728				2.21.10	273.911164
+facebook/wav2vec2-xls-r-1b	OpenSLR52AudioReranking	AudioReranking	35eaea9a0ed0	test	default	0.002620				2.21.10	315.993112
+facebook/wav2vec2-xls-r-1b	OpenSLR52AudioRetrieval	AudioRetrieval	35eaea9a0ed0	test	default	0.020940				2.21.10	654.772353
+facebook/wav2vec2-xls-r-1b	OpenSLR52SpeakerClassification	AudioClassification	35eaea9a0ed0	test	default	0.513219				2.21.10	1057.375890
+facebook/wav2vec2-xls-r-1b	OpenSLR52SpeakerClustering	AudioClustering	35eaea9a0ed0	test	default	0.535943	0.535943	0.002212	0.265239	2.21.10	1057.357183
+facebook/wav2vec2-xls-r-1b	OpenSLR52SpeakerPairClassification	AudioPairClassification	35eaea9a0ed0	test	default	0.662542				2.21.10	841.817474
+facebook/wav2vec2-xls-r-1b	WorldSpeechSinhalaQualityClassification	AudioClassification	35eaea9a0ed0	test	default	0.394603				2.21.10	183.055392
+facebook/wav2vec2-xls-r-1b	WorldSpeechSinhalaSessionClustering	AudioClustering	35eaea9a0ed0	test	default	0.917800	0.917800	0.006018	0.917193	2.21.10	17.089378
+facebook/wav2vec2-xls-r-2b	OpenSLR30SpeakerClassification	AudioClassification	3b6d89d0fabe	test	default	0.911111				2.21.10	64.578008
+facebook/wav2vec2-xls-r-2b	OpenSLR30SpeakerClustering	AudioClustering	3b6d89d0fabe	test	default	0.273517	0.273517	0.015474	0.272373	2.21.10	67.196899
+facebook/wav2vec2-xls-r-2b	OpenSLR30SpeakerPairClassification	AudioPairClassification	3b6d89d0fabe	test	default	0.671799				2.21.10	507.540968
+facebook/wav2vec2-xls-r-2b	OpenSLR52AudioReranking	AudioReranking	3b6d89d0fabe	test	default	0.002870				2.21.10	589.253830
+facebook/wav2vec2-xls-r-2b	OpenSLR52AudioRetrieval	AudioRetrieval	3b6d89d0fabe	test	default	0.014730				2.21.10	1213.496947
+facebook/wav2vec2-xls-r-2b	OpenSLR52SpeakerClassification	AudioClassification	3b6d89d0fabe	test	default	0.775619				2.21.10	1911.302877
+facebook/wav2vec2-xls-r-2b	OpenSLR52SpeakerClustering	AudioClustering	3b6d89d0fabe	test	default	0.542645	0.542645	0.004391	0.303862	2.21.10	1951.747026
+facebook/wav2vec2-xls-r-2b	OpenSLR52SpeakerPairClassification	AudioPairClassification	3b6d89d0fabe	test	default	0.707635				2.21.10	1572.880824
+facebook/wav2vec2-xls-r-2b	WorldSpeechSinhalaQualityClassification	AudioClassification	3b6d89d0fabe	test	default	0.446667				2.21.10	311.434215
+facebook/wav2vec2-xls-r-2b	WorldSpeechSinhalaSessionClustering	AudioClustering	3b6d89d0fabe	test	default	0.914552	0.914552	0.006293	0.913919	2.21.10	26.505513
+facebook/wav2vec2-xls-r-300m	OpenSLR30SpeakerClassification	AudioClassification	1a640f32ac3e	test	default	0.347222				2.21.10	140.845345
+facebook/wav2vec2-xls-r-300m	OpenSLR30SpeakerClustering	AudioClustering	1a640f32ac3e	test	default	0.204329	0.204329	0.012183	0.203113	2.21.10	45.909975
+facebook/wav2vec2-xls-r-300m	OpenSLR30SpeakerPairClassification	AudioPairClassification	1a640f32ac3e	test	default	0.593805				2.21.10	133.132737
+facebook/wav2vec2-xls-r-300m	OpenSLR52AudioReranking	AudioReranking	1a640f32ac3e	test	default	0.001030				2.21.10	152.044376
+facebook/wav2vec2-xls-r-300m	OpenSLR52AudioRetrieval	AudioRetrieval	1a640f32ac3e	test	default	0.005890				2.21.10	313.623253
+facebook/wav2vec2-xls-r-300m	OpenSLR52SpeakerClassification	AudioClassification	1a640f32ac3e	test	default	0.068643				2.21.10	671.688625
+facebook/wav2vec2-xls-r-300m	OpenSLR52SpeakerClustering	AudioClustering	1a640f32ac3e	test	default	0.546776	0.546776	0.001090	0.265475	2.21.10	594.774604
+facebook/wav2vec2-xls-r-300m	OpenSLR52SpeakerPairClassification	AudioPairClassification	1a640f32ac3e	test	default	0.627550				2.21.10	399.841912
+facebook/wav2vec2-xls-r-300m	WorldSpeechSinhalaQualityClassification	AudioClassification	1a640f32ac3e	test	default	0.343810				2.21.10	95.009699
+facebook/wav2vec2-xls-r-300m	WorldSpeechSinhalaSessionClustering	AudioClustering	1a640f32ac3e	test	default	0.914259	0.914259	0.001579	0.913625	2.21.10	9.240802
+microsoft/wavlm-large	OpenSLR30SpeakerClassification	AudioClassification	c1423ed94bb0	test	default	0.801389				2.21.10	18.537250
+microsoft/wavlm-large	OpenSLR30SpeakerClustering	AudioClustering	c1423ed94bb0	test	default	0.392951	0.392951	0.027959	0.392020	2.21.10	20.099221
+microsoft/wavlm-large	OpenSLR30SpeakerPairClassification	AudioPairClassification	c1423ed94bb0	test	default	0.732782				2.21.10	140.003053
+microsoft/wavlm-large	OpenSLR52AudioReranking	AudioReranking	c1423ed94bb0	test	default	0.041640				2.21.10	159.651689
+microsoft/wavlm-large	OpenSLR52AudioRetrieval	AudioRetrieval	c1423ed94bb0	test	default	0.153140				2.21.10	328.146689
+microsoft/wavlm-large	OpenSLR52SpeakerClassification	AudioClassification	c1423ed94bb0	test	default	0.437286				2.21.10	536.099225
+microsoft/wavlm-large	OpenSLR52SpeakerClustering	AudioClustering	c1423ed94bb0	test	default	0.540586	0.540586	0.003430	0.308708	2.21.10	535.239305
+microsoft/wavlm-large	OpenSLR52SpeakerPairClassification	AudioPairClassification	c1423ed94bb0	test	default	0.777187				2.21.10	418.724555
+microsoft/wavlm-large	WorldSpeechSinhalaQualityClassification	AudioClassification	c1423ed94bb0	test	default	0.444762				2.21.10	103.753599
+microsoft/wavlm-large	WorldSpeechSinhalaSessionClustering	AudioClustering	c1423ed94bb0	test	default	0.928406	0.928406	0.008894	0.927876	2.21.10	10.126730
+openai/whisper-base	OpenSLR30SpeakerClassification	AudioClassification	main	test	default	0.636111				2.21.10	12.884363
+openai/whisper-base	OpenSLR30SpeakerClustering	AudioClustering	main	test	default	0.315359	0.315359	0.014605	0.314297	2.21.10	12.733276
+openai/whisper-base	OpenSLR30SpeakerPairClassification	AudioPairClassification	main	test	default	0.658589				2.21.10	76.346450
+openai/whisper-base	OpenSLR52AudioReranking	AudioReranking	main	test	default	0.080130				2.21.10	99.752520
+openai/whisper-base	OpenSLR52AudioRetrieval	AudioRetrieval	main	test	default	0.267020				2.21.10	204.422882
+openai/whisper-base	OpenSLR52SpeakerClassification	AudioClassification	main	test	default	0.319812				2.21.10	385.078481
+openai/whisper-base	OpenSLR52SpeakerClustering	AudioClustering	main	test	default	0.491767	0.491767	0.004023	0.253749	2.21.10	352.664100
+openai/whisper-base	OpenSLR52SpeakerPairClassification	AudioPairClassification	main	test	default	0.719984				2.21.10	273.332935
+openai/whisper-base	WorldSpeechSinhalaQualityClassification	AudioClassification	main	test	default	0.362222				2.21.10	60.212079
+openai/whisper-base	WorldSpeechSinhalaSessionClustering	AudioClustering	main	test	default	0.918301	0.918301	0.005656	0.917698	2.21.10	5.799194
+openai/whisper-large-v3	OpenSLR30SpeakerClassification	AudioClassification	main	test	default	0.612500				2.21.10	18.670560
+openai/whisper-large-v3	OpenSLR30SpeakerClustering	AudioClustering	main	test	default	0.324022	0.324022	0.006321	0.322966	2.21.10	62.147332
+openai/whisper-large-v3	OpenSLR30SpeakerPairClassification	AudioPairClassification	main	test	default	0.628754				2.21.10	134.050168
+openai/whisper-large-v3	OpenSLR52AudioReranking	AudioReranking	main	test	default	0.084010				2.21.10	188.178261
+openai/whisper-large-v3	OpenSLR52AudioRetrieval	AudioRetrieval	main	test	default	0.285670				2.21.10	375.670844
+openai/whisper-large-v3	OpenSLR52SpeakerClassification	AudioClassification	main	test	default	0.356121				2.21.10	689.299881
+openai/whisper-large-v3	OpenSLR52SpeakerClustering	AudioClustering	main	test	default	0.481415	0.481415	0.003425	0.248659	2.21.10	845.552296
+openai/whisper-large-v3	OpenSLR52SpeakerPairClassification	AudioPairClassification	main	test	default	0.696679				2.21.10	476.068005
+openai/whisper-large-v3	WorldSpeechSinhalaQualityClassification	AudioClassification	main	test	default	0.370794				2.21.10	69.253787
+openai/whisper-large-v3	WorldSpeechSinhalaSessionClustering	AudioClustering	main	test	default	0.913731	0.913731	0.003479	0.913093	2.21.10	6.895212
+openai/whisper-medium	OpenSLR30SpeakerClassification	AudioClassification	main	test	default	0.652778				2.21.10	41.368723
+openai/whisper-medium	OpenSLR30SpeakerClustering	AudioClustering	main	test	default	0.274449	0.274449	0.020392	0.273328	2.21.10	41.519440
+openai/whisper-medium	OpenSLR30SpeakerPairClassification	AudioPairClassification	main	test	default	0.617983				2.21.10	313.922884
+openai/whisper-medium	OpenSLR52AudioReranking	AudioReranking	main	test	default	0.119960				2.21.10	454.852757
+openai/whisper-medium	OpenSLR52AudioRetrieval	AudioRetrieval	main	test	default	0.367150				2.21.10	958.167643
+openai/whisper-medium	OpenSLR52SpeakerClassification	AudioClassification	main	test	default	0.440844				2.21.10	1564.644613
+openai/whisper-medium	OpenSLR52SpeakerClustering	AudioClustering	main	test	default	0.469097	0.469097	0.004214	0.244955	2.21.10	1523.019173
+openai/whisper-medium	OpenSLR52SpeakerPairClassification	AudioPairClassification	main	test	default	0.706588				2.21.10	1243.369810
+openai/whisper-medium	WorldSpeechSinhalaQualityClassification	AudioClassification	main	test	default	0.370794				2.21.10	118.551747
+openai/whisper-medium	WorldSpeechSinhalaSessionClustering	AudioClustering	main	test	default	0.918032	0.918032	0.004883	0.917427	2.21.10	11.819039
+openai/whisper-small	OpenSLR30SpeakerClassification	AudioClassification	main	test	default	0.680556				2.21.10	18.230576
+openai/whisper-small	OpenSLR30SpeakerClustering	AudioClustering	main	test	default	0.307337	0.307337	0.017427	0.306262	2.21.10	18.755863
+openai/whisper-small	OpenSLR30SpeakerPairClassification	AudioPairClassification	main	test	default	0.654097				2.21.10	131.696956
+openai/whisper-small	OpenSLR52AudioReranking	AudioReranking	main	test	default	0.084910				2.21.10	185.986604
+openai/whisper-small	OpenSLR52AudioRetrieval	AudioRetrieval	main	test	default	0.267020				2.21.10	389.014738
+openai/whisper-small	OpenSLR52SpeakerClassification	AudioClassification	main	test	default	0.468887				2.21.10	658.945891
+openai/whisper-small	OpenSLR52SpeakerClustering	AudioClustering	main	test	default	0.473459	0.473459	0.005633	0.251343	2.21.10	610.086831
+openai/whisper-small	OpenSLR52SpeakerPairClassification	AudioPairClassification	main	test	default	0.738514				2.21.10	488.307986
+openai/whisper-small	WorldSpeechSinhalaQualityClassification	AudioClassification	main	test	default	0.360317				2.21.10	70.104554
+openai/whisper-small	WorldSpeechSinhalaSessionClustering	AudioClustering	main	test	default	0.915864	0.915864	0.002391	0.915243	2.21.10	7.373239
+openai/whisper-tiny	OpenSLR30SpeakerClassification	AudioClassification	main	test	default	0.608333				2.21.10	14.468754
+openai/whisper-tiny	OpenSLR30SpeakerClustering	AudioClustering	main	test	default	0.310941	0.310941	0.014588	0.309871	2.21.10	9.975983
+openai/whisper-tiny	OpenSLR30SpeakerPairClassification	AudioPairClassification	main	test	default	0.663927				2.21.10	101.500220
+openai/whisper-tiny	OpenSLR52AudioReranking	AudioReranking	main	test	default	0.075410				2.21.10	90.119824
+openai/whisper-tiny	OpenSLR52AudioRetrieval	AudioRetrieval	main	test	default	0.252290				2.21.10	290.801412
+openai/whisper-tiny	OpenSLR52SpeakerClassification	AudioClassification	main	test	default	0.267527				2.21.10	334.339039
+openai/whisper-tiny	OpenSLR52SpeakerClustering	AudioClustering	main	test	default	0.506056	0.506056	0.004425	0.260144	2.21.10	283.648866
+openai/whisper-tiny	OpenSLR52SpeakerPairClassification	AudioPairClassification	main	test	default	0.708631				2.21.10	267.557128
+openai/whisper-tiny	WorldSpeechSinhalaQualityClassification	AudioClassification	main	test	default	0.373968				2.21.10	52.773754
+openai/whisper-tiny	WorldSpeechSinhalaSessionClustering	AudioClustering	main	test	default	0.919768	0.919768	0.006613	0.919174	2.21.10	5.144819

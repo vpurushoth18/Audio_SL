@@ -1,0 +1,27 @@
+# data (too big for git, see README for how to rebuild)
+data/
+eval/emb/
+simteb_audio/data/
+simteb_audio/data_run/
+
+# run logs and scratch files
+logs/
+*.log
+tmp_overlap/
+nohup.out
+
+# papers / references
+*.pdf
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# editor / OS
+*.swp
+.vscode/
+.idea/
+.DS_Store

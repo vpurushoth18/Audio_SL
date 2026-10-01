@@ -1,0 +1,80 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OpenSLR52SpeakerPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.62075,
+        "similarity_f1": 0.670567,
+        "similarity_precision": 0.519505,
+        "similarity_recall": 0.9455,
+        "similarity_ap": 0.690667,
+        "cosine_accuracy": 0.62075,
+        "cosine_f1": 0.670567,
+        "cosine_precision": 0.519505,
+        "cosine_recall": 0.9455,
+        "cosine_ap": 0.690667,
+        "manhattan_accuracy": 0.64825,
+        "manhattan_f1": 0.6828,
+        "manhattan_precision": 0.569,
+        "manhattan_recall": 0.8535,
+        "manhattan_ap": 0.719984,
+        "euclidean_accuracy": 0.6165,
+        "euclidean_f1": 0.670685,
+        "euclidean_precision": 0.528345,
+        "euclidean_recall": 0.918,
+        "euclidean_ap": 0.683078,
+        "dot_accuracy": 0.554,
+        "dot_f1": 0.667231,
+        "dot_precision": 0.504481,
+        "dot_recall": 0.985,
+        "dot_ap": 0.565743,
+        "max_accuracy": 0.64825,
+        "max_f1": 0.6828,
+        "max_precision": 0.569,
+        "max_recall": 0.985,
+        "max_ap": 0.719984,
+        "main_score": 0.719984,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 273.33293508086354,
+  "kg_co2_emissions": null,
+  "date": 1790818986.944342,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.007409256882965565,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.010737373027950525,
+      "end": 138.6550801480189,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 138.65541674988344,
+      "end": 273.2237213710323,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 273.2238037060015,
+      "end": 273.25480943592265,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

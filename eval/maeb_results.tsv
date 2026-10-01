@@ -1,0 +1,53 @@
+model	dataset	task	task_type	layer	main_metric	score	n_nonfinite	m_accuracy	m_v_measure	m_ari	m_rand_v_measure	m_rand_ari	m_k	m_n	m_max_ap	m_cv_recall_at_1	m_cv_recall_at_5	m_cv_recall_at_10	m_ndcg_at_10	m_n_queries	m_map_at_1000
+mms300m	openslr30+52	Corpus_Classification	classification	24	accuracy	0.878394	0	0.878394													
+mms300m	openslr30	OpenSLR30_SpeakerClassification	classification	24	accuracy	0.269817	0	0.269817													
+mms300m	openslr30	OpenSLR30_SpeakerClustering	clustering	24	v_measure	0.226349	0		0.226349	0.093266	0.012697	0.000281	12.000000	2064.000000							
+mms300m	openslr30	OpenSLR30_SpeakerPairClassification	pair	24	max_ap	0.712729	0								0.712729						
+mms300m	openslr30	OpenSLR30_SpeakerA2ARetrieval	retrieval	24	cv_recall_at_5	0.989000	0									0.957000	0.989000	0.992500	0.881973	2000.000000	
+mms300m	openslr52	OpenSLR52_SpeakerClassification	classification	24	accuracy	0.006763	0	0.006763													
+mms300m	openslr52	OpenSLR52_SpeakerClustering	clustering	24	v_measure	0.462033	0		0.462033	0.109116	0.256139	-0.000126	50.000000	1192.000000							
+mms300m	openslr52	OpenSLR52_SpeakerPairClassification	pair	24	max_ap	0.733380	0								0.733380						
+mms300m	openslr52	OpenSLR52_SpeakerA2ARetrieval	retrieval	24	cv_recall_at_5	0.661000	0									0.481000	0.661000	0.734000	0.253526	2000.000000	
+mms300m	openslr52	OpenSLR52_ContentClustering	clustering	24	v_measure	0.724353	0		0.724353	0.016453	0.733517	-0.002386	150.000000	512.000000							
+mms300m	openslr52	OpenSLR52_ContentPairClassification	pair	24	max_ap	0.586969	0								0.586969						
+mms300m	openslr52	OpenSLR52_ContentA2ARetrieval	retrieval	24	cv_recall_at_5	0.006000	0									0.002500	0.006000	0.011000	0.004038	2000.000000	
+mms300m	openslr52	OpenSLR52_ContentReranking	reranking	24	map_at_1000	0.054206	0														0.054206
+w2vbert2	openslr30+52	Corpus_Classification	classification	24	accuracy	0.826929	0	0.826929													
+w2vbert2	openslr30	OpenSLR30_SpeakerClassification	classification	24	accuracy	0.610518	0	0.610518													
+w2vbert2	openslr30	OpenSLR30_SpeakerClustering	clustering	24	v_measure	0.538671	0		0.538671	0.398241	0.012697	0.000281	12.000000	2064.000000							
+w2vbert2	openslr30	OpenSLR30_SpeakerPairClassification	pair	24	max_ap	0.805397	0								0.805397						
+w2vbert2	openslr30	OpenSLR30_SpeakerA2ARetrieval	retrieval	24	cv_recall_at_5	0.994000	0									0.961000	0.994000	0.995500	0.917102	2000.000000	
+w2vbert2	openslr52	OpenSLR52_SpeakerClassification	classification	24	accuracy	0.171094	0	0.171094													
+w2vbert2	openslr52	OpenSLR52_SpeakerClustering	clustering	24	v_measure	0.648701	0		0.648701	0.350538	0.256139	-0.000126	50.000000	1192.000000							
+w2vbert2	openslr52	OpenSLR52_SpeakerPairClassification	pair	24	max_ap	0.865033	0								0.865033						
+w2vbert2	openslr52	OpenSLR52_SpeakerA2ARetrieval	retrieval	24	cv_recall_at_5	0.730000	0									0.533000	0.730000	0.804000	0.343083	2000.000000	
+w2vbert2	openslr52	OpenSLR52_ContentClustering	clustering	24	v_measure	0.717082	0		0.717082	0.005323	0.733517	-0.002386	150.000000	512.000000							
+w2vbert2	openslr52	OpenSLR52_ContentPairClassification	pair	24	max_ap	0.567859	0								0.567859						
+w2vbert2	openslr52	OpenSLR52_ContentA2ARetrieval	retrieval	24	cv_recall_at_5	0.007000	0									0.001500	0.007000	0.010000	0.003196	2000.000000	
+w2vbert2	openslr52	OpenSLR52_ContentReranking	reranking	24	map_at_1000	0.042901	0														0.042901
+whisper	openslr30+52	Corpus_Classification	classification	32	accuracy	0.885669	0	0.885669													
+whisper	openslr30	OpenSLR30_SpeakerClassification	classification	32	accuracy	0.309604	0	0.309604													
+whisper	openslr30	OpenSLR30_SpeakerClustering	clustering	32	v_measure	0.219313	0		0.219313	0.098610	0.012697	0.000281	12.000000	2064.000000							
+whisper	openslr30	OpenSLR30_SpeakerPairClassification	pair	32	max_ap	0.655403	0								0.655403						
+whisper	openslr30	OpenSLR30_SpeakerA2ARetrieval	retrieval	32	cv_recall_at_5	0.866000	0									0.522500	0.866000	0.943000	0.446408	2000.000000	
+whisper	openslr52	OpenSLR52_SpeakerClassification	classification	32	accuracy	0.060327	0	0.060327													
+whisper	openslr52	OpenSLR52_SpeakerClustering	clustering	32	v_measure	0.371283	0		0.371283	0.055921	0.256139	-0.000126	50.000000	1192.000000							
+whisper	openslr52	OpenSLR52_SpeakerPairClassification	pair	32	max_ap	0.673742	0								0.673742						
+whisper	openslr52	OpenSLR52_SpeakerA2ARetrieval	retrieval	32	cv_recall_at_5	0.264000	0									0.098500	0.264000	0.360000	0.065985	2000.000000	
+whisper	openslr52	OpenSLR52_ContentClustering	clustering	32	v_measure	0.746807	0		0.746807	0.082871	0.733517	-0.002386	150.000000	512.000000							
+whisper	openslr52	OpenSLR52_ContentPairClassification	pair	32	max_ap	0.799031	0								0.799031						
+whisper	openslr52	OpenSLR52_ContentA2ARetrieval	retrieval	32	cv_recall_at_5	0.250000	0									0.173500	0.250000	0.280000	0.165124	2000.000000	
+whisper	openslr52	OpenSLR52_ContentReranking	reranking	32	map_at_1000	0.312691	0														0.312691
+xlsr300m	openslr30+52	Corpus_Classification	classification	24	accuracy	0.829468	0	0.829468													
+xlsr300m	openslr30	OpenSLR30_SpeakerClassification	classification	24	accuracy	0.217632	0	0.217632													
+xlsr300m	openslr30	OpenSLR30_SpeakerClustering	clustering	24	v_measure	0.084302	0		0.084302	0.034616	0.012697	0.000281	12.000000	2064.000000							
+xlsr300m	openslr30	OpenSLR30_SpeakerPairClassification	pair	24	max_ap	0.589357	0								0.589357						
+xlsr300m	openslr30	OpenSLR30_SpeakerA2ARetrieval	retrieval	24	cv_recall_at_5	0.807500	0									0.492500	0.807500	0.888000	0.373609	2000.000000	
+xlsr300m	openslr52	OpenSLR52_SpeakerClassification	classification	24	accuracy	0.002563	0	0.002563													
+xlsr300m	openslr52	OpenSLR52_SpeakerClustering	clustering	24	v_measure	0.349805	0		0.349805	0.045570	0.256139	-0.000126	50.000000	1192.000000							
+xlsr300m	openslr52	OpenSLR52_SpeakerPairClassification	pair	24	max_ap	0.624997	0								0.624997						
+xlsr300m	openslr52	OpenSLR52_SpeakerA2ARetrieval	retrieval	24	cv_recall_at_5	0.299000	0									0.156500	0.299000	0.389500	0.077149	2000.000000	
+xlsr300m	openslr52	OpenSLR52_ContentClustering	clustering	24	v_measure	0.713007	0		0.713007	0.001895	0.733517	-0.002386	150.000000	512.000000							
+xlsr300m	openslr52	OpenSLR52_ContentPairClassification	pair	24	max_ap	0.536603	0								0.536603						
+xlsr300m	openslr52	OpenSLR52_ContentA2ARetrieval	retrieval	24	cv_recall_at_5	0.006500	0									0.001500	0.006500	0.010000	0.002559	2000.000000	
+xlsr300m	openslr52	OpenSLR52_ContentReranking	reranking	24	map_at_1000	0.054741	0														0.054741
