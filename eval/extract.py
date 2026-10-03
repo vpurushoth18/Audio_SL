@@ -18,6 +18,9 @@ MODELS = {
     "mms300m":   "facebook/mms-300m",
     "w2vbert2":  "facebook/w2v-bert-2.0",
     "whisper":   "openai/whisper-large-v3",
+    # named in the layer study as a representative checkpoint
+    "wavlm":     "microsoft/wavlm-large",
+    "hubert":    "facebook/hubert-large-ls960-ft",
 }
 
 

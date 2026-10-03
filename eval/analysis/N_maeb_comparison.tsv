@@ -1,0 +1,4 @@
+comparison	n_models	n_tasks	spearman	kendall_tau	ci_lo	ci_hi	maeb_best	sinhala_best
+MAEB overall	12	19	0.46153846153846156	0.3333333333333333	-0.12857142857142856	0.8304010340885469	openai/whisper-medium	microsoft/wavlm-large
+MAEB speech only	12	12	0.4825174825174825	0.3636363636363636	-0.12767321331151119	0.8705152007426316	openai/whisper-medium	microsoft/wavlm-large
+MAEB non-speech	12	7	0.5454545454545455	0.4242424242424242	-0.059732252714920005	0.8916967509025271	openai/whisper-medium	microsoft/wavlm-large

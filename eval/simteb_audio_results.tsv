@@ -1,4 +1,18 @@
 model	task	task_type	revision	split	subset	main_score	v_measure	v_measure_std	ami	mteb_version	eval_time_s
+baseline/mfcc-40	OmnilingualSinhalaContentRetrieval	AudioRetrieval	1	test	default	0.008020				2.21.10	91.203101
+baseline/mfcc-40	OmnilingualSinhalaSpeakerClassification	AudioClassification	1	test	default	0.908871				2.21.10	40.206599
+baseline/mfcc-40	OmnilingualSinhalaSpeakerClustering	AudioClustering	1	test	default	0.798496	0.798496	0.048522	0.798374	2.21.10	4.147735
+baseline/mfcc-40	OpenSLR30SpeakerClassification	AudioClassification	1	test	default	0.927778				2.21.10	8.207115
+baseline/mfcc-40	OpenSLR30SpeakerClustering	AudioClustering	1	test	default	0.442921	0.442921	0.012869	0.442068	2.21.10	7.761222
+baseline/mfcc-40	OpenSLR30SpeakerPairClassification	AudioPairClassification	1	test	default	0.876840				2.21.10	59.994781
+baseline/mfcc-40	OpenSLR52AudioReranking	AudioReranking	1	test	default	0.000900				2.21.10	71.329745
+baseline/mfcc-40	OpenSLR52AudioRetrieval	AudioRetrieval	1	test	default	0.003270				2.21.10	143.409117
+baseline/mfcc-40	OpenSLR52SpeakerClassification	AudioClassification	1	test	default	0.608546				2.21.10	253.218745
+baseline/mfcc-40	OpenSLR52SpeakerClustering	AudioClustering	1	test	default	0.646649	0.646649	0.001394	0.400312	2.21.10	212.304524
+baseline/mfcc-40	OpenSLR52SpeakerPairClassification	AudioPairClassification	1	test	default	0.905085				2.21.10	174.231077
+baseline/mfcc-40	VoxLingua107SinhalaVideoClustering	AudioClustering	1	test	default	0.969523	0.969523	0.002209	0.968910	2.21.10	3.640436
+baseline/mfcc-40	WorldSpeechSinhalaQualityClassification	AudioClassification	1	test	default	0.485397				2.21.10	53.652009
+baseline/mfcc-40	WorldSpeechSinhalaSessionClustering	AudioClustering	1	test	default	0.928689	0.928689	0.001757	0.928164	2.21.10	4.429266
 facebook/hubert-large-ls960-ft	OmnilingualSinhalaContentRetrieval	AudioRetrieval	ece5fabbf034	test	default	0.042780				2.21.10	280.590109
 facebook/hubert-large-ls960-ft	OmnilingualSinhalaSpeakerClassification	AudioClassification	ece5fabbf034	test	default	0.649194				2.21.10	139.658608
 facebook/hubert-large-ls960-ft	OmnilingualSinhalaSpeakerClustering	AudioClustering	ece5fabbf034	test	default	0.675531	0.675531	0.045448	0.675332	2.21.10	7.480135

@@ -1,0 +1,15 @@
+task	label	provenance	note
+OpenSLR52SpeakerClustering	speaker_id	human	OpenSLR-52 speaker ids
+OpenSLR30SpeakerClustering	speaker_id	human	OpenSLR-30 speaker ids
+OpenSLR52SpeakerClassification	speaker_id	human	OpenSLR-52
+OpenSLR30SpeakerClassification	speaker_id	human	OpenSLR-30
+OpenSLR52SpeakerPairClassification	speaker_id	derived	pairs built from human speaker ids
+OpenSLR30SpeakerPairClassification	speaker_id	derived	pairs built from human speaker ids
+OpenSLR52AudioRetrieval	transcript	derived	content groups from human transcripts
+OpenSLR52AudioReranking	transcript	derived	content groups + same-speaker hard negatives
+OmnilingualSinhalaSpeakerClustering	speaker_id	human	Omnilingual
+OmnilingualSinhalaSpeakerClassification	speaker_id	human	Omnilingual
+OmnilingualSinhalaContentRetrieval	prompt_id	human	Omnilingual prompt ids
+WorldSpeechSinhalaSessionClustering	session_date	metadata	sitting day, NOT a speaker label
+WorldSpeechSinhalaQualityClassification	dnsmos_ovr	derived-by-us	DNSMOS terciles chosen here
+VoxLingua107SinhalaVideoClustering	video_id	automatic	YouTube id; a video may hold several speakers

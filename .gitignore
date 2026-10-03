@@ -25,3 +25,6 @@ venv/
 .vscode/
 .idea/
 .DS_Store
+
+# derived embeddings (regenerate with eval/extract.py)
+eval/emb_omni/

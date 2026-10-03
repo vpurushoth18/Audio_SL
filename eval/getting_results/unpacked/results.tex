@@ -1,0 +1,53 @@
+\section{Results and Analysis}
+\label{sec:results}
+% Working draft based on report (3), not independently verified raw runs.
+\paragraph{Capability-specific behavior.}
+Figure~\ref{fig:preference} reports the probability that a same-transcript recording from another speaker ranks above a different-transcript recording from the query speaker. Under final-layer extraction, Whisper-large-v3 and the ASR-finetuned HuBERT checkpoint favor the content match, whereas the remaining four tested encoders favor the speaker match. These probabilities measure relative preference, not semantic understanding or absolute retrieval accuracy. The supplied intervals resample speaker groups; the full protocol should also document prompt and candidate reuse.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=.92\textwidth]{figures/fig2_controlled_matching.pdf}
+\caption{Controlled matching with final-layer embeddings over 10,346 queries. Error bars reproduce the report's speaker-grouped 95\% intervals; the dashed line denotes equal preference. All comparisons use the reported duration-matched candidate construction.}
+\label{fig:preference}\end{figure*}
+
+\paragraph{Layer selection across corpora.}
+Layers chosen on OpenSLR-52 development data improve speaker clustering on OpenSLR-30 for all six encoders in the layer study (Table~\ref{tab:layer-transfer}; Figure~\ref{fig:layers}). The median absolute improvement is 0.572 AMI. Selected depths range from 3/24 to 17/24, so the results favor development-based layer selection rather than a universal early-layer prescription. The reported MFCC result on this target task is 0.443 AMI; verify identical metric, samples, and clustering settings before interpreting that comparison.
+
+\input{tables/table1_layer_transfer}
+\begin{figure*}[t]\centering
+\includegraphics[width=.92\textwidth]{figures/fig1_layer_transfer.pdf}
+\caption{Final and development-selected layer performance on OpenSLR-30 speaker clustering. Layer selection uses OpenSLR-52 development data. Connecting lines show paired point estimates, not confidence intervals.}
+\label{fig:layers}\end{figure*}
+
+\paragraph{Agreement with general audio evaluation.}
+Across twelve checkpoints, the original Sinhala mean-score aggregate correlates moderately with MAEB overall performance (Spearman $\rho=0.462$, Kendall $\tau=0.333$) and MAEB speech performance ($\rho=0.483$, $\tau=0.364$). These coefficients are reproduced from the displayed per-checkpoint values (Table~\ref{tab:maeb}; Figure~\ref{fig:maeb}). Broad uncertainty in the report limits inference beyond this model set. Because the Sinhala aggregate emphasizes speaker tasks, comparison with MAEB domain aggregates does not isolate a Sinhala-specific effect. The reported non-speech correlation of 0.545 is only 0.062 above the speech coefficient; no uncertainty for that difference is supplied, so we do not interpret it as evidence of a stronger predictor.
+
+\input{tables/table2_maeb}
+\begin{figure*}[t]\centering
+\includegraphics[width=\textwidth]{figures/fig3_maeb_agreement.pdf}
+\caption{MAEB and Sinhala mean-score agreement across twelve checkpoints. Points are model scores; no fitted trend or new uncertainty estimate is added. The original aggregates differ in task composition. Full values appear in Table~\ref{tab:maeb}.}
+\label{fig:maeb}\end{figure*}
+
+\paragraph{Recommendation sensitivity.}
+Mean-score rankings change between benchmarks (Figure~\ref{fig:ranks}). WavLM-large moves from fifth on MAEB to first on the original Sinhala aggregate; Whisper-large-v3 moves from second to seventh. Whisper-small and XLS-R-300M retain their positions. These are mean-score ranks and should not be conflated with Borda ranks. Within the Sinhala suite, the report also finds substantial disagreement between plain Borda and capability-balanced aggregation ($\tau=0.168$). That comparison currently combines removal of recording diagnostics with capability reweighting and requires a separate ablation of the two effects.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=.95\textwidth]{figures/fig4_rank_changes.pdf}
+\caption{Mean-score rank changes between the evaluated MAEB configuration and the original Sinhala aggregate. Rank 1 denotes the highest mean. Colors distinguish Whisper from other checkpoints; no causal family effect is implied.}
+\label{fig:ranks}\end{figure*}
+
+\paragraph{Cross-corpus reliability.}
+The report shows strong rank agreement for speaker classification ($\rho=0.951$) and transcript-content retrieval ($\rho=0.937$), but weaker and more uncertain agreement for speaker clustering ($\rho=0.210$; Figure~\ref{fig:corpora}). These comparisons concern the evaluated corpus pairs and extraction settings, not general performance on every Sinhala domain. Cross-corpus correlations do not by themselves validate transfer of a trained classifier.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=.92\textwidth]{figures/fig5_cross_corpus.pdf}
+\caption{Reported cross-corpus rank correlations over twelve encoders. Error bars reproduce the report's 95\% intervals. Classification, pair classification, and clustering compare OpenSLR-52 with OpenSLR-30; content retrieval compares OpenSLR-52 with Omnilingual.}
+\label{fig:corpora}\end{figure*}
+
+\paragraph{Scope of recommendations.}
+The evidence supports capability-specific evaluation and explicit extraction settings. Strong acoustic baselines motivate careful interpretation but do not invalidate speaker tasks. Transcript matching should not be presented as semantic or translation evaluation. Final model recommendations should use paired uncertainty and compatible source/target protocols rather than aggregate rank alone.
+
+\clearpage
+\onecolumn
+\section*{Working supplementary table}
+\input{tables/table3_aggregation_subset}
+% In the final manuscript, relocate this table to the appendix and include all models.

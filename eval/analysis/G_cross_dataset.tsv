@@ -1,0 +1,8 @@
+task_a	task_b	n_models	spearman	ci_lo	ci_hi
+OpenSLR52SpeakerClustering	OpenSLR30SpeakerClustering	12	0.2097902097902098	-0.5972073199040521	0.7891478090255065
+OpenSLR52SpeakerClustering	OmnilingualSinhalaSpeakerClustering	12	0.6223776223776224	0.03225232464699805	0.9716312056737588
+OpenSLR30SpeakerClustering	OmnilingualSinhalaSpeakerClustering	12	0.4755244755244755	-0.2546129414916007	0.8799101612924254
+OpenSLR52SpeakerClassification	OpenSLR30SpeakerClassification	12	0.951048951048951	0.7435897435897436	1.0
+OpenSLR52SpeakerClassification	OmnilingualSinhalaSpeakerClassification	12	0.6479869832129702	0.010769275598026085	0.9572991595366094
+OpenSLR52SpeakerPairClassification	OpenSLR30SpeakerPairClassification	12	0.6713286713286714	0.05707792207792208	0.9552321724709784
+OpenSLR52AudioRetrieval	OmnilingualSinhalaContentRetrieval	12	0.9368421052631579	0.7449916429736264	1.0

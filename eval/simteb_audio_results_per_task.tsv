@@ -1,8 +1,9 @@
 model	OmnilingualSinhalaContentRetrieval	OmnilingualSinhalaSpeakerClassification	OmnilingualSinhalaSpeakerClustering	OpenSLR30SpeakerClassification	OpenSLR30SpeakerClustering	OpenSLR30SpeakerPairClassification	OpenSLR52AudioReranking	OpenSLR52AudioRetrieval	OpenSLR52SpeakerClassification	OpenSLR52SpeakerClustering	OpenSLR52SpeakerPairClassification	VoxLingua107SinhalaVideoClustering	WorldSpeechSinhalaQualityClassification	WorldSpeechSinhalaSessionClustering
+baseline/mfcc-40	0.80	90.89	79.85	92.78	44.29	87.68	0.09	0.33	60.85	64.66	90.51	96.95	48.54	92.87
 microsoft/wavlm-large	3.21	93.06	76.92	80.14	39.30	73.28	4.16	15.31	43.73	54.06	77.72	97.30	44.48	92.84
 facebook/w2v-bert-2.0	0.53	82.58	73.76	50.14	38.71	81.63	0.36	0.95	22.66	60.96	87.34	97.40	36.70	91.76
-facebook/wav2vec2-xls-r-1b	0.80	84.11	74.61	71.67	30.25	68.17	0.26	2.09	51.32	53.59	66.25	96.55	39.46	91.78
 facebook/wav2vec2-xls-r-2b	1.87	87.66	75.85	91.11	27.35	67.18	0.29	1.47	77.56	54.26	70.76	95.23	44.67	91.46
+facebook/wav2vec2-xls-r-1b	0.80	84.11	74.61	71.67	30.25	68.17	0.26	2.09	51.32	53.59	66.25	96.55	39.46	91.78
 openai/whisper-tiny	6.42	83.23	66.71	60.83	31.09	66.39	7.54	25.23	26.75	50.61	70.86	95.96	37.40	91.98
 openai/whisper-small	8.02	80.97	64.63	68.06	30.73	65.41	8.49	26.70	46.89	47.35	73.85	96.13	36.03	91.59
 openai/whisper-base	4.81	81.85	64.91	63.61	31.54	65.86	8.01	26.70	31.98	49.18	72.00	96.05	36.22	91.83

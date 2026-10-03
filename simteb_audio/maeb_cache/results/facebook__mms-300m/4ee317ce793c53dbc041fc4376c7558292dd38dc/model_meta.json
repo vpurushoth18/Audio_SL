@@ -1,0 +1,42 @@
+{
+    "loader_kwargs": {},
+    "name": "facebook/mms-300m",
+    "revision": "4ee317ce793c53dbc041fc4376c7558292dd38dc",
+    "release_date": "2023-05-22",
+    "languages": [
+        "sin-Sinh",
+        "eng-Latn"
+    ],
+    "n_parameters": 315000000,
+    "n_active_parameters_override": null,
+    "n_embedding_parameters": null,
+    "memory_usage_mb": 1200.0,
+    "max_tokens": null,
+    "embed_dim": 1024,
+    "license": "cc-by-nc-4.0",
+    "open_weights": true,
+    "public_training_code": "https://github.com/facebookresearch/fairseq/tree/main/examples/mms",
+    "public_training_data": null,
+    "framework": [
+        "PyTorch"
+    ],
+    "reference": "https://huggingface.co/facebook/mms-300m",
+    "similarity_fn_name": "cosine",
+    "use_instructions": false,
+    "training_datasets": null,
+    "adapted_from": null,
+    "superseded_by": null,
+    "modalities": [
+        "audio"
+    ],
+    "model_type": [
+        "dense"
+    ],
+    "citation": null,
+    "contacts": null,
+    "experiment_kwargs": null,
+    "output_dtypes": null,
+    "extra_requirements_groups": null,
+    "loader": "MMSWrapper",
+    "is_cross_encoder": false
+}

@@ -1,0 +1,155 @@
+{
+  "dataset_revision": "d5fb9661054ba250e2c03adeb9a702ad55e73f27",
+  "task_name": "VoxPopuliLanguageID",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.98,
+            "f1": 0.973123,
+            "f1_weighted": 0.980474,
+            "precision": 0.966667,
+            "precision_weighted": 0.983333,
+            "recall": 0.983333,
+            "recall_weighted": 0.98,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.98,
+            "f1": 0.979365,
+            "f1_weighted": 0.98,
+            "precision": 0.979365,
+            "precision_weighted": 0.98,
+            "recall": 0.979365,
+            "recall_weighted": 0.98,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.98,
+            "f1": 0.979808,
+            "f1_weighted": 0.97976,
+            "precision": 0.985185,
+            "precision_weighted": 0.981481,
+            "recall": 0.976471,
+            "recall_weighted": 0.98,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.95,
+            "f1": 0.946382,
+            "f1_weighted": 0.950189,
+            "precision": 0.945628,
+            "precision_weighted": 0.953628,
+            "recall": 0.95033,
+            "recall_weighted": 0.95,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.99,
+            "f1": 0.989943,
+            "f1_weighted": 0.990019,
+            "precision": 0.989474,
+            "precision_weighted": 0.990526,
+            "recall": 0.990909,
+            "recall_weighted": 0.99,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.976,
+        "f1": 0.973724,
+        "f1_weighted": 0.976088,
+        "precision": 0.973264,
+        "precision_weighted": 0.977794,
+        "recall": 0.976082,
+        "recall_weighted": 0.976,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.976,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn",
+          "fra-Latn",
+          "spa-Latn",
+          "pol-Latn",
+          "deu-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 55.15907765598968,
+  "kg_co2_emissions": null,
+  "date": 1790981888.482187,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 1.750187948346138e-05,
+      "end": 0.7962025748565793,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.7962180639151484,
+      "end": 0.799141997937113,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 0.8002416640520096,
+      "end": 54.342580049997196,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 54.38707316899672,
+      "end": 54.51499331090599,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 54.55710672796704,
+      "end": 54.67631979100406,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 54.718007197836414,
+      "end": 54.83417386584915,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 54.87643882888369,
+      "end": 54.992393038002774,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 55.034571637865156,
+      "end": 55.150739437900484,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 54.34259467688389,
+      "end": 55.15074788406491,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

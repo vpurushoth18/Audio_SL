@@ -1,0 +1,15 @@
+dataset	n_clips	n_unique	exact_duplicates	pct_duplicate
+openslr30_speaker_pairs	1920	240	1680	87.5
+openslr52_speaker_pairs	8000	5411	2589	32.3625
+omnilingual_sin_retrieval	374	373	1	0.26737967914438504
+omnilingual_sin_speaker	415	414	1	0.24096385542168675
+omnilingual_sin_speaker_clf	415	414	1	0.24096385542168675
+openslr30_speaker	240	240	0	0.0
+openslr30_speaker_clf	240	240	0	0.0
+openslr52_rerank	2384	2384	0	0.0
+openslr52_speaker	9557	9557	0	0.0
+openslr52_retrieval	3056	3056	0	0.0
+openslr52_speaker_clf	9557	9557	0	0.0
+voxlingua_sin_video	1439	1439	0	0.0
+worldspeech_sin_quality	1050	1050	0	0.0
+worldspeech_sin_session	924	924	0	0.0

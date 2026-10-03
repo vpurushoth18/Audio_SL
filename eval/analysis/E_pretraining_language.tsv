@@ -1,0 +1,11 @@
+task_type	model	rank	of_models	score	best_multilingual	gap_to_best_multi
+AudioClassification	microsoft/wavlm-large	2	12	0.6535205	0.7525025	-0.09898200000000001
+AudioClassification	facebook/hubert-large-ls960-ft	11	12	0.3624135	0.7525025	-0.39008899999999996
+AudioClustering	microsoft/wavlm-large	3	12	0.7208281999999999	0.7251952	-0.004367000000000121
+AudioClustering	facebook/hubert-large-ls960-ft	6	12	0.674567	0.7251952	-0.05062820000000001
+AudioPairClassification	microsoft/wavlm-large	2	12	0.7549845	0.844885	-0.08990050000000005
+AudioPairClassification	facebook/hubert-large-ls960-ft	11	12	0.6277379999999999	0.844885	-0.2171470000000001
+AudioReranking	microsoft/wavlm-large	7	12	0.04164	0.11996	-0.07832
+AudioReranking	facebook/hubert-large-ls960-ft	6	12	0.04419	0.11996	-0.07577
+AudioRetrieval	microsoft/wavlm-large	7	12	0.092615	0.23571499999999998	-0.14309999999999998
+AudioRetrieval	facebook/hubert-large-ls960-ft	6	12	0.09992499999999999	0.23571499999999998	-0.13579

@@ -1,0 +1,13 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lrrrr}\toprule
+Encoder & Layer & Final AMI & Selected AMI & Gain \\\midrule
+HuBERT-large ASR-ft & 3/24 & 0.188 & 0.848 & +0.660 \\
+XLS-R-300M & 4/24 & 0.087 & 0.733 & +0.646 \\
+Whisper-large-v3 & 13/32 & 0.218 & 0.807 & +0.589 \\
+MMS-300M & 4/24 & 0.229 & 0.784 & +0.554 \\
+WavLM-large & 3/24 & 0.315 & 0.846 & +0.531 \\
+w2v-BERT 2.0 & 17/24 & 0.512 & 0.810 & +0.298 \\
+\bottomrule\end{tabular}
+\caption{Speaker clustering on OpenSLR-30 after layer selection on OpenSLR-52 development data. Values are transcribed from the report; repeated-seed uncertainty is not supplied. Median absolute improvement is 0.572 AMI. Gains reproduce reported values and can differ from subtraction of rounded scores.}
+\label{tab:layer-transfer}\end{table*}

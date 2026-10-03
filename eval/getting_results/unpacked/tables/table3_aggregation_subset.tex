@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{lrrrr}\toprule
+Encoder & Content rank & Speaker rank & Balanced rank & Plain Borda \\\midrule
+Whisper-small & 2.50 & 6.88 & 1 & 6 \\
+WavLM-large & 7.00 & 2.50 & 2 & 1 \\
+Whisper-medium & 1.00 & 8.88 & 3 & 9 \\
+Whisper-large-v3 & 2.67 & 7.81 & 4 & 10 \\
+w2v-BERT 2.0 & 10.33 & 4.12 & 8 & 2 \\
+XLS-R-300M & 11.17 & 10.62 & 12 & 12 \\
+\bottomrule\end{tabular}
+\caption{Selected rows from the reported aggregation comparison (six of twelve encoders). Capability-balanced aggregation excludes recording diagnostics; plain Borda uses the original task set. This comparison combines task removal and reweighting. Complete the full matrix and isolate these effects before final submission.}
+\label{tab:aggregation}\end{table}

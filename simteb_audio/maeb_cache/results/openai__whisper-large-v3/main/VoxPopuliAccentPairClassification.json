@@ -1,0 +1,87 @@
+{
+  "dataset_revision": "ac4587795abbac156982e41775e1428f5933a32e",
+  "task_name": "VoxPopuliAccentPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.511998,
+        "similarity_f1": 0.666487,
+        "similarity_precision": 0.499798,
+        "similarity_recall": 1.0,
+        "similarity_ap": 0.516339,
+        "cosine_accuracy": 0.511998,
+        "cosine_f1": 0.666487,
+        "cosine_precision": 0.499798,
+        "cosine_recall": 1.0,
+        "cosine_ap": 0.516339,
+        "manhattan_accuracy": 0.520086,
+        "manhattan_f1": 0.666607,
+        "manhattan_precision": 0.500135,
+        "manhattan_recall": 0.999191,
+        "manhattan_ap": 0.526277,
+        "euclidean_accuracy": 0.512267,
+        "euclidean_f1": 0.666547,
+        "euclidean_precision": 0.500135,
+        "euclidean_recall": 0.998921,
+        "euclidean_ap": 0.515572,
+        "dot_accuracy": 0.513076,
+        "dot_f1": 0.666307,
+        "dot_precision": 0.499663,
+        "dot_recall": 0.99973,
+        "dot_ap": 0.512172,
+        "max_accuracy": 0.520086,
+        "max_f1": 0.666607,
+        "max_precision": 0.500135,
+        "max_recall": 1.0,
+        "max_ap": 0.526277,
+        "main_score": 0.526277,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 631.1846077200025,
+  "kg_co2_emissions": null,
+  "date": 1790981667.055711,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 9.106937795877457e-06,
+      "end": 0.8375290909316391,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.8375393110327423,
+      "end": 0.8375405129045248,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.8420146030839533,
+      "end": 311.7754190210253,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 311.77549889101647,
+      "end": 630.655840177089,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 630.655907483073,
+      "end": 631.0433149479795,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}
