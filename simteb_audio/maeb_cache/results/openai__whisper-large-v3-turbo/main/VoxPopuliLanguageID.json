@@ -1,0 +1,155 @@
+{
+  "dataset_revision": "d5fb9661054ba250e2c03adeb9a702ad55e73f27",
+  "task_name": "VoxPopuliLanguageID",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 1.0,
+            "f1": 1.0,
+            "f1_weighted": 1.0,
+            "precision": 1.0,
+            "precision_weighted": 1.0,
+            "recall": 1.0,
+            "recall_weighted": 1.0,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.98,
+            "f1": 0.976301,
+            "f1_weighted": 0.979973,
+            "precision": 0.977576,
+            "precision_weighted": 0.980455,
+            "recall": 0.975556,
+            "recall_weighted": 0.98,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.99,
+            "f1": 0.987223,
+            "f1_weighted": 0.990115,
+            "precision": 0.983333,
+            "precision_weighted": 0.990833,
+            "recall": 0.992,
+            "recall_weighted": 0.99,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.94,
+            "f1": 0.935166,
+            "f1_weighted": 0.939966,
+            "precision": 0.948485,
+            "precision_weighted": 0.948485,
+            "recall": 0.931758,
+            "recall_weighted": 0.94,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.98,
+            "f1": 0.980098,
+            "f1_weighted": 0.98,
+            "precision": 0.980383,
+            "precision_weighted": 0.980526,
+            "recall": 0.980383,
+            "recall_weighted": 0.98,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.978,
+        "f1": 0.975758,
+        "f1_weighted": 0.978011,
+        "precision": 0.977955,
+        "precision_weighted": 0.98006,
+        "recall": 0.975939,
+        "recall_weighted": 0.978,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.978,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn",
+          "fra-Latn",
+          "spa-Latn",
+          "pol-Latn",
+          "deu-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 23.351716680219397,
+  "kg_co2_emissions": null,
+  "date": 1791410680.7747,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 7.945112884044647e-06,
+      "end": 0.8752660378813744,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.8752751450520009,
+      "end": 0.882186597911641,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 0.8831723220646381,
+      "end": 22.37183113908395,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 22.4158651009202,
+      "end": 22.59582223603502,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 22.637757709948346,
+      "end": 22.785274195019156,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 22.826965969987214,
+      "end": 22.969250150956213,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 23.011003493098542,
+      "end": 23.158068327000365,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 23.19956523599103,
+      "end": 23.343232159037143,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 22.371863960986957,
+      "end": 23.34323982289061,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

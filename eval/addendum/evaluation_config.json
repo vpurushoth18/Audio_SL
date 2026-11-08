@@ -1,0 +1,50 @@
+{
+  "metrics_by_family": {
+    "clustering": {
+      "score_key": "v_measure",
+      "label": "V-measure",
+      "note": "AMI reported alongside in the result JSON; the layer analyses use AMI"
+    },
+    "classification": {
+      "score_key": "accuracy",
+      "label": "accuracy",
+      "probe": "sklearn LogisticRegression(max_iter=100), C=1.0, samples_per_label=8, n_experiments=10"
+    },
+    "pair_classification": {
+      "score_key": "max_ap",
+      "label": "max average precision"
+    },
+    "retrieval": {
+      "score_key": "hit_rate_at_5",
+      "label": "hit rate@5"
+    },
+    "reranking": {
+      "score_key": "map_at_5",
+      "label": "MAP@5"
+    }
+  },
+  "label_correction": "Earlier exports labelled retrieval and reranking as nDCG@10. The metrics were always hit_rate_at_5 and map_at_5; only the labels were wrong. No score changed.",
+  "reranking_candidate_structure": {
+    "type": "global candidate corpus",
+    "corpus_size": 2384,
+    "queries": 500,
+    "detail": "The evaluator builds one corpus from all rows and scores every query against it. Same-speaker hard negatives exist in the dataset construction but impose no per-query pool boundary.",
+    "code": "simteb_audio/src/simteb_audio/tasks/retrieval/openslr_retrieval.py :: OpenSLR52AudioReranking._build"
+  },
+  "aggregation": {
+    "baseline_mfcc_included_in_rankings": false,
+    "baseline_mfcc_included_in_heatmap": true,
+    "rank_tie_method": "min",
+    "capability_balanced": "mean rank within capability, then equal weight across speaker and content; channel excluded",
+    "core_policy": "11 core (8 speaker + 3 content), 3 diagnostic (channel). Demotion is on LABEL PROVENANCE, not on the MFCC comparison."
+  },
+  "bootstrap": {
+    "transfer_correlations": {
+      "unit": "checkpoint",
+      "n": 10000,
+      "alpha": 0.05,
+      "seed": 0
+    }
+  },
+  "precision": "all tables written with %.17g; no manuscript rounding"
+}

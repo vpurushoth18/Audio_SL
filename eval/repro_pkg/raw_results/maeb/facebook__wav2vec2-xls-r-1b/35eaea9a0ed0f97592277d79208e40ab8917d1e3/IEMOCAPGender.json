@@ -1,0 +1,151 @@
+{
+  "dataset_revision": "6d4225271da423e791e16770d335cfa351cdf88e",
+  "task_name": "IEMOCAPGender",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.521912,
+            "f1": 0.51621,
+            "f1_weighted": 0.51893,
+            "precision": 0.518126,
+            "precision_weighted": 0.519312,
+            "recall": 0.517678,
+            "recall_weighted": 0.521912,
+            "ap": 0.534965,
+            "ap_weighted": 0.534965
+          },
+          {
+            "accuracy": 0.500996,
+            "f1": 0.500711,
+            "f1_weighted": 0.501436,
+            "precision": 0.50139,
+            "precision_weighted": 0.503236,
+            "recall": 0.501395,
+            "recall_weighted": 0.500996,
+            "ap": 0.531075,
+            "ap_weighted": 0.531075
+          },
+          {
+            "accuracy": 0.537849,
+            "f1": 0.533935,
+            "f1_weighted": 0.536572,
+            "precision": 0.534608,
+            "precision_weighted": 0.536255,
+            "recall": 0.534227,
+            "recall_weighted": 0.537849,
+            "ap": 0.548901,
+            "ap_weighted": 0.548901
+          },
+          {
+            "accuracy": 0.506972,
+            "f1": 0.501415,
+            "f1_weighted": 0.500628,
+            "precision": 0.509128,
+            "precision_weighted": 0.50927,
+            "recall": 0.508663,
+            "recall_weighted": 0.506972,
+            "ap": 0.496923,
+            "ap_weighted": 0.496923
+          },
+          {
+            "accuracy": 0.553563,
+            "f1": 0.553538,
+            "f1_weighted": 0.55334,
+            "precision": 0.556073,
+            "precision_weighted": 0.558077,
+            "recall": 0.55596,
+            "recall_weighted": 0.553563,
+            "ap": 0.560699,
+            "ap_weighted": 0.560699
+          }
+        ],
+        "accuracy": 0.524258,
+        "f1": 0.521162,
+        "f1_weighted": 0.522181,
+        "precision": 0.523865,
+        "precision_weighted": 0.52523,
+        "recall": 0.523585,
+        "recall_weighted": 0.524258,
+        "ap": 0.534513,
+        "ap_weighted": 0.534513,
+        "main_score": 0.524258,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 1154.864036081126,
+  "kg_co2_emissions": null,
+  "date": 1791019148.985536,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 8.336035534739494e-06,
+      "end": 1.011596566066146,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 1.0116078779101372,
+      "end": 1.0170041071251035,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 1.0184138061013073,
+      "end": 1136.3241267590784,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 1137.1445090959314,
+      "end": 1139.994843420107,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 1140.8230957090855,
+      "end": 1143.6661087719258,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 1144.492155425949,
+      "end": 1147.3662845229264,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 1148.2284465669654,
+      "end": 1151.124235273106,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 1151.9768065810204,
+      "end": 1154.8488386271056,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 1136.3241832549684,
+      "end": 1154.8488537350204,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

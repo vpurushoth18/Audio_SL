@@ -1,0 +1,2385 @@
+utt_id	sentence_id	speaker_id	is_query	query_id	n_positives
+0009f01858	s1	ee3d2	True	0009f01858	1
+000dd8050f	s2	23e9e	False		0
+0028495103	s3	d23af	True	0028495103	1
+00348aae3a	s5	78366	False		0
+004dc9164a	s7	f2348	False		0
+006e14fd19	s8	357e6	True	006e14fd19	2
+00c56d9615	s9	23c9f	False		0
+00e20d1d97	s10	78366	False		0
+00e36d6be1	s11	2e076	False		0
+00ed0890c4	s12	09ecc	False		0
+00fc689983	s13	ed4c3	False		0
+01139d95cc	s14	a7708	False		0
+012e2b4f75	s15	e5fb8	False		0
+015ab85ff8	s16	d7784	False		0
+0160212f3b	s17	ab81c	True	0160212f3b	1
+01b9924b13	s18	f7f4f	True	01b9924b13	3
+01edf80011	s19	92649	False		0
+022520b136	s20	95997	False		0
+02269b1f89	s21	e8724	False		0
+025d566b86	s22	f0169	False		0
+026709fc7b	s23	0b370	False		0
+026c77436e	s24	0a2fe	False		0
+0292a884a3	s27	237ce	False		0
+0294e96389	s28	8e63d	True	0294e96389	2
+02b89d26d7	s29	09537	True	02b89d26d7	2
+0337768589	s30	663e8	False		0
+0338240b98	s31	c6f6b	False		0
+036196fb64	s32	b7163	False		0
+037fc93fb8	s33	a4fcc	False		0
+03804a23e3	s34	a360d	True	03804a23e3	2
+03914a5f37	s37	6b5e6	False		0
+03d759b7d0	s39	c094f	False		0
+03df9b8425	s40	dd43a	False		0
+03e0713552	s41	9f1f5	False		0
+04084a4b01	s43	f32c3	False		0
+040953525d	s44	7424f	False		0
+041244e445	s45	73ec9	True	041244e445	1
+0425cab727	s46	466d8	False		0
+04508accae	s47	97d0a	True	04508accae	1
+045b7ea405	s48	357e6	False		0
+04a9afe60d	s54	25717	False		0
+04b6847128	s55	7ab05	False		0
+04c294f9fe	s40	df38e	False		0
+0546ef9db2	s52	97d0a	False		0
+0547ff0769	s58	2a845	False		0
+0574298c6a	s59	89f4f	False		0
+057afc5fd6	s60	e5259	False		0
+05b246bea7	s61	2b212	False		0
+05c798c33c	s63	af4ca	False		0
+05cb3bed8b	s64	13abb	False		0
+05e010314b	s65	0184c	True	05e010314b	1
+05e3e6dd83	s66	0224d	True	05e3e6dd83	1
+05eb83ce52	s68	ba1f0	True	05eb83ce52	1
+060f98c4df	s69	2a1cd	False		0
+0614015fc9	s70	85aeb	False		0
+0620b5440c	s71	a973b	False		0
+0653551569	s72	d945d	False		0
+0673f349da	s73	87c4c	False		0
+067a7bc481	s74	72f9d	False		0
+0682d26ca3	s75	361fc	True	0682d26ca3	1
+0685fa8829	s76	284b7	True	0685fa8829	1
+069effb745	s77	016b5	False		0
+06a902a5ac	s78	d78dd	True	06a902a5ac	2
+06b2bbbfd4	s79	f0a29	False		0
+06bc40176b	s21	c04d5	False		0
+06bcb2d47d	s80	88c80	True	06bcb2d47d	1
+06be0139d3	s81	60906	True	06be0139d3	4
+06c49d9060	s82	74475	False		0
+06f9f47144	s83	0622a	False		0
+071cdd6d3e	s84	3062b	True	071cdd6d3e	1
+071f4d5f91	s85	f9391	False		0
+072e0cb961	s86	7424f	False		0
+072ef02bee	s87	6e92f	False		0
+0744b4357a	s88	70278	False		0
+075c1300f9	s90	3bfb3	False		0
+0789701a39	s91	1a1f3	False		0
+07affdb0a8	s93	9a1ed	False		0
+07c5a99dce	s4	da449	False		0
+07cdcaa449	s82	89f4f	True	07cdcaa449	2
+07fb5e7aeb	s95	0a2fe	False		0
+084687087b	s96	85aeb	False		0
+08501f6f15	s97	c8454	False		0
+08612f8ade	s99	0a38f	False		0
+086e8cb8c3	s100	a3fac	False		0
+0874d5f859	s101	ac562	False		0
+088d8c1674	s102	f71ec	False		0
+08b92da5f1	s103	d78dd	False		0
+08c4de0c79	s104	4b127	False		0
+08e2880002	s105	23e9e	False		0
+08e592a682	s106	eae99	False		0
+08f1f8449f	s107	e5259	True	08f1f8449f	2
+08f584887b	s108	60906	False		0
+091c58449e	s47	a5886	False		0
+095ad0a7f7	s111	0e375	False		0
+097f2a3200	s103	5a4cf	True	097f2a3200	3
+098ad811c1	s113	e47dc	False		0
+09c0264ddd	s115	1913e	True	09c0264ddd	1
+09c446da67	s116	60906	False		0
+0a1e3c01b3	s118	5a4cf	False		0
+0a25d46d3a	s119	3a747	False		0
+0a472d99b8	s121	e5259	True	0a472d99b8	2
+0a6f882e41	s122	41947	True	0a6f882e41	1
+0aacf17795	s123	2f415	True	0aacf17795	1
+0ac43349cc	s124	c26e2	True	0ac43349cc	2
+0ad38d4bfb	s125	d7f61	True	0ad38d4bfb	1
+0ae376fedd	s126	349a2	False		0
+0af121ae4b	s27	be173	False		0
+0b136f3063	s38	a4315	False		0
+0b55ac51b5	s128	ffa9f	False		0
+0b5ea1eb96	s129	09ecc	False		0
+0b62000656	s130	016b5	False		0
+0b75516db6	s131	a9c56	False		0
+0b84ff917d	s132	7ba10	False		0
+0b967b46f8	s133	7f4b1	False		0
+0b9e9317df	s134	30661	False		0
+0baa75aed4	s135	c1c21	False		0
+0bbf13b77d	s136	b3dda	False		0
+0bd7382697	s137	6b5e6	True	0bd7382697	3
+0bea015417	s7	357e6	False		0
+0c00b2b9b8	s134	9094b	False		0
+0c04235a87	s139	af4ca	False		0
+0c0b17d9aa	s140	f0a29	False		0
+0c5f8d0a10	s143	25717	False		0
+0c6f3b245f	s144	5dec9	False		0
+0c72c9d854	s145	5a4cf	True	0c72c9d854	1
+0c79bedaec	s146	03b7a	True	0c79bedaec	3
+0ccd2e2f48	s147	be173	False		0
+0cd7b8c178	s148	f2931	False		0
+0cee894ef0	s149	a973b	False		0
+0d0bf95f0f	s150	29f4f	False		0
+0d12b5c3c8	s152	f3f41	False		0
+0d560dcbf7	s153	81570	False		0
+0d5d8ee6ba	s154	dc5ef	False		0
+0d747f4b33	s155	6996c	False		0
+0d9362844f	s157	84afe	False		0
+0dc14de5fb	s158	a4315	False		0
+0dc29dbdc1	s159	fe011	False		0
+0dca771dc3	s160	937dc	False		0
+0dec19f220	s29	0b586	True	0dec19f220	2
+0dfde9f378	s161	2e800	True	0dfde9f378	1
+0e19100d87	s162	4b127	False		0
+0e539e1c15	s163	9e6d1	True	0e539e1c15	2
+0e60a35560	s164	a4315	True	0e60a35560	1
+0e75f43ede	s165	e0b70	False		0
+0e889734f8	s166	d316f	False		0
+0e917e270f	s167	d71b2	False		0
+0ee4cd7ab5	s169	646e1	False		0
+0efa157564	s170	67c8b	False		0
+0f0577a7ae	s171	190e9	False		0
+0f175f6e3b	s172	ee9b8	True	0f175f6e3b	1
+0f36ef729e	s173	4a724	False		0
+0f3a3d4805	s174	be173	False		0
+0f4f1c3151	s175	13abb	False		0
+0f5cc7a41e	s176	d1c44	False		0
+0f665e7376	s177	70278	True	0f665e7376	1
+0f82636bf0	s178	237d4	True	0f82636bf0	2
+0f97841fe5	s8	ae3ff	False		0
+0f993bc791	s180	3e0de	False		0
+0fa77439e9	s181	4a724	False		0
+0fbc4c9d61	s183	4a724	False		0
+0fd8d1f8a5	s184	bd2b2	False		0
+10349b56c0	s160	44e28	False		0
+10853b1f20	s188	dd6f8	False		0
+10a4ef98d0	s189	016b5	False		0
+10c0ffb960	s190	23c9f	False		0
+10dd69dea0	s192	89130	False		0
+10e35bb31c	s193	2a1cd	True	10e35bb31c	2
+10f830f904	s194	c1c21	False		0
+1101a36877	s195	29f4f	False		0
+1109c53c1c	s196	c04d5	False		0
+111c7870c4	s197	bba51	False		0
+1166dd0b01	s198	c26e2	True	1166dd0b01	2
+11b8688d27	s200	715da	True	11b8688d27	1
+11db6cacda	s202	bd2b2	False		0
+11e739486c	s203	0622a	False		0
+11ef53d635	s204	2e076	False		0
+120776143f	s205	476be	False		0
+122ca0273a	s206	c26ed	False		0
+122fd7f367	s207	43324	True	122fd7f367	1
+1263f31817	s208	23c9f	False		0
+126c8a5f99	s209	c094f	False		0
+126d2cf6d8	s210	0e375	False		0
+1273f07397	s49	f2ef0	False		0
+12747b58d2	s211	d4fa9	False		0
+1280b92afb	s212	9e6d1	False		0
+12b1b65247	s213	23e9b	True	12b1b65247	2
+12b75ce43c	s214	2db87	False		0
+12d835424b	s215	f2931	True	12d835424b	3
+130bfbd8da	s216	bd2b2	False		0
+131fd53f01	s217	3183b	False		0
+1348e49006	s218	a7d05	False		0
+136f5a87f8	s219	1db0f	False		0
+1372de4dd8	s220	936a6	True	1372de4dd8	1
+1388224300	s221	54c3a	False		0
+13aae7b26c	s222	96564	False		0
+13da2ae825	s90	34e11	False		0
+13dc8fc83d	s137	e61f1	True	13dc8fc83d	3
+13e0e97794	s224	c2201	False		0
+141f5dd58f	s226	fea0e	False		0
+14655fac52	s229	43324	True	14655fac52	6
+1465be4a2f	s230	c1c21	False		0
+14683fc87a	s231	02b89	True	14683fc87a	3
+14819eb89b	s189	b7510	False		0
+149025f97d	s233	2b212	False		0
+149fa09ca8	s234	3d532	False		0
+14b4865e20	s236	fea0e	False		0
+14b572f679	s237	8b8a4	False		0
+14bd408bf5	s238	a6a62	False		0
+14c704b78c	s240	c34c2	False		0
+14e3536204	s229	30661	False		0
+14ed7a4df7	s242	2d52b	False		0
+14f78951a8	s243	89f4f	False		0
+1501c99057	s244	c8454	False		0
+152cf0f70f	s246	a13a8	False		0
+156d2ec211	s248	3062b	False		0
+158a403db8	s81	fd8a1	False		0
+159ab1e284	s251	37790	False		0
+15bf966659	s252	8af52	False		0
+15c826fe22	s253	b136f	False		0
+15d56026c6	s254	7374d	False		0
+15f6ffdd9d	s255	a6493	False		0
+16176e874b	s256	c11e1	False		0
+162ba8dd85	s257	7e3d4	False		0
+16347dcf67	s258	f8790	False		0
+163f9933f8	s259	95997	False		0
+1691d4a0eb	s260	3fcd4	True	1691d4a0eb	1
+16b5a25d0b	s262	6064f	False		0
+16b7aee3fc	s131	338ff	True	16b7aee3fc	2
+16c4de8f93	s231	21138	False		0
+16d0bd6630	s263	b9dc2	False		0
+16d8cd59f7	s265	2d52b	False		0
+16e964a3ed	s266	02578	False		0
+16ed8a3618	s267	21138	False		0
+16f285aaab	s268	cc837	False		0
+1737e6826e	s269	338ff	True	1737e6826e	2
+1743c7c310	s270	10824	False		0
+17737d2123	s273	02b89	False		0
+17809aec8c	s274	f32c3	True	17809aec8c	2
+178dfc0cdb	s275	5b275	False		0
+17b5117fd4	s276	72b54	False		0
+17c80eb3d4	s109	ee9b8	False		0
+17e6fc7152	s278	e42fe	True	17e6fc7152	1
+17f4cbe3f5	s279	4b127	False		0
+17fda27bb3	s11	746ff	False		0
+17ffdd326b	s280	dc1f3	False		0
+1826ee3fe9	s282	95997	False		0
+18409b6e19	s264	8af08	False		0
+186e55a506	s283	bc55f	False		0
+187b4e36b9	s284	781cf	False		0
+188d9979d8	s285	0a2fe	False		0
+18b6c7ea8d	s286	41947	False		0
+193181292c	s290	6f51b	False		0
+193d146d1e	s291	8c9bc	False		0
+1942e47696	s215	89130	True	1942e47696	3
+194d1c0d53	s292	9a1ed	False		0
+19984cc6a0	s294	25717	True	19984cc6a0	2
+19c9c0fbf3	s296	0a2fe	False		0
+19cc6ee504	s65	4b1d7	False		0
+19d7303775	s87	3183b	False		0
+1a29f98387	s301	30661	True	1a29f98387	1
+1a469d0082	s302	be485	False		0
+1a4acdd1a5	s303	dabc0	False		0
+1a5f8457a3	s305	53c73	False		0
+1a77518483	s307	2bc1e	False		0
+1ac501f5cc	s308	2bc1e	False		0
+1ad40d4493	s309	4b1be	False		0
+1b34dd0c1f	s312	2b212	True	1b34dd0c1f	1
+1b474f7ab3	s313	3eb66	False		0
+1ba6246315	s314	34e11	False		0
+1bb2dbced6	s315	34e38	False		0
+1bb9e7a65e	s316	156fe	False		0
+1bd1c669bc	s317	9a1ed	False		0
+1bd8918e1c	s318	e8724	True	1bd8918e1c	1
+1bfca98721	s270	43121	False		0
+1bff86ed31	s79	05d76	False		0
+1c10bea7e6	s320	c696a	True	1c10bea7e6	2
+1c5e9ac769	s321	2bdfd	False		0
+1c6072d1a9	s322	54c3a	True	1c6072d1a9	1
+1c716e49c3	s323	70278	False		0
+1c7c72a22d	s324	a7c07	False		0
+1c87f10b20	s325	8c9bc	False		0
+1c978ec1c0	s326	f2348	False		0
+1cea7cafeb	s330	7424f	False		0
+1d2c028bd9	s333	f0098	True	1d2c028bd9	2
+1d2e06455c	s334	ed0c5	False		0
+1d4f62085a	s335	03500	True	1d4f62085a	3
+1d765fc2ae	s337	2e076	False		0
+1d92f01336	s338	1913e	False		0
+1daca0fa41	s66	7d982	False		0
+1db95dd075	s339	c1715	False		0
+1dba5e8eb0	s93	e61f1	False		0
+1dd12f3b98	s340	2f415	False		0
+1de7a4b1b2	s341	f0098	False		0
+1e1f3f3a88	s343	9d5b3	False		0
+1e52b6c126	s167	c1c21	True	1e52b6c126	1
+1e78e54fb1	s347	1afa7	False		0
+1e97d5e992	s348	6996c	False		0
+1e9f0d0669	s349	760be	False		0
+1eaa82af40	s350	f2348	False		0
+1eb4cdfe4f	s351	349a2	False		0
+1eca216573	s353	c34c2	False		0
+1f08c4483c	s178	0b586	False		0
+1f1346adec	s136	462e8	False		0
+1f224cb3ee	s355	781ce	False		0
+1f3dbb5aa6	s356	a7b6a	False		0
+1f4c67410f	s322	2f415	True	1f4c67410f	1
+1f505931b1	s357	c1c21	False		0
+1f749d079c	s358	60906	False		0
+1f8e6760c1	s79	3183b	False		0
+203b3b56ef	s359	fefdf	True	203b3b56ef	3
+207e0fe4f1	s360	25717	False		0
+2081229cc2	s361	fea0e	False		0
+2092c2df03	s363	a360d	True	2092c2df03	1
+209831136e	s364	12204	True	209831136e	1
+20da523b56	s46	53c73	True	20da523b56	2
+20f31c4e29	s239	c04d5	False		0
+210c6bc903	s366	d4fa9	True	210c6bc903	2
+21228639ca	s354	7424f	False		0
+2123f72f46	s367	88c80	False		0
+213b77bee6	s368	a360d	False		0
+214c886066	s369	791e8	False		0
+2159367c7a	s370	0b370	False		0
+215b918116	s371	0622a	True	215b918116	4
+215d0a02e6	s372	0b586	False		0
+21864f81f4	s374	3dd78	True	21864f81f4	2
+219ae91d13	s375	9a1ed	True	219ae91d13	1
+21c0f04f85	s306	5b275	False		0
+21d039ec4b	s376	be173	False		0
+21e6d2d696	s276	f0169	True	21e6d2d696	1
+2206b1fbbb	s377	89130	False		0
+2208ca8bd7	s44	f0a29	False		0
+220972b84c	s378	32337	False		0
+2214db7245	s379	a08e7	False		0
+2215077e39	s106	7d982	False		0
+222abb8ee8	s380	ee9b8	False		0
+229c3e033d	s75	8b8a4	False		0
+22a367fb99	s382	78366	False		0
+22a81d29aa	s383	cb1fe	True	22a81d29aa	3
+22ad535ab0	s384	b1a64	False		0
+22bc7099b8	s385	17bfd	False		0
+2314dac2c9	s387	d7f61	False		0
+23245aa8fe	s388	7f4b1	False		0
+23310fe06d	s389	f2ef0	False		0
+234d489f1e	s231	84afe	False		0
+2370ebd220	s391	ddb8f	False		0
+2382dcc744	s392	06105	False		0
+23f51d23a3	s396	c2201	False		0
+2403d228ec	s397	f2931	False		0
+24523c8555	s399	72f9d	False		0
+246d165b73	s41	0e1e0	True	246d165b73	2
+2482dc1093	s269	3f57d	False		0
+2484bf2c09	s400	1db0f	True	2484bf2c09	1
+2492478f22	s402	438c8	False		0
+249447008e	s403	c6f6b	False		0
+24a302b94f	s404	34e38	False		0
+24e1bddc87	s405	2d52b	False		0
+24f74c75e8	s406	97d0a	False		0
+25121c5778	s407	a7c07	False		0
+252a43fadb	s151	58355	False		0
+25365c7de5	s409	45f15	False		0
+25373055c3	s410	dc5ef	False		0
+25390b6bf5	s411	e42fe	True	25390b6bf5	1
+255df084b6	s45	f2ef0	False		0
+25687a5492	s412	1c3b9	True	25687a5492	3
+2570487056	s413	c95d0	True	2570487056	4
+2573e30d07	s414	2e800	False		0
+2591648fc5	s417	f40d9	False		0
+25987dabc0	s418	cc423	False		0
+25d05c8b0d	s419	b1a64	True	25d05c8b0d	1
+25d3eb113b	s95	d6d03	False		0
+25eb0837c6	s8	f12ba	False		0
+26000f5bf5	s420	f200a	True	26000f5bf5	1
+26061d97a4	s421	2bc1e	True	26061d97a4	2
+260baa243e	s422	7ba10	False		0
+2636bac635	s424	fe011	False		0
+2649b36643	s216	e6e7b	False		0
+2662cf75ac	s425	bae1a	False		0
+2696ea1580	s426	45f15	True	2696ea1580	2
+26af553221	s234	fea0e	False		0
+26f6253515	s403	0b586	False		0
+26fd678a8b	s428	1575e	False		0
+2714bb5561	s115	1f5ff	False		0
+27548e6c6b	s430	a624d	False		0
+2759bb027c	s180	f7f4f	True	2759bb027c	3
+277ad34650	s431	d4fa9	False		0
+278aef2a94	s432	b8a97	True	278aef2a94	1
+278c316c28	s433	78366	True	278c316c28	1
+278c332c92	s434	8b8a4	False		0
+278f79c5f3	s323	e35a8	True	278f79c5f3	2
+279e63e854	s435	462e8	False		0
+27ab16def5	s436	9094b	False		0
+27b70284dc	s139	225dc	False		0
+27e6fe0246	s437	92637	False		0
+27ea384c8d	s439	30661	False		0
+2803a079b9	s440	4801b	False		0
+283e0e0de5	s442	0e375	False		0
+2888c3c47d	s443	c8454	True	2888c3c47d	2
+28b31dccb9	s170	bced5	True	28b31dccb9	2
+28b48323e0	s444	d4fa9	False		0
+29620e32e4	s445	95997	True	29620e32e4	1
+298ec6f497	s446	c95d0	False		0
+29b4a8daad	s447	2d52b	True	29b4a8daad	2
+29c1fba372	s39	290a8	True	29c1fba372	2
+29cc1eac9a	s449	6e111	True	29cc1eac9a	1
+29d6fff677	s450	7f4b1	False		0
+29e2ca8e54	s182	ddb8f	False		0
+29ec6c2e88	s120	fb100	False		0
+2a274d2739	s452	0224d	False		0
+2a347179c2	s453	02b89	False		0
+2a513d2263	s454	54242	False		0
+2a5fef66b4	s456	0224d	False		0
+2a71d7d393	s363	84afe	True	2a71d7d393	1
+2a787a0558	s457	e6e7b	False		0
+2a9c4cdbb0	s458	5b275	False		0
+2abef165d4	s414	0622a	False		0
+2abf94430b	s460	51515	False		0
+2add9a9e1b	s461	1a1f3	True	2add9a9e1b	2
+2af09143a5	s463	e1e01	False		0
+2af5154930	s422	7b332	False		0
+2b0dba3437	s466	c1c21	False		0
+2b24451703	s6	bc55f	False		0
+2b3834f81e	s145	96564	False		0
+2b42b48934	s277	ed0c5	False		0
+2b54d5345f	s84	b136f	False		0
+2b6e039e74	s467	41947	False		0
+2b7c1f6a11	s468	9f1f5	False		0
+2b9f5d86bb	s288	89f4f	False		0
+2bc3a130a4	s470	e42fe	True	2bc3a130a4	2
+2bcb7899ef	s58	156fe	True	2bcb7899ef	1
+2bdc7378bd	s471	88c80	False		0
+2c0971023f	s343	c8454	True	2c0971023f	2
+2c18926997	s472	0224d	False		0
+2c2195d52e	s473	f3aed	False		0
+2c2da071aa	s474	cc837	True	2c2da071aa	1
+2c3cacbf43	s18	a7b6a	False		0
+2c4b24a5b7	s476	3489d	False		0
+2c5c70dbb0	s458	64af4	False		0
+2c5d711bdb	s477	0c839	False		0
+2c812def96	s206	d9b9c	False		0
+2c8a12a8fc	s478	78366	False		0
+2ca129ed37	s479	0e353	False		0
+2cb945841b	s29	a9c56	False		0
+2cbcea1322	s480	a7d05	False		0
+2cd037abfc	s481	b3dda	False		0
+2d3ccd1276	s483	88a58	False		0
+2d49cc6113	s173	7ba10	False		0
+2d6e9e179e	s344	32337	False		0
+2dc95ee365	s484	c1691	False		0
+2dc9874e5a	s485	c04d5	False		0
+2de764db70	s486	ac581	False		0
+2e1e2a4769	s9	f32c3	False		0
+2e4915b6cf	s340	3a747	False		0
+2e85d14f9c	s321	760be	False		0
+2f2876f0e4	s490	45f15	False		0
+2f2b6ce950	s491	0e353	False		0
+2f3fe9e4c7	s492	af4ca	False		0
+2f5e8f01f0	s493	2b212	False		0
+2f658a0fdd	s494	dc5ef	False		0
+2fef6bf184	s496	4b1d7	False		0
+2ffcec437d	s497	655f4	True	2ffcec437d	2
+3009276470	s32	c6f6b	False		0
+3012280d45	s498	7d982	False		0
+30227c3930	s500	95997	False		0
+3037fd47a0	s501	d4fa9	False		0
+30a41776b5	s506	237d4	False		0
+30ac08b856	s507	bfb80	False		0
+30ee439846	s83	32337	False		0
+30fc449496	s508	78366	False		0
+3117a19b8d	s509	40381	False		0
+3117b7e378	s510	206b6	False		0
+314a814a0f	s511	3386d	False		0
+3152e45456	s357	91403	False		0
+319be5a330	s512	4f3cd	True	319be5a330	1
+320cae92cf	s514	7f4b1	False		0
+32241810f7	s515	937dc	True	32241810f7	2
+32592f6464	s516	2bc1e	False		0
+3265808fae	s517	746ff	False		0
+3299ee3bcc	s519	65469	False		0
+32d7629eb3	s520	b796c	False		0
+3316cca7d3	s522	0b586	False		0
+332d3f6c59	s523	cc423	True	332d3f6c59	2
+335eb4e249	s40	10824	True	335eb4e249	2
+337c2f2e80	s525	be843	True	337c2f2e80	4
+3384d74963	s526	fea0e	False		0
+339cedcc57	s529	7ab05	False		0
+33b1c6c538	s531	237d4	False		0
+33b768384d	s264	476be	False		0
+33e9d89d97	s450	206b6	False		0
+33ffea412c	s532	ee3d2	False		0
+34120a469a	s533	e6e7b	False		0
+344223e812	s534	d52f0	False		0
+34685537c9	s536	ac562	False		0
+346ac037f5	s537	34e38	False		0
+3475d9971a	s290	6f51b	False		0
+3487005d89	s81	45f15	False		0
+34dd628214	s361	ed0c5	False		0
+35520a65ad	s93	ee9b8	False		0
+35527e89a9	s539	84afe	False		0
+356655c6d6	s540	1f5ff	False		0
+3579619d28	s541	db538	False		0
+357db29708	s542	85aeb	False		0
+35aa0392f7	s421	25717	False		0
+35d015175c	s290	9094b	False		0
+35db308735	s337	936a6	False		0
+35e4ff3cfb	s544	880bc	False		0
+35ea034b6c	s545	babec	False		0
+3607e5a29e	s155	64af4	False		0
+361301dee3	s547	f9391	False		0
+3645355293	s550	f7f4f	False		0
+3645a1bd1d	s551	b8a97	False		0
+364ad058b2	s552	da449	False		0
+3657534b52	s473	a4315	False		0
+3658813654	s553	d2f72	False		0
+3662ecf17b	s554	3d027	True	3662ecf17b	1
+366c720739	s263	0e86b	False		0
+36bed516c2	s486	23329	False		0
+3708293848	s556	0a38f	False		0
+3709449c61	s557	c95d0	False		0
+374c9cc0dc	s559	d7784	False		0
+376b3daecc	s560	225dc	False		0
+3773f5fbd7	s561	abbea	False		0
+378b5fc0cf	s263	7ab05	False		0
+379961280e	s359	46a48	False		0
+37ab8359af	s562	e6e7b	True	37ab8359af	2
+37bcfe135b	s321	92649	False		0
+37f4b72fc6	s150	6064f	False		0
+37f524d353	s564	0b586	False		0
+3800ae80b1	s565	3489d	False		0
+3829301b2e	s354	5dec9	False		0
+38629f9d18	s542	41947	False		0
+3875dc9861	s457	e35a8	False		0
+389aa3aec1	s566	d52f0	False		0
+38b993f17b	s568	c4922	False		0
+38cf38053a	s569	be843	False		0
+38f922685a	s571	43324	False		0
+38fa585d2e	s572	c1c21	False		0
+392a4d061f	s573	655f4	False		0
+3946980d8d	s24	e0b70	True	3946980d8d	2
+397a936aee	s574	c04d5	False		0
+39dfb482b5	s575	016b5	False		0
+3a072d81cc	s576	663e8	False		0
+3a0769e571	s577	30661	False		0
+3a1c8a495f	s578	e5259	False		0
+3a2e504ba0	s525	08a49	True	3a2e504ba0	4
+3a3385bb4a	s579	d945d	False		0
+3a6401d0a8	s200	87c4c	True	3a6401d0a8	1
+3a67f9fc8b	s343	f3f41	False		0
+3a6ae6e782	s212	43121	False		0
+3a81ec27eb	s48	5a4cf	False		0
+3ac4abf79a	s473	f9563	True	3ac4abf79a	2
+3aca530d36	s353	361fc	True	3aca530d36	1
+3ad177330a	s241	1afa7	False		0
+3b06576a96	s583	91403	False		0
+3b21025449	s584	d1c44	True	3b21025449	2
+3b22f8cb58	s585	33901	False		0
+3b2cc60c0c	s296	237ce	False		0
+3b5ab1cc49	s586	72b54	False		0
+3b622e7e29	s587	f0169	False		0
+3b9c318272	s118	936a6	False		0
+3bb68768c7	s589	023c3	False		0
+3bfcfad55b	s590	a973b	False		0
+3c1572e35d	s311	d4fa9	False		0
+3c27250aa6	s591	fda64	False		0
+3c478a4ac6	s333	cf582	False		0
+3c687bcf44	s592	d78dd	False		0
+3c7e487233	s593	409ee	True	3c7e487233	2
+3c80a2d535	s594	c8784	True	3c80a2d535	1
+3c80dedeb0	s146	456e2	False		0
+3ca674724b	s545	a6493	True	3ca674724b	1
+3cb1019674	s597	476be	False		0
+3cf1c3fcca	s598	d7f61	False		0
+3d070dacee	s600	e5fb8	True	3d070dacee	2
+3d211d2846	s435	13abb	False		0
+3d46723eec	s500	4a724	False		0
+3d4a9d0256	s348	409ee	False		0
+3d54f46375	s601	88a58	False		0
+3d816597a9	s86	03500	False		0
+3d8a648cbf	s602	33901	False		0
+3da055e588	s603	43121	False		0
+3daef345b8	s604	d52f0	False		0
+3db4b8dbc2	s77	fd786	False		0
+3dbdf43837	s166	b3dda	False		0
+3de457d37d	s606	b8589	False		0
+3dfea95dc4	s607	3bfb3	True	3dfea95dc4	1
+3e0ea7bc1f	s608	190e9	False		0
+3e23a7c0f5	s609	1913e	False		0
+3e4255cd3b	s610	78366	False		0
+3e4ce8e779	s611	54242	False		0
+3e50dd383b	s612	cc423	False		0
+3e7e45b358	s126	e9148	False		0
+3e863a204f	s229	82082	False		0
+3e868db57c	s613	b8a97	True	3e868db57c	1
+3e89d8990c	s614	60ae5	False		0
+3e9aaa499b	s334	cd0b3	True	3e9aaa499b	1
+3f03bd929a	s121	e8ec1	False		0
+3f09308738	s445	0b586	False		0
+3f1080705f	s617	cb1fe	False		0
+3f254a4ddd	s618	bd2b2	False		0
+3f444f5250	s619	d316f	False		0
+3f6d1cb8cc	s443	b7163	False		0
+3f894dc99a	s590	b3dda	True	3f894dc99a	1
+3f8bd6cc43	s621	3d027	False		0
+3fef2588a3	s622	1c3b9	False		0
+3ffda0033d	s33	ccf7a	True	3ffda0033d	1
+3ffdab99b6	s623	c6f6b	False		0
+400c42e119	s227	30661	False		0
+40794ab378	s625	1c3b9	False		0
+4081af29d1	s626	c8454	False		0
+40e4a1326f	s414	d71b2	True	40e4a1326f	3
+41001ae0cd	s328	f0169	False		0
+4141850797	s628	462e8	True	4141850797	2
+4152ce185c	s629	e5fb8	False		0
+41741582d4	s630	a360d	False		0
+41c9d12de5	s229	663e8	True	41c9d12de5	6
+41dcdce1b1	s482	2e076	False		0
+41dd549b58	s631	2e800	False		0
+41fe2a6f96	s324	ff39f	False		0
+4210cc10a3	s632	71b3e	False		0
+421afa4a1b	s0	f3f41	False		0
+421f7ef3e7	s633	880bc	False		0
+42304b37d5	s266	5b471	False		0
+4242efc7f7	s635	d7784	False		0
+4279f81956	s636	936a6	False		0
+42a51e96b2	s51	03500	False		0
+42bdf80645	s637	252fd	False		0
+42e9eb4f91	s399	ee9b8	False		0
+42efccd4ab	s37	2d52b	False		0
+42ff348a0e	s31	b6ca9	False		0
+43055737cf	s639	f2ef0	False		0
+4322dd1f34	s640	ddb8f	False		0
+4332bbe777	s641	7b332	False		0
+4338bbcec9	s332	2b212	False		0
+434419df82	s642	ed3e5	False		0
+439e64fb2c	s643	02578	False		0
+43a5882ece	s226	cc423	False		0
+43ab9be843	s645	501f8	False		0
+43f65b2054	s69	225dc	False		0
+442ab30476	s214	dca20	False		0
+442d622417	s474	75985	False		0
+44364705e4	s647	237ce	False		0
+44386d7872	s649	ddb8f	False		0
+444669e0cd	s650	4801b	False		0
+444bc3e691	s651	ce989	False		0
+4466b8d8ab	s493	c1691	False		0
+4480ee69df	s653	87c4c	False		0
+44ab58e587	s413	e3ad7	False		0
+44bee9d709	s654	45f15	False		0
+44c113c654	s275	be843	True	44c113c654	1
+44d8b7f543	s655	c26e2	False		0
+44f35875d1	s656	f3f41	False		0
+45084732e9	s657	4b1d7	False		0
+452e148ce1	s658	b7163	False		0
+456ba6a827	s287	4801b	False		0
+4592520452	s617	85ebd	True	4592520452	2
+4599653957	s481	54c3a	False		0
+45cc3f89cb	s382	dc5ef	True	45cc3f89cb	4
+45d419e1b6	s96	bba51	False		0
+45e07ee12d	s659	78366	False		0
+45e702db36	s250	715da	False		0
+45f5d0e7fe	s596	655f4	False		0
+45fb64bbba	s164	3d705	False		0
+4613769471	s540	ab81c	False		0
+462389d076	s660	be843	False		0
+462acbefca	s224	53c73	False		0
+4674f428df	s407	d71b2	False		0
+4684ae852b	s661	e9dcb	False		0
+46877379bc	s531	a4315	False		0
+46ce431edd	s663	c5b76	False		0
+46da75600e	s468	2d52b	True	46da75600e	4
+46e2688a8c	s664	85aeb	False		0
+47045479e7	s392	3489d	False		0
+4704792d98	s665	c2201	True	4704792d98	1
+473153796d	s223	09537	False		0
+4739bd82f7	s666	0e1e0	False		0
+47458be024	s667	5dec9	False		0
+4758e23675	s428	791e8	False		0
+47654ffa11	s247	d6d03	False		0
+478efcf857	s668	a4315	True	478efcf857	3
+479643a611	s669	3be3a	False		0
+479ea4739f	s645	fefdf	False		0
+47af4db777	s670	a7d05	False		0
+47cf23f322	s423	7f4b1	False		0
+47e2c10cb8	s335	156fe	False		0
+4808677178	s671	4b215	False		0
+4810915cd4	s360	d6d03	True	4810915cd4	1
+481affa90e	s673	2f415	False		0
+48557fcb50	s675	93c65	False		0
+489afee2f1	s670	91403	True	489afee2f1	2
+48c83db992	s294	1ccf9	False		0
+48e8ebea4b	s678	ce989	True	48e8ebea4b	2
+49207f5220	s541	a13a8	False		0
+495344e7c1	s679	476be	False		0
+49615100d4	s138	8af52	False		0
+49745a9406	s680	7ab05	False		0
+498d97e699	s455	7424f	False		0
+4998d46ac7	s681	ed3e5	False		0
+49a7d6d2c3	s682	3fcd4	True	49a7d6d2c3	1
+49c58c4783	s598	b9679	True	49c58c4783	3
+49d173318a	s683	356c8	False		0
+4a1710b67f	s685	cf582	False		0
+4a2f3c53a2	s686	c26ed	True	4a2f3c53a2	1
+4a30e89412	s687	78366	False		0
+4a3d27214c	s688	c1691	False		0
+4a456ab8dc	s689	225dc	False		0
+4a86e5bbda	s692	ad58a	False		0
+4aa70f906e	s81	3062b	False		0
+4b20d3117a	s693	81570	False		0
+4b262b5255	s694	8b124	True	4b262b5255	4
+4b2c13546e	s695	92637	False		0
+4b53e77e9a	s696	92637	True	4b53e77e9a	1
+4b64bcfed8	s670	34e38	False		0
+4b8869ba75	s223	02578	False		0
+4b9cefbc3a	s566	2f415	False		0
+4ba51ab04f	s697	dc5ef	False		0
+4bac68f24a	s698	08a49	True	4bac68f24a	1
+4bbfd7a9ad	s699	be485	False		0
+4bca72ebe3	s700	d4fa9	True	4bca72ebe3	2
+4bd57d09bb	s701	1f5ff	False		0
+4bdf410ee3	s702	84afe	False		0
+4bdff74a00	s703	c6f6b	False		0
+4be983d01a	s18	456e2	False		0
+4bf3ababce	s372	c2201	False		0
+4c3a194e0c	s106	e9dcb	True	4c3a194e0c	3
+4c5094e120	s258	023c3	False		0
+4c50f4d77d	s655	45f15	False		0
+4c52fd7d50	s285	9a1ed	False		0
+4c65ae391a	s705	81570	False		0
+4c973afbf7	s706	da449	False		0
+4ca5388f9e	s657	8f885	True	4ca5388f9e	4
+4cabcbac86	s707	3a747	False		0
+4cb8a1126e	s709	0bd84	False		0
+4cce1582e6	s710	02b89	False		0
+4cd24435c6	s712	b9dc2	False		0
+4cecd64170	s713	45f15	False		0
+4d21193f25	s714	6e92f	False		0
+4d3ea59dc9	s56	290a8	False		0
+4d446b35fc	s715	284b7	False		0
+4d67032cbe	s109	8e991	False		0
+4d7495bbb4	s28	dd6f8	True	4d7495bbb4	2
+4d7ca94924	s717	5c543	False		0
+4d93b5c9dc	s364	271cb	False		0
+4d93c52c38	s719	95997	False		0
+4dca1bbf75	s720	4b1be	False		0
+4defe82ba0	s721	44e28	False		0
+4df5a4deba	s722	d71b2	False		0
+4df79080bb	s376	3d705	False		0
+4e12f5e1a2	s724	29f4f	False		0
+4e5da289e2	s725	c696a	False		0
+4e6ce200cf	s551	3183b	True	4e6ce200cf	2
+4e75de6601	s221	f40d9	False		0
+4e847401fb	s193	c26e2	False		0
+4e92ac12fd	s22	58355	False		0
+4ec33f1398	s1	02b89	False		0
+4ecfab393a	s726	0e86b	False		0
+4eda04765e	s727	880bc	False		0
+4f69e2ab4d	s729	be843	False		0
+4f984c0044	s730	6dcd3	False		0
+4fa71833fb	s731	456e2	False		0
+4fb80f24b2	s732	91403	False		0
+4fd0987352	s733	8af08	True	4fd0987352	3
+4fd1794ecc	s734	e0b70	False		0
+4ff302f6f6	s736	6e111	False		0
+4ff913668b	s737	c5a59	False		0
+500eda4ffb	s701	b9dc2	True	500eda4ffb	3
+5012f32656	s738	95997	True	5012f32656	1
+503b4ae787	s739	17bfd	True	503b4ae787	2
+5062b5d31d	s156	8b8a4	False		0
+506cf1e5b4	s740	25717	False		0
+508d943258	s183	2db87	False		0
+50b05e7d8a	s741	c4922	False		0
+50b4c2d38a	s742	c26e2	False		0
+50b8ca560c	s743	1b014	True	50b8ca560c	2
+50c8b7afa6	s598	a3fac	True	50c8b7afa6	3
+50d23f1f29	s402	09537	True	50d23f1f29	3
+50de486eae	s436	60906	False		0
+510c8553a0	s253	5dec9	False		0
+5148a86385	s87	55ab9	False		0
+514d6701a6	s744	cc423	False		0
+517f0412e5	s128	73ec9	True	517f0412e5	3
+51a57f407a	s746	c1715	False		0
+523e0f41b4	s747	88c80	False		0
+525641d114	s118	be173	False		0
+5281c5d9d4	s477	9a1ed	False		0
+528fcaa92d	s190	9a1ed	False		0
+52a2f57aef	s749	9a1ed	True	52a2f57aef	1
+52a95bfaa7	s102	cf582	False		0
+52b091c6e1	s642	52dbc	False		0
+52cf8d60ff	s750	2bc1e	False		0
+52da012c1d	s751	c26e2	False		0
+52deb3fa83	s104	af4ca	True	52deb3fa83	3
+533e795b26	s753	30661	False		0
+534ec33ad0	s107	b6ca9	False		0
+536157dfc7	s754	02578	True	536157dfc7	2
+538466afbb	s329	d71b2	False		0
+53867325fc	s756	be843	False		0
+53a1a4c1eb	s660	7ba10	False		0
+53a27ab875	s739	bced5	False		0
+53bf071ba8	s757	936a6	False		0
+53c01e30a1	s758	0eea5	False		0
+53c6b84773	s374	3d532	False		0
+5406d1d474	s159	d71b2	True	5406d1d474	1
+540cdb073f	s689	6e92f	False		0
+5450a6a483	s760	dff99	False		0
+545236d09d	s761	c6f6b	False		0
+5468aa299e	s762	f2931	True	5468aa299e	1
+54a2fd2975	s763	3d532	False		0
+54d7cc9fd1	s349	9d5b3	False		0
+54ebb4be76	s764	f0169	False		0
+54fd33d813	s765	02578	False		0
+5511768b8c	s411	54242	False		0
+55221f6036	s274	02b89	False		0
+55443c37dd	s198	206b6	False		0
+556d26c21e	s767	93c65	True	556d26c21e	1
+5599eea8a4	s626	11528	False		0
+55a1f20330	s726	0eade	False		0
+55b9044b7e	s768	3062b	False		0
+55c824b626	s102	80862	False		0
+55da028c11	s148	b06d1	False		0
+55dadd8df9	s769	a7d05	False		0
+55f83d6b86	s770	c8454	False		0
+5608d1f303	s578	8b8a4	True	5608d1f303	1
+563333c3b7	s574	e42fe	False		0
+568cdaefdb	s772	0766f	True	568cdaefdb	1
+568f503851	s773	60906	False		0
+56a9ef727f	s773	e8ec1	False		0
+56b8bcc8e3	s715	3fcd4	False		0
+572d71ea9b	s774	09bf2	False		0
+575593b230	s775	a7d05	False		0
+5763353822	s707	dd6f8	False		0
+5779db54e8	s776	0b370	False		0
+578d581468	s484	a0028	False		0
+578ece3c50	s777	84afe	False		0
+579461ea8f	s778	10824	False		0
+579a041670	s496	e3235	False		0
+57a02b9d0f	s780	f9391	True	57a02b9d0f	1
+57e844551e	s55	7f4b1	True	57e844551e	1
+58254f81f1	s781	23c9f	True	58254f81f1	1
+583018f1e6	s687	a08e7	False		0
+58873dccd1	s685	f3f41	True	58873dccd1	2
+589927b745	s608	bced5	False		0
+58ca219276	s783	0c839	True	58ca219276	2
+58cfc12fca	s703	3d532	False		0
+58dc9c73c2	s562	a9c56	False		0
+5916f4a309	s705	d7f61	False		0
+591b4efdb3	s468	89830	False		0
+59340d9c79	s786	08a49	True	59340d9c79	1
+5934d12b68	s787	cf7b2	False		0
+5940bcb336	s788	3a976	False		0
+5944543517	s789	b0095	True	5944543517	2
+594d28d625	s790	bd2b2	False		0
+5988d28123	s792	a7c07	False		0
+598a6ccb36	s425	fd786	False		0
+598c1afc73	s793	357e6	False		0
+599c07d23b	s794	59778	False		0
+59a647fd8b	s795	d7784	False		0
+59ad0590d6	s796	11528	False		0
+59c19c4e8e	s256	43121	True	59c19c4e8e	1
+59c6d35d4d	s515	09bf2	False		0
+59cf2edc18	s797	81570	False		0
+59ddf969a9	s238	462e8	False		0
+5a01809fec	s799	4a724	True	5a01809fec	2
+5a02e8ba10	s491	4b1d7	True	5a02e8ba10	1
+5a10e94d00	s800	3d027	False		0
+5a38ca5285	s801	781ce	False		0
+5a7423653f	s110	3fa09	False		0
+5aac908860	s802	91403	False		0
+5abde67d7a	s803	e42fe	False		0
+5ae275fc07	s804	be173	False		0
+5aef18d6e3	s805	237d4	False		0
+5aff3a2bd8	s21	f3f41	False		0
+5b0b75f42b	s755	d52f0	False		0
+5b0cacdd18	s535	c1c21	False		0
+5b1d973528	s807	655f4	True	5b1d973528	1
+5b1f49508e	s808	1f5ff	False		0
+5b44df2f74	s124	252fd	False		0
+5b6fcbf196	s810	c04d5	False		0
+5b74158437	s698	3fcd4	False		0
+5b8f2a1713	s811	ee066	False		0
+5b912d704a	s520	4a724	False		0
+5c249f06c1	s812	0bd84	False		0
+5c31d1791d	s814	95997	True	5c31d1791d	2
+5c77535aea	s209	c6a4f	False		0
+5c894e523c	s2	0224d	True	5c894e523c	2
+5c9da8ddab	s704	87c4c	False		0
+5cab58b4f2	s730	b796c	False		0
+5cb4c7d2d0	s815	32358	True	5cb4c7d2d0	1
+5cee5ab514	s789	f2ef0	False		0
+5d10125d73	s646	8e991	False		0
+5d3ead9e5e	s816	d4fa9	False		0
+5d598efac7	s818	8eb5c	True	5d598efac7	1
+5d9b65553c	s819	58355	False		0
+5de7d724a6	s820	f2348	False		0
+5dedec3874	s821	190e9	True	5dedec3874	1
+5defefe2a7	s461	52af9	False		0
+5e06e543ef	s747	c1691	False		0
+5e0918b5c0	s575	0622a	False		0
+5e32d320ec	s822	d6ccd	False		0
+5e6197c98f	s799	32337	False		0
+5e7c48f501	s824	937dc	False		0
+5eb0e959c3	s826	02578	False		0
+5ebaeb58b8	s827	a7c07	True	5ebaeb58b8	1
+5ecf41a703	s828	6064f	False		0
+5ed8aec142	s330	0c839	True	5ed8aec142	4
+5f2e7e5211	s96	91403	False		0
+5f39fcac41	s830	e35a8	False		0
+5f59be1e17	s792	9a1ed	False		0
+5f64c7f932	s831	3b15d	False		0
+5f7306c5ab	s267	ae3ff	False		0
+5fa8adf221	s832	0b586	False		0
+5fb71dea36	s833	43121	False		0
+5fbb4a582c	s111	bafa0	False		0
+5fcd10098b	s835	409ee	False		0
+5fe21956aa	s282	ff3fa	False		0
+5febb1c7d6	s108	4b127	False		0
+5ffa9c0b61	s836	bced5	False		0
+600b89b215	s390	c04d5	False		0
+601fc04f44	s263	bba51	True	601fc04f44	4
+602ab06383	s837	f2348	True	602ab06383	1
+60495ffa68	s838	ee3d2	False		0
+6063be1e81	s615	646e1	False		0
+606d97da4b	s413	290a8	False		0
+6073f90bb7	s839	09ecc	False		0
+60918487c6	s649	54242	False		0
+609e1e2f43	s840	3a747	False		0
+609ea3c8c4	s777	6e92f	True	609ea3c8c4	2
+60a5404a06	s760	bced5	False		0
+60a5504a59	s841	e1e01	False		0
+60f33d82d2	s842	f9563	False		0
+6108cc48f8	s843	2bc1e	False		0
+6184040df8	s844	a1577	True	6184040df8	1
+618869f749	s845	4801b	False		0
+6202d89e2a	s547	b8a97	False		0
+625061affc	s494	361fc	False		0
+626cdef8db	s715	8af08	False		0
+62822f3661	s37	f32c3	False		0
+62ab7bf91a	s731	d71b2	False		0
+62bf5b25ed	s848	33901	False		0
+62c335f2db	s849	0a2fe	False		0
+62d56a1b77	s850	34e11	True	62d56a1b77	2
+62eb304066	s128	e42fe	False		0
+62f1c72db3	s413	e9148	False		0
+632368c3d7	s589	0eade	True	632368c3d7	1
+63486d982a	s709	9d5b3	False		0
+636b46cd66	s568	e9148	False		0
+6371a632f6	s680	95997	False		0
+63741ead49	s854	b3dda	False		0
+63c762153f	s716	4b127	False		0
+63d06d668a	s855	a7b6a	False		0
+63d3586a2c	s663	be485	True	63d3586a2c	2
+63d385ad0e	s856	791e8	True	63d385ad0e	4
+63e4d58c7e	s30	fd786	False		0
+6409c53981	s3	227d7	False		0
+6420789c7b	s859	3d027	True	6420789c7b	1
+642ec3d3b1	s804	cc837	True	642ec3d3b1	2
+644a3b0407	s860	89f4f	False		0
+645eb52e43	s189	7f4b1	False		0
+646cba391f	s856	dca20	False		0
+64723f9876	s861	e35a8	False		0
+648214cdb5	s862	d7f61	False		0
+64aa656b9a	s527	2f415	False		0
+64c5e21b32	s864	fefdf	False		0
+64cf568593	s865	72f9d	True	64cf568593	2
+64d4a6aa0d	s866	a0028	False		0
+6560a3e152	s867	e42fe	False		0
+656430213b	s634	b796c	False		0
+6595078355	s868	52dbc	False		0
+65c1151bf3	s422	f32c3	True	65c1151bf3	2
+66001432c6	s299	1913e	False		0
+661298208b	s628	338ff	False		0
+6612c44fc1	s870	92637	False		0
+6617a5f7e2	s859	b06d1	False		0
+662c639b7a	s450	d52f0	False		0
+663a630d26	s447	12204	False		0
+663a7c8b71	s60	d23af	False		0
+664900ff43	s239	3fcd4	False		0
+6674a8d620	s871	54c3a	False		0
+66a122eb7a	s872	3d532	False		0
+66f9427300	s873	2e076	False		0
+67105be24c	s405	f3f41	True	67105be24c	2
+6737892218	s874	4b1d7	False		0
+67418f6eed	s783	3fa09	False		0
+6750a12369	s875	8e63d	False		0
+676e9ae7c0	s863	3d027	False		0
+677d9b199a	s876	cd0b3	True	677d9b199a	1
+6789325e27	s147	32358	False		0
+679005ec6a	s772	77895	False		0
+679bb18078	s330	8af08	False		0
+67b37c38c7	s878	d1c44	False		0
+67b3d30cf6	s214	7710d	True	67b3d30cf6	3
+67e87c5c68	s464	bba51	False		0
+67f18a1c35	s298	09ecc	False		0
+67f945078d	s879	71b3e	False		0
+67fab0a9b1	s686	d52f0	False		0
+68040659b4	s880	45f15	False		0
+680a492dd5	s881	0e375	False		0
+6813f9a000	s468	3fcd4	False		0
+6829a0eae3	s882	f0a29	False		0
+682b12b030	s883	fc853	False		0
+682cc15703	s884	1913e	False		0
+6833184e6b	s885	ae3ff	False		0
+6878729841	s886	6064f	True	6878729841	1
+687a35e2f0	s887	34e38	True	687a35e2f0	1
+6885783fff	s694	43121	False		0
+68b270ff1e	s826	d7784	False		0
+68d06b83ca	s359	3d532	False		0
+68f37e1315	s888	b7163	False		0
+69247b1521	s699	231ca	False		0
+694765b975	s509	206b6	True	694765b975	1
+697ebdd565	s737	e5259	False		0
+699070e671	s773	3183b	False		0
+699f0d2bd0	s890	d52f0	False		0
+69a73e8ecb	s382	72337	False		0
+69bb1b8ad5	s180	fea0e	False		0
+69d817f2ba	s759	ab81c	False		0
+6a4be141de	s512	0e1e0	False		0
+6a510007d6	s842	6e92f	False		0
+6a56f900ec	s892	f0169	False		0
+6a5d808d47	s827	7b332	False		0
+6a6e06417a	s893	f40d9	False		0
+6a73c206b8	s472	f8790	False		0
+6a9e70b4e5	s562	dff99	False		0
+6ac11bfd92	s894	be173	False		0
+6ac7896ac8	s895	0bd84	False		0
+6ad2acf74c	s633	f40d9	False		0
+6b2474713c	s356	e61f1	False		0
+6b28806609	s896	d7784	False		0
+6b530fb251	s668	f0a29	False		0
+6b63e725d8	s662	96564	False		0
+6b63f3d135	s897	1575e	True	6b63f3d135	1
+6b6a5bd73c	s898	e9dcb	False		0
+6b71f43de2	s847	44e28	False		0
+6b85847799	s899	7f4b1	False		0
+6b89249b86	s125	4a724	False		0
+6bafee1336	s900	5c543	False		0
+6bba2e593f	s876	7ba10	False		0
+6bc73d062d	s901	8c558	False		0
+6bca06dcab	s902	32358	False		0
+6bcf637151	s740	295d7	False		0
+6bd95bc9df	s525	32337	False		0
+6bf5be63a2	s235	09ecc	False		0
+6c07ee337f	s903	0eea5	False		0
+6c10885b81	s612	d23af	True	6c10885b81	1
+6c12716689	s611	bd2b2	False		0
+6c5860d448	s2	cc837	False		0
+6c5f1992df	s356	fea0e	True	6c5f1992df	4
+6c61d90da3	s513	cc837	False		0
+6c9b61db31	s255	59778	True	6c9b61db31	3
+6cac223034	s904	252fd	False		0
+6d67e97726	s906	0a2fe	True	6d67e97726	1
+6d83e7003c	s393	ad58a	False		0
+6da49e4993	s654	51515	False		0
+6dbdb2e985	s907	0eea5	False		0
+6debb409a4	s908	c34c2	True	6debb409a4	1
+6e1d255b7e	s487	be485	False		0
+6e1dc117cc	s685	5dec9	True	6e1dc117cc	2
+6e4987fc56	s665	4b1be	True	6e4987fc56	1
+6e5c4acf62	s909	ed3e5	False		0
+6e9086c0be	s680	af4ca	False		0
+6e917b3ee6	s910	3d027	False		0
+6ea7b2abf1	s50	92637	False		0
+6eb22f31e7	s911	a7b6a	False		0
+6ebde84714	s912	09ecc	True	6ebde84714	1
+6ebf3472d5	s371	2a845	False		0
+6ef81c5a71	s913	dd6f8	False		0
+6f06aee366	s350	e9148	False		0
+6f104c0304	s914	05d76	False		0
+6f194ba9ee	s268	60906	False		0
+6f2040d345	s915	f2348	False		0
+6f20779ae1	s902	0b370	False		0
+6f3535a69c	s624	55ab9	False		0
+6f5295499e	s117	ee9b8	False		0
+6fa9ea6019	s917	7ab05	False		0
+6fda8c0629	s850	ad58a	False		0
+6feebef346	s918	64af4	False		0
+6ffbeb135f	s330	21138	False		0
+702ae7c30d	s881	25717	False		0
+702e93ec4e	s919	d1c44	False		0
+7033c6bd7c	s771	88c80	False		0
+7067487947	s261	3fa09	False		0
+70c05e60da	s920	bc55f	True	70c05e60da	1
+70d1cf9c9d	s921	13abb	False		0
+70fb131907	s922	4f3cd	False		0
+712aebacbf	s683	0622a	True	712aebacbf	2
+7138808933	s122	7d7d0	True	7138808933	1
+71839429e8	s76	51515	True	71839429e8	1
+7197ed4a46	s924	ac562	False		0
+7206564aab	s629	64af4	True	7206564aab	2
+7230f63654	s927	9a1ed	False		0
+725c2c3d3a	s928	7ec98	False		0
+727523c1e8	s148	02b89	True	727523c1e8	4
+727de15f3f	s229	cf582	False		0
+7286be2ae2	s252	b7510	False		0
+729534450c	s929	476be	True	729534450c	1
+7298ba42b1	s207	72b54	True	7298ba42b1	1
+72ade16e3c	s913	d78dd	False		0
+72e0f54f0b	s931	6f51b	False		0
+72f4bc1175	s932	03b7a	False		0
+72f700068d	s870	08a49	False		0
+7306486e95	s653	760be	False		0
+7308aabc1d	s830	c6a4f	False		0
+73249424f6	s833	78366	False		0
+73566e0504	s46	2f415	True	73566e0504	2
+739c12799b	s127	f2931	False		0
+741147cd3f	s755	5b471	False		0
+74510a9e2f	s259	0c839	False		0
+74533285f8	s934	1913e	False		0
+747f217c04	s777	f0098	False		0
+7493205650	s724	791e8	False		0
+74f841b93c	s935	b3dda	False		0
+751af94e91	s788	dc5ef	True	751af94e91	3
+751b344718	s650	6dcd3	False		0
+7595ae8baf	s320	c28da	False		0
+75bfc2defd	s936	3bfb3	True	75bfc2defd	1
+7643e9a1da	s199	f3f41	False		0
+766d2d3a7d	s262	e8724	False		0
+7681b21b14	s632	0e86b	True	7681b21b14	1
+768c8a235f	s586	65469	False		0
+76971686be	s937	a7d05	True	76971686be	1
+76c0219c2f	s675	b0095	False		0
+76edd70354	s835	ee9b8	False		0
+7765158bcc	s937	0766f	False		0
+776a7f5baf	s355	32358	False		0
+776a8f8c91	s939	2bc1e	False		0
+77803867b7	s484	d52f0	False		0
+77d1213660	s941	3489d	False		0
+78384786ad	s943	95997	False		0
+7849871de2	s944	bafa0	False		0
+7864c91970	s543	a360d	False		0
+788e305279	s434	bba51	False		0
+7890465c38	s945	dc5ef	False		0
+78c55fbb8a	s946	11528	False		0
+78e8a41006	s13	284b7	True	78e8a41006	1
+78ea76abf5	s944	f200a	True	78ea76abf5	1
+78ecb589fc	s697	7d7d0	False		0
+790accbce2	s694	c95d0	False		0
+7936f0898f	s947	f40d9	True	7936f0898f	1
+793719f39d	s948	c1c21	False		0
+7954b08a58	s104	c1715	True	7954b08a58	3
+79604f0e8e	s424	6b5e6	True	79604f0e8e	3
+796553391f	s111	89f4f	True	796553391f	2
+7978e62402	s409	4b127	True	7978e62402	1
+79aa3bd39b	s690	bfb80	False		0
+79ab426db8	s898	5c543	False		0
+79e73e72e3	s655	8af08	False		0
+7a133c2236	s949	59778	False		0
+7a5462bec1	s79	781cf	False		0
+7a568fa1cc	s820	5dec9	False		0
+7a626d9fba	s865	a9c56	False		0
+7a70a4903d	s230	e61f1	False		0
+7a9c5e9622	s953	23c9f	True	7a9c5e9622	3
+7aa9e594b0	s426	349a2	False		0
+7af013dc77	s955	225dc	False		0
+7afdc8edb2	s956	d71b2	True	7afdc8edb2	1
+7b08102d0e	s890	e3ad7	False		0
+7b3b4d9471	s378	be485	True	7b3b4d9471	1
+7b56eb550e	s959	3d705	True	7b56eb550e	1
+7b60f23ecc	s960	4a53b	False		0
+7b8598bdc9	s961	c26ed	True	7b8598bdc9	1
+7bdb31932c	s962	3f57d	False		0
+7bf632f881	s137	89830	False		0
+7c1c43751f	s924	880bc	False		0
+7c3405cd7b	s139	284b7	False		0
+7c399e9830	s963	c6a4f	False		0
+7c545c45d9	s722	60906	False		0
+7c5de2ecf3	s964	2f415	True	7c5de2ecf3	1
+7c9f805f66	s887	d1b3d	False		0
+7ca5615bfd	s933	5c543	False		0
+7caf4dcd72	s581	1db0f	False		0
+7cb3294bd6	s966	c094f	True	7cb3294bd6	2
+7cc011635c	s967	0bd84	False		0
+7cce4193b0	s666	25717	False		0
+7ce2325d5c	s408	5b471	False		0
+7ce5635c29	s260	d7f61	False		0
+7ce9af46de	s529	655f4	False		0
+7d14c96339	s540	309ce	False		0
+7d377a4b88	s563	55ab9	False		0
+7d57ce328b	s968	d2f72	False		0
+7d6d75adb4	s969	d7784	False		0
+7d7990452a	s530	9094b	False		0
+7d79cbfd8a	s667	646e1	False		0
+7daf3b7b79	s970	85ebd	False		0
+7dedb460fc	s971	7ab05	False		0
+7e048ffeda	s934	32337	False		0
+7e2264678c	s973	0224d	False		0
+7e8dc9dc21	s761	e42fe	False		0
+7ea5738a7c	s699	a6493	False		0
+7eb14ba3c1	s974	9a1ed	False		0
+7eb9c31a9f	s975	715da	False		0
+7ed2b0100a	s158	33901	False		0
+7ed5862ae9	s557	ab81c	False		0
+7edee93f5a	s597	2d52b	False		0
+7f24f4a296	s888	7ba10	False		0
+7f27d7524e	s168	3fa09	False		0
+7f45bd659f	s976	409ee	False		0
+7f59fb3b5b	s270	b136f	False		0
+7fa5681c82	s152	d7784	False		0
+7fb95ad1d8	s979	70278	False		0
+7fd59821b6	s980	09537	False		0
+7fd911d1f0	s981	ee9b8	False		0
+806ffcf300	s982	dc5ef	False		0
+8086cd518e	s984	96564	False		0
+809c567473	s985	5a4cf	False		0
+80a4b5ce15	s986	b9dc2	False		0
+80b4838d7f	s307	357e6	False		0
+811e5ae3c3	s987	ad58a	False		0
+815281935b	s635	655f4	False		0
+81a7d0582b	s989	73ec9	False		0
+81bd6fa331	s990	d1c44	False		0
+81f99757fe	s991	45feb	False		0
+8200f4b738	s184	ac562	False		0
+820837f691	s224	0e86b	False		0
+820f1b4042	s992	45f15	False		0
+82455155b1	s480	a7d05	False		0
+824e3a6f20	s142	5556c	False		0
+8257d380c2	s993	9d5b3	True	8257d380c2	1
+8278ec41d5	s994	44e28	False		0
+82865d4155	s995	d4fa9	False		0
+82e85061a6	s996	4f3cd	True	82e85061a6	1
+82ea3aaecc	s769	44e28	True	82ea3aaecc	3
+82f93b1fe1	s997	89f4f	False		0
+82fcea446c	s998	3d027	False		0
+832e012bc9	s999	0b586	False		0
+83355277eb	s249	8f885	False		0
+835916caaf	s1000	4f068	False		0
+83726d39c4	s979	8e991	True	83726d39c4	2
+83927fee04	s1001	f40d9	False		0
+8393e62f5a	s1002	f0169	False		0
+83b3f648d9	s1003	2bc1e	False		0
+84364a5c9b	s387	a0028	False		0
+843f287075	s1004	bced5	False		0
+847769b05b	s267	78366	False		0
+8482f97c2b	s30	bced5	False		0
+8492d73c9e	s131	64af4	False		0
+84b842f634	s980	d4fa9	False		0
+854da16e80	s1005	23e9b	True	854da16e80	1
+85595e113f	s714	bced5	False		0
+856d1c87d0	s984	46a48	False		0
+858e36d801	s998	51515	False		0
+859cced906	s1006	25717	False		0
+85a1704539	s1007	bfb80	False		0
+85a1a40bcb	s214	95423	False		0
+85a41b0bc3	s536	b7163	True	85a41b0bc3	2
+85a81845ea	s1008	ac581	False		0
+85b139b19a	s244	9e6d1	False		0
+85b4f4838a	s519	be173	True	85b4f4838a	2
+85cda1e001	s844	52dbc	True	85cda1e001	1
+85cff3af04	s511	3386d	False		0
+8607105618	s1009	d0123	False		0
+86131dfe2f	s1010	d316f	False		0
+862b9b5455	s271	2d52b	False		0
+863e799185	s1011	ce989	False		0
+865cdefea3	s855	ed3e5	True	865cdefea3	1
+867cc27d19	s36	7f4b1	False		0
+868393a6da	s1013	6dcd3	False		0
+86932b57ef	s857	8af52	False		0
+869f3c7bc4	s734	a6a62	False		0
+86a1124975	s14	03500	True	86a1124975	1
+87779a7121	s591	be485	False		0
+87a1ef90fc	s349	51515	False		0
+87cba7d316	s979	40953	False		0
+880fa054f1	s694	a3a6a	False		0
+8815647ad7	s919	7ab05	False		0
+8818e63c0b	s1015	7d7d0	False		0
+8837c71ce4	s110	e0b70	False		0
+883fc49206	s419	ea3c6	False		0
+884d643d76	s495	cc423	False		0
+88a7b8e80d	s605	d2f72	False		0
+88ad2f331b	s1018	a6a62	False		0
+88ba6b1e18	s103	1db0f	False		0
+88bd32997d	s748	3062b	False		0
+89109cbf54	s643	ed3e5	True	89109cbf54	1
+8924eb138b	s549	d2f72	False		0
+89391a770c	s1019	cf582	False		0
+893d5411e9	s1020	41947	False		0
+899e3736a3	s362	0bd84	False		0
+89c1b9de69	s958	6064f	False		0
+89c628a15a	s810	237ce	True	89c628a15a	2
+89c856e6fe	s1022	21138	False		0
+8a116121e6	s1024	64af4	False		0
+8a132faca0	s1025	03500	False		0
+8a1b4d0daa	s853	c04d5	False		0
+8a37b27297	s976	462e8	True	8a37b27297	1
+8a3a06ef98	s1026	409ee	False		0
+8a5f5817c7	s361	c696a	False		0
+8aa84c74f9	s17	bafa0	False		0
+8aafe1931a	s722	96564	True	8aafe1931a	2
+8ad532f177	s1028	21138	True	8ad532f177	2
+8aef84ba33	s892	41947	False		0
+8b159496f6	s779	290a8	False		0
+8b1bba6c7a	s144	0e1e0	False		0
+8b3027283f	s832	2e800	True	8b3027283f	1
+8b3b27a2c5	s1029	45f15	False		0
+8b462c518d	s733	0eea5	False		0
+8b6424ba64	s555	c04d5	False		0
+8ba2e830e4	s497	4b05c	False		0
+8ba3a5fe71	s638	a7c07	False		0
+8bbf88975f	s225	ea3c6	False		0
+8bc5ef4e35	s206	81570	True	8bc5ef4e35	2
+8bd1c6883d	s641	85ebd	True	8bd1c6883d	1
+8bdac247b2	s165	44e28	False		0
+8bde845468	s1032	32337	False		0
+8bde8805dd	s180	dd43a	False		0
+8be97c8292	s243	5556c	False		0
+8bf6dd7dfe	s524	3bfb3	False		0
+8c20c8ec50	s794	3a747	True	8c20c8ec50	2
+8c2dda23fd	s240	2b212	False		0
+8c5ecd8d65	s623	0e86b	True	8c5ecd8d65	1
+8c6130a5ef	s525	6b5e6	False		0
+8c6247eae2	s572	45f15	False		0
+8c858869e7	s21	ddb8f	True	8c858869e7	3
+8cdcfde9ad	s1034	ad58a	True	8cdcfde9ad	1
+8cf669e510	s883	10824	True	8cf669e510	1
+8cfa97d749	s134	0b586	False		0
+8d231e67b5	s886	5556c	False		0
+8d2558d118	s743	937dc	True	8d2558d118	2
+8d3c0691e0	s576	8e991	False		0
+8d40aad5c9	s1035	1afa7	False		0
+8d429724ac	s1036	09ecc	True	8d429724ac	1
+8d503cec7a	s985	b796c	True	8d503cec7a	2
+8dc231b011	s884	ab81c	False		0
+8de6d39b47	s1037	0a38f	True	8de6d39b47	1
+8df306e328	s1038	30026	False		0
+8dffeedcb2	s956	dabc0	False		0
+8e0a6ac152	s389	b6ca9	False		0
+8e169f57c6	s873	4b1d7	True	8e169f57c6	1
+8e3a5112d8	s1039	52dbc	True	8e3a5112d8	1
+8e4e30b9c9	s1040	8b8a4	False		0
+8e787edcf6	s539	a7c07	False		0
+8e7fc0966d	s1041	2bc1e	False		0
+8ec585200a	s835	85ebd	False		0
+8edc3a84c9	s1042	6dcd3	False		0
+8ee47ed90c	s869	f9391	False		0
+8f0220ab9f	s592	89130	False		0
+8f19bb22ef	s1043	a13a8	False		0
+8f28c8bfaa	s1044	a624d	False		0
+8f4013afa1	s1045	936a6	True	8f4013afa1	1
+8fa2acc978	s1046	cb1fe	False		0
+8fb52efe08	s1047	44e28	False		0
+90318c9ab7	s246	f32c3	True	90318c9ab7	1
+905957ec6f	s548	fea0e	False		0
+905d4ed59f	s761	252fd	False		0
+9079893d24	s1048	e8ec1	False		0
+908b173fc5	s1049	45feb	False		0
+9099cbbee1	s916	d71b2	False		0
+90a851ff50	s148	349a2	False		0
+90d127f399	s1040	b7163	False		0
+90d31fd247	s812	c6a4f	False		0
+90e08f7106	s517	6fa50	False		0
+90f9263441	s778	7710d	False		0
+9111586f11	s368	40a63	True	9111586f11	1
+91c96f2db8	s1051	d4fa9	False		0
+91ec4d91ba	s971	237d4	False		0
+91ecebcea4	s1052	1575e	False		0
+921930d5aa	s382	e9148	False		0
+921a621ad1	s123	ba1f0	True	921a621ad1	1
+92263aba52	s383	880bc	False		0
+9248c37502	s1056	e8ec1	True	9248c37502	1
+924b199344	s1057	f40d9	False		0
+9251969c9e	s489	92637	False		0
+92995b9e4a	s1003	9a1ed	False		0
+92b075ea4c	s781	60906	False		0
+92cee0b2ad	s425	b136f	False		0
+92d1ca3636	s1058	156fe	False		0
+92e273dda8	s778	44e28	True	92e273dda8	2
+92f418d29a	s736	0bd84	True	92f418d29a	1
+934b7aa686	s416	8eb5c	False		0
+936a99ac98	s1059	4f3cd	True	936a99ac98	2
+937ff14aa7	s93	e9148	False		0
+9389eebc1f	s797	202fc	False		0
+93929dea86	s945	0e86b	True	93929dea86	1
+9397fcc9fb	s931	81570	True	9397fcc9fb	3
+93c0585fcb	s1010	12204	False		0
+93d16fea19	s324	be173	True	93d16fea19	2
+93d8cfc6e6	s966	d1c44	False		0
+9405cfbf73	s687	e61f1	True	9405cfbf73	2
+941659e9ef	s416	33901	False		0
+94191fe82a	s1061	70278	False		0
+941cb8c53e	s721	476be	False		0
+9424cdfbc5	s560	0622a	False		0
+944f7b6f07	s838	f2348	True	944f7b6f07	2
+94750ba02a	s542	d945d	False		0
+948b99e6e7	s267	c1691	True	948b99e6e7	4
+94bdde019b	s237	781ce	False		0
+94c7bf91ce	s938	f0098	False		0
+9501b751bf	s553	8af52	False		0
+952e2cf61e	s814	f0a29	False		0
+956029d511	s673	33901	False		0
+95b73ff450	s1038	ac581	False		0
+95c7031f2e	s242	54242	False		0
+95c9245a3d	s893	13abb	False		0
+95d6fd8065	s1063	ad58a	False		0
+95dbc6c824	s903	8eb5c	False		0
+96037b33bc	s741	43324	False		0
+960adbea79	s1064	e0b70	False		0
+965ebc78db	s53	be843	False		0
+966c7e0237	s591	abbea	True	966c7e0237	3
+967736298a	s1067	abbea	False		0
+969a721e80	s439	5b275	False		0
+96b23aafed	s603	4a724	False		0
+96b44d3652	s795	8e63d	True	96b44d3652	1
+96c4fa5911	s1068	32358	False		0
+96cbca8f9a	s657	e61f1	False		0
+96db5083b8	s498	0b370	True	96db5083b8	1
+971a0482ed	s1069	f2ef0	False		0
+97313eaef0	s716	237ce	False		0
+973182e71b	s1070	4b1d7	False		0
+9797f3b22b	s1015	2e800	False		0
+981414eb75	s984	c04d5	True	981414eb75	2
+981adeffee	s157	babec	False		0
+9827e9a52c	s1009	295d7	False		0
+98446c23db	s483	781ce	True	98446c23db	1
+9875f7af61	s1071	b3777	False		0
+98bd042452	s148	ed4c3	False		0
+98cbc31c10	s193	309ce	False		0
+98dee13baf	s1072	dc5ef	False		0
+98f7aadcb3	s593	95589	False		0
+9918e319d7	s494	b796c	False		0
+991ad1e7c7	s274	0bd84	False		0
+9928cab3ed	s718	41947	False		0
+9931dc6e19	s1073	0e86b	True	9931dc6e19	1
+9955f076c1	s56	6f51b	False		0
+996b366b75	s1075	a624d	True	996b366b75	2
+9991316751	s1076	96564	True	9991316751	1
+99c3627e68	s693	5556c	True	99c3627e68	1
+99fc4debe2	s997	a1577	True	99fc4debe2	2
+9a1e90fce4	s702	ea3c6	True	9a1e90fce4	2
+9a296baa3d	s922	f0098	False		0
+9a2c23b4fa	s52	d7784	False		0
+9a7a1b3793	s824	c6f6b	True	9a7a1b3793	1
+9a92f2d506	s602	44e28	False		0
+9aa1d7b63a	s153	60906	False		0
+9ab37e2471	s380	b796c	False		0
+9ab8ed1d44	s203	da449	False		0
+9aea021158	s185	58355	False		0
+9aea10adf3	s556	95589	True	9aea10adf3	1
+9b2d5a79f2	s668	8f885	False		0
+9b32db12a2	s1077	93c65	False		0
+9b7403b3c4	s928	ffa9f	False		0
+9ba4530ac9	s872	9094b	False		0
+9ba9ed2aac	s579	02b89	True	9ba9ed2aac	2
+9be680e29f	s691	284b7	False		0
+9c4f6317cf	s1078	81570	True	9c4f6317cf	1
+9c6434cf51	s800	ea3c6	False		0
+9c6c8421f1	s1079	6dcd3	False		0
+9c73eb3337	s449	d0123	False		0
+9c7935e162	s985	15cf5	False		0
+9c7ff45e43	s674	a7d05	False		0
+9c8ed9bb52	s968	a360d	False		0
+9c9e1f1bea	s435	c34c2	False		0
+9ca17847f2	s928	f5954	False		0
+9caacc29e8	s591	bac38	False		0
+9ce2f1d48a	s565	409ee	False		0
+9ce3dd3ebd	s934	0e1e0	False		0
+9cfdbd4887	s919	f2ef0	False		0
+9d3a30c2e9	s1034	40953	False		0
+9d5c965b19	s629	c5b76	True	9d5c965b19	2
+9d7f7a2cb3	s856	2fff2	False		0
+9dacd0b3e9	s828	bd2b2	False		0
+9dc5ec6ed1	s622	f0169	True	9dc5ec6ed1	1
+9de768db18	s294	f2348	True	9de768db18	2
+9df8dcde55	s1082	11528	False		0
+9e253832ba	s1083	96564	False		0
+9e2edd5630	s1084	f7f4f	False		0
+9e4019d14a	s768	e1e01	True	9e4019d14a	3
+9e5e1766a0	s1085	8f885	False		0
+9e7c75225b	s1086	a4315	False		0
+9e7f85a4b2	s379	cd0b3	True	9e7f85a4b2	1
+9ea5ffec8a	s401	bfb80	False		0
+9eaac0be86	s872	bced5	False		0
+9eb5181bf4	s1088	ea3c6	False		0
+9ef86ba70e	s768	78366	True	9ef86ba70e	3
+9efe5ee3aa	s202	babec	True	9efe5ee3aa	2
+9fbbace936	s601	34e56	False		0
+9fbec774da	s672	be843	False		0
+9fc1c379fb	s849	a1577	False		0
+9fd94d1178	s405	3d532	False		0
+9fdddc273e	s729	7424f	False		0
+9ff6bd3871	s889	1db0f	False		0
+a01b497e25	s1089	72f9d	False		0
+a045e693fa	s215	2a1cd	False		0
+a04e6163e5	s700	d94a9	False		0
+a086138ea4	s1005	574a5	False		0
+a08888e790	s915	c6f6b	False		0
+a0b073b6e5	s856	54c3a	False		0
+a0e681e45c	s1090	64af4	False		0
+a11e9f8c0b	s443	d71b2	False		0
+a1632c6357	s1091	c1691	True	a1632c6357	1
+a1659b475e	s81	09ecc	False		0
+a17938ea93	s291	1afa7	True	a17938ea93	1
+a17d4921b5	s1092	1afa7	False		0
+a1984bacc3	s1093	b3dda	False		0
+a1bab5a6b0	s496	f8790	True	a1bab5a6b0	3
+a1f21d38da	s520	e0b70	True	a1f21d38da	4
+a1fcd757f9	s226	4f3cd	False		0
+a20242acce	s15	190e9	True	a20242acce	1
+a2270b6ed4	s194	06105	True	a2270b6ed4	1
+a22ca3c9ee	s1095	13abb	False		0
+a22edd2180	s1096	295d7	True	a22edd2180	1
+a249f0f933	s682	4f068	False		0
+a290ddcb91	s600	dc245	False		0
+a2a0533d03	s905	cb1fe	False		0
+a3686c5de7	s928	2db87	True	a3686c5de7	3
+a376679124	s1097	21138	False		0
+a37b65efde	s1081	5b471	False		0
+a3d0018551	s1099	89130	True	a3d0018551	1
+a3fa291f0a	s1077	84afe	False		0
+a4115ce441	s949	2db87	False		0
+a438a56d55	s940	0766f	False		0
+a4408d194b	s871	c4922	False		0
+a48eb63cbd	s301	78366	False		0
+a495dd73bc	s558	a360d	False		0
+a4bbc92584	s783	1c3b9	False		0
+a4c6afeb7b	s763	dff99	False		0
+a4d3c28616	s1025	e5259	False		0
+a4dbd00872	s1100	bd2b2	True	a4dbd00872	1
+a4ef94992b	s864	190e9	False		0
+a4ef9bc4b5	s71	bfb80	True	a4ef9bc4b5	1
+a512c8f5c4	s336	72f9d	False		0
+a52ace5fa6	s1032	00349	True	a52ace5fa6	1
+a559b28538	s1019	d945d	True	a559b28538	3
+a5666b5e1a	s768	6f51b	False		0
+a58f4b1292	s517	2d52b	False		0
+a59323dbd9	s412	d945d	False		0
+a5984d4c99	s936	ff39f	False		0
+a5a4b3a681	s765	81570	False		0
+a5b884eb76	s341	c34c2	False		0
+a5b9ef6220	s848	e42fe	True	a5b9ef6220	1
+a5bd8d743b	s577	13abb	True	a5bd8d743b	3
+a5f480e9b3	s878	ed3e5	False		0
+a60dfc2818	s327	3dd78	False		0
+a6177eaac5	s554	c95d0	False		0
+a61b72f7ae	s524	f3f41	False		0
+a6258fa647	s1102	7f4b1	False		0
+a6393020cc	s170	0b586	True	a6393020cc	2
+a6b604b77f	s248	ed0c5	False		0
+a6c2ccf58e	s78	a3fac	False		0
+a6d3311576	s999	45f15	False		0
+a6ebf0bf36	s1100	d6ccd	False		0
+a6ec1cb673	s572	6996c	False		0
+a71125be90	s316	746ff	False		0
+a768c1b267	s943	4b127	False		0
+a787d2e3a5	s236	2a1cd	False		0
+a7957688f2	s62	c094f	False		0
+a7a0dd33c0	s1103	2f415	True	a7a0dd33c0	2
+a7c70a901b	s877	7f4b1	False		0
+a7c753b52f	s222	d7784	False		0
+a83a6ceda5	s1104	e6e7b	False		0
+a88300d501	s953	2a1cd	True	a88300d501	3
+a8a71fe1a8	s452	c696a	False		0
+a8bb42d27b	s959	d1b3d	False		0
+a8d4e43c70	s839	0184c	False		0
+a8d9625861	s406	b0095	False		0
+a9152b8477	s198	b9dc2	False		0
+a93764fc9d	s704	361fc	False		0
+a93c4f2a52	s531	2d52b	False		0
+a94eb1256a	s1054	bae1a	False		0
+a94f0023ae	s715	92637	False		0
+a95c3d40dd	s1106	55c20	False		0
+a971cf4066	s219	58355	False		0
+a9a234c3a1	s163	3e0de	False		0
+a9afa3cd2f	s1107	12204	False		0
+a9ba45eb45	s608	d2f72	True	a9ba45eb45	2
+a9bd6dbe6a	s808	fb100	True	a9bd6dbe6a	1
+a9d32eb3c0	s1108	225dc	True	a9d32eb3c0	3
+aa38c6902f	s681	1afa7	False		0
+aa5204b0fa	s310	409ee	False		0
+aa67e1a3e5	s388	156fe	False		0
+aa78881108	s898	760be	True	aa78881108	2
+aa8066eb88	s410	3fcd4	False		0
+aa856278a1	s1109	6e111	False		0
+ab0a254f38	s1079	4801b	True	ab0a254f38	2
+ab5aef4d6a	s1111	fe011	False		0
+ab663994f8	s1112	45feb	False		0
+ab7d550d1d	s1008	10824	False		0
+ab86fa1038	s546	c26ed	False		0
+ac06ef2d34	s280	8e63d	False		0
+ac15c65aab	s706	dc5ef	False		0
+ac2a21f579	s1113	501f8	False		0
+ac503eb90f	s447	a9c56	False		0
+ac9546b575	s798	ac562	False		0
+acaa64d4dd	s1004	92637	False		0
+acbbddb1ce	s920	d6ccd	False		0
+acc51d5996	s1114	89130	False		0
+acc590eeff	s875	0184c	False		0
+acdafec097	s1108	7ba10	False		0
+ad139e27b7	s289	936a6	False		0
+ad207b2da9	s933	54c3a	False		0
+ad2358fe4f	s177	34e38	False		0
+ad3e67bc9e	s1088	f200a	True	ad3e67bc9e	1
+ad3f4e47c1	s720	d316f	True	ad3f4e47c1	2
+ad74147633	s323	a3d94	False		0
+ad7bae64c0	s1117	dc5ef	False		0
+ad7e393249	s213	1afa7	False		0
+ad9ae046aa	s657	05d76	False		0
+adcb6b4639	s804	c8784	False		0
+add7e81373	s431	f0169	False		0
+adf18688f5	s597	bced5	False		0
+ae5368cb2b	s821	8af52	False		0
+ae7a4f7c93	s342	fb100	False		0
+ae8ce7fa65	s992	1afa7	False		0
+ae98ede9cb	s1118	2d52b	False		0
+aecb36a6f9	s529	1afa7	False		0
+aeccc20975	s12	89130	False		0
+aeffb1f2a8	s924	85aeb	True	aeffb1f2a8	2
+af1b8a7658	s1052	23e9b	False		0
+af22e4e1c4	s85	43121	True	af22e4e1c4	3
+af49ab835c	s1102	9a1ed	False		0
+af99d0343a	s104	21459	False		0
+afbae29efb	s684	9094b	False		0
+aff1e40195	s424	f9563	False		0
+affeb4f722	s459	6996c	False		0
+b00818bb73	s282	b1a64	True	b00818bb73	3
+b01419ff77	s926	f7f4f	False		0
+b040d2259b	s815	0c839	False		0
+b04143a81a	s347	c6f6b	False		0
+b0417cffbe	s1120	d1c44	False		0
+b072cb3100	s1121	89130	False		0
+b079e920a6	s1108	c094f	False		0
+b095853d40	s960	ed3e5	True	b095853d40	1
+b0a82094e2	s1122	d7784	False		0
+b0adb212a9	s49	babec	False		0
+b12835dd55	s524	c1c21	False		0
+b128a037d2	s803	3dd78	False		0
+b143be5f0c	s952	78366	False		0
+b14eaf9a37	s1124	c1715	False		0
+b1696b7008	s134	cb1fe	False		0
+b16cd1049d	s770	0e375	True	b16cd1049d	1
+b187f04124	s790	9e6d1	False		0
+b199af1222	s1002	d1c44	True	b199af1222	2
+b1c0d3c338	s677	c1c21	False		0
+b1c6182f0b	s1023	8f885	False		0
+b1d262173e	s1125	91403	False		0
+b1f0e6f1b1	s701	c6a4f	True	b1f0e6f1b1	3
+b23e9d11c1	s130	0bd84	False		0
+b241902072	s983	e6e7b	False		0
+b2908f055f	s933	84afe	False		0
+b29950006d	s963	5b471	False		0
+b29ac7f398	s717	1a1f3	False		0
+b29ec42358	s1126	252fd	False		0
+b2b4809603	s497	f3204	False		0
+b2dc6943fb	s683	2f415	False		0
+b30ba926e8	s895	f12ba	True	b30ba926e8	1
+b3268b6f77	s912	663e8	False		0
+b338e47d88	s947	55ab9	False		0
+b375eaa0ca	s638	880bc	False		0
+b39a15884b	s89	02b89	False		0
+b3a0acf461	s25	45f15	False		0
+b3e9582b49	s1127	409ee	False		0
+b434967555	s938	7ab05	False		0
+b435b2bbec	s525	880bc	False		0
+b4432989af	s935	7f4b1	False		0
+b455f4f3d7	s1128	5b471	False		0
+b45ec970c2	s255	7ba10	False		0
+b4791de9ab	s909	a6a62	True	b4791de9ab	1
+b48a8ec5b3	s1129	655f4	False		0
+b4a2a3914b	s1130	156fe	True	b4a2a3914b	1
+b4a4eb3d79	s87	a3d94	False		0
+b4c1d7b22f	s1132	25717	False		0
+b4c8bc3078	s19	a6493	True	b4c8bc3078	2
+b4e1ab67b5	s61	29f4f	True	b4e1ab67b5	1
+b4e575a739	s371	f2ef0	False		0
+b4fa1a1c1f	s202	60ae5	True	b4fa1a1c1f	2
+b5067ef228	s953	227d7	False		0
+b51065ce77	s1133	6e92f	False		0
+b55f0aa889	s1134	12204	False		0
+b571d4e1c5	s564	72f9d	False		0
+b57d3eb3c1	s520	9d5b3	False		0
+b5a2d29a10	s34	c8784	False		0
+b5f8ef2f06	s872	f200a	False		0
+b671c20f01	s74	03500	False		0
+b673e552ee	s286	a624d	False		0
+b6885a5845	s404	05d76	False		0
+b69faeed9f	s715	9094b	False		0
+b6bcfba064	s1135	c34c2	False		0
+b6be7b7ea7	s244	361fc	True	b6be7b7ea7	3
+b6bf671a02	s179	95997	False		0
+b6cff1d6b4	s1136	4f3cd	False		0
+b6f9de81bf	s746	cc423	False		0
+b71d4e153f	s442	2bc1e	True	b71d4e153f	1
+b73a5f6fa1	s1069	02b89	False		0
+b73d64eefb	s816	7d7d0	True	b73d64eefb	1
+b7521fcac0	s516	41947	False		0
+b76b686515	s550	72b54	True	b76b686515	1
+b7780c3466	s1137	fe361	False		0
+b77e863415	s1138	fd8a1	False		0
+b793863d97	s671	b1a64	True	b793863d97	1
+b7aa91eded	s1139	dd6f8	False		0
+b7f59fcf81	s1121	206b6	False		0
+b804764153	s720	f200a	False		0
+b80ad7c554	s467	4f3cd	False		0
+b87ff011df	s931	89130	False		0
+b8a423b457	s371	271cb	False		0
+b8aec909e2	s106	3f57d	False		0
+b8b47eb6da	s1008	3139c	False		0
+b8bb97b214	s24	5b275	False		0
+b8bf0091db	s719	89130	False		0
+b90fd618a6	s242	f2348	False		0
+b947f21d8e	s220	1afa7	True	b947f21d8e	1
+b96f20c5d8	s1128	016b5	True	b96f20c5d8	2
+b986fcee87	s414	03500	False		0
+b9b738cac8	s594	1afa7	False		0
+b9b762c855	s989	2a845	False		0
+ba0b8ae766	s417	b9dc2	False		0
+ba2c9f7add	s507	ee9b8	False		0
+ba341f3157	s463	3d532	False		0
+ba3b740a31	s1140	ee3d2	False		0
+ba3c223a2d	s470	bc55f	False		0
+ba91e27a77	s625	09537	True	ba91e27a77	1
+ba92e8e062	s536	92637	False		0
+baa984ad91	s1037	d9b9c	False		0
+bae20a8913	s1142	12204	False		0
+bb04d77f51	s258	912d1	False		0
+bb386daf5e	s946	8eb5c	False		0
+bb5752c4d9	s305	84afe	False		0
+bb63dcbba7	s1143	b8a97	True	bb63dcbba7	1
+bb65765f1c	s636	37790	False		0
+bb8718354e	s809	937dc	False		0
+bbc4217b23	s951	4f3cd	False		0
+bbe7a30b20	s1145	ac562	True	bbe7a30b20	1
+bc1cdee45c	s399	41947	False		0
+bc20b715db	s964	d1c44	True	bc20b715db	1
+bc7718e5c0	s433	ccf7a	True	bc7718e5c0	1
+bc79957290	s113	54242	True	bc79957290	1
+bc95e49c33	s514	1afa7	True	bc95e49c33	1
+bc9e065771	s183	f2ef0	False		0
+bd1d5cef24	s724	00349	False		0
+bd3f8a3e2f	s1146	dabc0	False		0
+bd4d9245b1	s738	3be3a	False		0
+bd5654ed2b	s371	4b1d7	False		0
+bd7ed53203	s708	c04d5	False		0
+bd8e22f20b	s630	32358	False		0
+bd9655439a	s982	7710d	False		0
+bda8e31231	s1147	ac562	False		0
+be16d1caa3	s711	a6493	False		0
+be2a012002	s1086	eae99	False		0
+be372221be	s383	2bdfd	False		0
+be8f8abda9	s735	4f3cd	False		0
+beb3f5e294	s601	09ecc	True	beb3f5e294	2
+bec23f92c4	s1006	1db0f	False		0
+beeb18f366	s1068	c34c2	False		0
+bef8599035	s461	f3f41	False		0
+befb959f9c	s400	466d8	False		0
+bf07f73862	s733	37790	False		0
+bf48c9277e	s584	7db06	False		0
+bf4be441aa	s1148	4b1be	False		0
+bf7991a708	s1149	a360d	False		0
+bfdc9f63ba	s797	252fd	True	bfdc9f63ba	2
+bff46488d9	s1091	ed4c3	False		0
+bff4994e3c	s950	a08e7	False		0
+bff8d37c64	s1036	0766f	False		0
+bfffb31a62	s1011	30026	False		0
+c00a7578e0	s1150	6dcd3	False		0
+c027a7a82e	s818	3d532	True	c027a7a82e	1
+c0329f2445	s515	92637	False		0
+c0355c8533	s175	bae1a	False		0
+c05196516e	s541	b6ca9	True	c05196516e	2
+c055ace992	s284	6f51b	True	c055ace992	2
+c06b9f7c76	s931	b3dda	False		0
+c0cab096f1	s424	3489d	False		0
+c0d1e730a8	s1151	ae3ff	False		0
+c0dd334f57	s278	f3efc	False		0
+c0e7a5f970	s121	ec9a8	False		0
+c133b61500	s465	2e800	False		0
+c167ab494b	s340	3f57d	False		0
+c16d683159	s1152	3d027	False		0
+c1873bd2eb	s432	ce989	False		0
+c188a09e38	s82	3fa09	True	c188a09e38	2
+c18a4aed66	s696	f3efc	False		0
+c1c519b4e7	s932	88c80	False		0
+c1cd42a4d0	s746	b7163	True	c1cd42a4d0	2
+c1d1e0cfbd	s1021	72f9d	False		0
+c1d38b158b	s1010	9094b	False		0
+c2239af800	s85	357e6	False		0
+c22496b86b	s523	2e076	False		0
+c225569554	s733	33901	True	c225569554	3
+c24b44907f	s1153	6064f	False		0
+c25b50034d	s1139	f40d9	True	c25b50034d	2
+c25f6bdf8f	s790	4a724	False		0
+c27361e981	s1085	b1a64	False		0
+c281d7063b	s492	ccf7a	False		0
+c28b5709dc	s995	2d52b	False		0
+c2a83a9e47	s645	019ba	False		0
+c2ad4bc7cd	s1065	225dc	False		0
+c2ae69ccac	s934	d1c44	False		0
+c2afb4b833	s609	f2ef0	True	c2afb4b833	1
+c2b693535e	s1154	60ae5	False		0
+c2c0937b17	s1155	5a4cf	True	c2c0937b17	1
+c2c4352d9d	s228	53c73	False		0
+c2cbf4383c	s820	5c543	True	c2cbf4383c	2
+c2d531a53c	s80	346c1	False		0
+c2d793519f	s1134	4b1d7	False		0
+c2dde5d8f5	s1084	da449	True	c2dde5d8f5	2
+c327ac2aa1	s734	c34c2	False		0
+c32f17c6f6	s1093	6dcd3	True	c32f17c6f6	2
+c3314f809a	s784	0c839	False		0
+c3ab7856dc	s1063	da449	True	c3ab7856dc	1
+c3efdc43b9	s215	89f4f	False		0
+c4142f233f	s585	ac581	False		0
+c41a3c8c5f	s620	9094b	False		0
+c41ceef9e5	s929	8eb5c	False		0
+c42d1b6c0e	s901	e9dcb	True	c42d1b6c0e	1
+c42dac08ae	s628	0b586	True	c42dac08ae	2
+c4995388f0	s396	b8a97	False		0
+c4bbe3fdc7	s1061	45feb	False		0
+c51fbd431d	s1041	5dec9	False		0
+c5220fbe72	s882	b136f	False		0
+c53cdfa15e	s1106	e9dcb	True	c53cdfa15e	3
+c54babcd1e	s771	b3777	False		0
+c55c9555bf	s1038	3d027	True	c55c9555bf	3
+c56d144a44	s381	3fa09	False		0
+c578595767	s1158	778ef	False		0
+c57f22ab73	s728	8b124	False		0
+c58cb30e64	s286	00349	False		0
+c5c0151875	s799	156fe	False		0
+c5dd190902	s1127	be485	False		0
+c5eb2e0ce9	s163	a7b6a	False		0
+c5ebab44fa	s1020	2bc1e	False		0
+c6019fdcee	s325	3d027	True	c6019fdcee	1
+c6129c5767	s1103	03500	True	c6129c5767	2
+c63ef7eb67	s707	f2348	False		0
+c6864e4d72	s737	4f3cd	False		0
+c693c5fbf0	s991	476be	False		0
+c6a2968b8f	s774	b8a97	False		0
+c6c3bde50b	s72	8eb5c	False		0
+c6d13b590f	s771	8b8a4	False		0
+c6f1aa9fc1	s631	85ebd	False		0
+c6faca1300	s1050	d7784	False		0
+c77101da08	s331	6996c	False		0
+c7cf3d778c	s613	be485	False		0
+c7d13e6e4b	s987	0e1e0	False		0
+c7d528827c	s908	a624d	False		0
+c80c430df9	s1117	abbea	False		0
+c8120c2522	s64	d52f0	False		0
+c8274afff7	s732	a08e7	False		0
+c85c95856a	s911	b3777	True	c85c95856a	1
+c8678a85aa	s1131	8af08	False		0
+c89e783f4e	s1017	1db0f	False		0
+c8b5ca8337	s526	89130	False		0
+c8c5c4b8f0	s787	d23af	True	c8c5c4b8f0	1
+c93bcc2815	s377	be485	False		0
+c9ad0253d3	s972	be485	False		0
+ca39253c5b	s757	abbea	False		0
+ca3b2f23fe	s110	1db0f	False		0
+ca4c97c555	s775	3062b	False		0
+ca5242eec5	s530	b1a64	False		0
+ca53f5b931	s1161	338ff	False		0
+ca549a073b	s837	d945d	False		0
+ca5bc72734	s1027	0bd84	False		0
+ca74e732c3	s16	409ee	False		0
+cac6f3163f	s126	03500	False		0
+caeae1a5d7	s418	0b370	False		0
+caeb90fb76	s1075	f0b2e	False		0
+cb02000aa7	s361	4b127	False		0
+cb099de2ab	s1000	d52f0	True	cb099de2ab	1
+cb10442341	s1162	349a2	True	cb10442341	1
+cb1c5e2308	s974	6996c	False		0
+cb5f609236	s255	3e0de	False		0
+cb612da664	s1145	c6a4f	True	cb612da664	1
+cb695b0b3f	s829	760be	False		0
+cb6d46e1a1	s172	7ec98	False		0
+cb76ad9864	s744	4b1d7	False		0
+cb7b778fde	s160	fe361	True	cb7b778fde	2
+cba7e2417f	s1047	7ba10	False		0
+cbd53d07e4	s39	93c65	False		0
+cbe10c8b90	s1163	45feb	False		0
+cbfa9655a1	s135	3489d	False		0
+cc15946175	s284	f0169	False		0
+cc2120b0cc	s1164	72337	False		0
+cc31d2e20b	s694	8957e	False		0
+cc49864b81	s511	7424f	True	cc49864b81	2
+cc50e7cccc	s899	6f51b	False		0
+cc8bbfac34	s203	30661	False		0
+cc9fb85279	s1101	ddb8f	False		0
+ccc3af53f5	s881	65469	True	ccc3af53f5	4
+cd0d71ff4f	s209	8af52	True	cd0d71ff4f	4
+cd119b3115	s1009	c094f	False		0
+cd3d6a9876	s1115	fb100	False		0
+cd44045c6d	s962	e6e7b	False		0
+cd47af6f36	s953	f8790	False		0
+cd4ab09481	s1131	b796c	False		0
+cd9525cb51	s977	1db0f	False		0
+cdaf19a935	s930	e5259	False		0
+cdee09fefa	s318	ed3e5	False		0
+ce18bc16b6	s1136	5dec9	False		0
+ce1c1a22bb	s41	78366	False		0
+ce1e416d6f	s1066	da449	False		0
+ce5ad3f051	s1167	87c4c	True	ce5ad3f051	1
+ce815641d5	s1090	760be	False		0
+ceb94a8808	s191	9e6d1	False		0
+cec625282f	s669	55ab9	True	cec625282f	1
+cecf803c9a	s366	73ec9	False		0
+ced2ce6962	s171	96564	False		0
+cee6c9e5d8	s258	3a747	True	cee6c9e5d8	3
+cf074b64f6	s762	44978	False		0
+cf2d81144c	s661	55ab9	False		0
+cf6369ee8b	s551	92649	False		0
+cf6bc6f75b	s1151	37790	True	cf6bc6f75b	1
+cf7d347494	s1169	73ec9	False		0
+cf81acdd79	s1170	3d532	False		0
+cf8899db08	s713	ee3d2	False		0
+cf92630fad	s826	89130	False		0
+cf9beda31e	s807	52dbc	False		0
+cfba00766b	s788	e8ec1	False		0
+cfd6dc99e1	s809	655f4	False		0
+d0086370d3	s534	f2348	False		0
+d008778ef9	s745	295d7	False		0
+d015e1ca66	s1171	5b275	True	d015e1ca66	1
+d033845dce	s304	0b370	False		0
+d042f81e3a	s774	b9679	True	d042f81e3a	2
+d06f3814b6	s402	646e1	False		0
+d07336ccdd	s1169	5556c	False		0
+d080f2c8d0	s254	3eb66	True	d080f2c8d0	1
+d0871e3efd	s1046	2a845	True	d0871e3efd	1
+d09cc2e60a	s621	f2931	False		0
+d0c718de14	s850	e3ad7	False		0
+d107243cce	s6	781ce	False		0
+d12669f5af	s700	2e076	True	d12669f5af	2
+d134e1ca23	s1167	89f4f	False		0
+d139d7fea0	s1043	284b7	True	d139d7fea0	1
+d150e15b77	s699	3fcd4	False		0
+d15c2a8475	s174	e61f1	False		0
+d173035176	s356	d9b9c	False		0
+d1793d12a1	s28	4f3cd	False		0
+d1c7e5de04	s1172	1c3b9	True	d1c7e5de04	1
+d1e3d5c42f	s1047	2a1cd	False		0
+d1e7a0d862	s412	8e991	False		0
+d1f0e202f7	s1059	d7784	True	d1f0e202f7	2
+d20791a080	s1168	0eade	False		0
+d2261a3aae	s34	a7d05	True	d2261a3aae	2
+d2542fd7a1	s742	c1691	False		0
+d25a7ddb26	s779	ac562	False		0
+d285d1d5de	s1173	a7d05	True	d285d1d5de	1
+d2a47a9396	s776	c1c21	False		0
+d2afd0b861	s868	59778	False		0
+d2bb5ad98e	s213	23e9e	False		0
+d2c8cecc3a	s752	2db87	False		0
+d2d1c152bd	s846	e9148	False		0
+d3061305b0	s132	0e86b	False		0
+d30781d06f	s267	d23af	False		0
+d3142278bc	s841	0c839	False		0
+d3179fdecd	s1013	81570	False		0
+d377d73aa9	s359	4b215	False		0
+d395f9dc92	s112	c1691	False		0
+d39be55a38	s128	466d8	False		0
+d3a31aab24	s468	34e11	False		0
+d3dc30a548	s369	225dc	False		0
+d3e26352cc	s1031	95997	False		0
+d3ef30806b	s197	f2348	False		0
+d3f9337cdb	s812	72f9d	False		0
+d40b5e447d	s595	c094f	False		0
+d41c0dc0c1	s617	ba1f0	False		0
+d426b6059e	s607	8827b	False		0
+d43a5125cc	s1108	55c20	False		0
+d440b00a65	s993	db538	False		0
+d46744c4b6	s1149	2bc1e	False		0
+d468ba1330	s205	0b586	True	d468ba1330	1
+d48189e849	s102	655f4	True	d48189e849	4
+d4dfcf83a1	s439	e6e7b	True	d4dfcf83a1	4
+d4ff96de49	s1165	2b212	False		0
+d55dd6def5	s619	60ae5	False		0
+d56259d479	s266	34e11	True	d56259d479	2
+d58547f865	s988	ac562	False		0
+d58a93e7df	s42	dabc0	False		0
+d5a8f73daf	s103	b3dda	False		0
+d5c48742fc	s35	ee3d2	False		0
+d5d0be5bb2	s1025	dabc0	True	d5d0be5bb2	2
+d5e1054f9c	s996	c8454	False		0
+d602f6cdbb	s1144	b0095	False		0
+d61262496a	s718	58355	False		0
+d617424799	s881	09ecc	False		0
+d644dc03ff	s427	34e11	False		0
+d64efa69ff	s802	7f4b1	True	d64efa69ff	1
+d64fe218f9	s308	bae1a	False		0
+d662be93b1	s986	bc55f	False		0
+d669e19042	s1177	91403	False		0
+d672bd2376	s342	0e86b	False		0
+d6756e6e3c	s1178	f0a29	True	d6756e6e3c	2
+d67a2c9985	s519	d23af	False		0
+d6e18e17da	s1054	3489d	False		0
+d6f01a8a02	s1019	d52f0	False		0
+d6f1eee108	s335	df38e	False		0
+d71809c5a7	s1179	fb100	False		0
+d73becc2e8	s651	60906	False		0
+d779febef1	s831	93c65	True	d779febef1	1
+d7916cc07f	s699	45f15	True	d7916cc07f	5
+d7a6bf3605	s765	2e800	False		0
+d7a7e08d8f	s750	4b127	False		0
+d7ae558410	s1180	b3dda	False		0
+d7ba188261	s439	936a6	False		0
+d7ccfb431e	s367	a7c07	True	d7ccfb431e	1
+d8006afa3d	s99	9d5b3	False		0
+d800a2b5e8	s1173	46a48	False		0
+d80c8b28e4	s1181	babec	False		0
+d847067b93	s1073	a6a62	False		0
+d865e578e1	s137	9f1f5	False		0
+d884730ade	s760	781ce	False		0
+d8ab41b064	s765	d78dd	False		0
+d8bc865e09	s175	cd0b3	False		0
+d8d03b2922	s124	ddb8f	False		0
+d8d68420d5	s105	746ff	False		0
+d92526b791	s68	b9dc2	False		0
+d932d9564c	s517	34e38	True	d932d9564c	3
+d93d004ca3	s403	05d76	True	d93d004ca3	2
+d95524626d	s333	0bd84	True	d95524626d	2
+d963470659	s610	97d0a	False		0
+d9697324bc	s1182	dd43a	False		0
+d97bfad4fe	s218	237ce	False		0
+d98bea9b01	s1140	8f885	False		0
+d9c05a4e2e	s1152	349a2	True	d9c05a4e2e	1
+d9d369af92	s1150	2f415	False		0
+d9d507b05d	s865	f8790	False		0
+d9ec833367	s216	85aeb	False		0
+d9f08070ab	s1057	349a2	False		0
+da2789a023	s1095	8b8a4	False		0
+da2a3a95f5	s237	156fe	False		0
+da5025e7dd	s1183	0e1e0	False		0
+da5a7dc020	s357	d52f0	False		0
+da935b4a2d	s661	17bfd	False		0
+da97378fd0	s1026	34e11	False		0
+daeac24670	s1184	dabc0	False		0
+db51256a1d	s477	781ce	True	db51256a1d	3
+db59345198	s1185	45feb	True	db59345198	1
+db5db23818	s1186	d23af	False		0
+db65d6eb09	s282	e6e7b	True	db65d6eb09	3
+db8aa34e8e	s1022	a7c07	False		0
+db93138c0d	s786	23e9b	False		0
+db9bbecc71	s1028	3489d	False		0
+dbae22b1c5	s189	c6f6b	False		0
+dbf71516c3	s730	32358	False		0
+dc0489617e	s754	778ef	False		0
+dc2db6b0ac	s679	78366	False		0
+dc3b1b6d05	s391	0184c	False		0
+dc5178f95a	s699	d7784	False		0
+dc95e93eb5	s892	7d982	False		0
+dc9abf79b9	s1002	7374d	False		0
+dca8121ee7	s119	880bc	True	dca8121ee7	1
+dcbc0650f9	s217	a7c07	False		0
+dcc7b587b4	s1130	80862	False		0
+dcda6b1ea1	s941	a360d	False		0
+dce49b8da9	s151	d52f0	False		0
+dceec90836	s1053	476be	False		0
+dcf1cd329b	s1175	cb1fe	False		0
+dd010d46a5	s321	ae3ff	False		0
+dd08d11500	s1118	34e38	False		0
+dd219499ba	s1103	016b5	True	dd219499ba	2
+dd355b2171	s1142	fd786	True	dd355b2171	1
+dd36d0e8aa	s885	7ba10	True	dd36d0e8aa	2
+dd50f8614b	s817	37790	False		0
+dd6d89fd31	s970	7424f	False		0
+dd775dcc2b	s1059	5a4cf	False		0
+dd8eff3543	s330	356c8	False		0
+dd99039689	s108	00349	False		0
+ddb789dcbd	s538	456e2	False		0
+ddfe41219c	s1188	309ce	False		0
+de246114f3	s1092	646e1	False		0
+de35b1c826	s1029	e9148	True	de35b1c826	1
+de476de1be	s1107	03b7a	False		0
+de7117764f	s1189	d52f0	True	de7117764f	1
+de80d11450	s188	d7f61	False		0
+de8a3142db	s890	32337	True	de8a3142db	4
+de9dbe853b	s475	7424f	False		0
+dea2c0be21	s211	93c65	False		0
+dec9f6407a	s292	016b5	False		0
+ded05655cd	s9	646e1	True	ded05655cd	2
+df3bad6582	s1039	fea0e	False		0
+df5fc543c6	s1019	237ce	False		0
+df6ee2719b	s852	a3fac	False		0
+df756a6f55	s793	a3fac	False		0
+df89e28b3e	s604	349a2	False		0
+df8a72193d	s272	1913e	False		0
+dfeb90f862	s178	46a48	False		0
+e030eccb2d	s277	0766f	False		0
+e0601ce172	s313	1c3b9	False		0
+e079c4473c	s209	7ba10	True	e079c4473c	4
+e089ed0647	s321	b136f	True	e089ed0647	4
+e092bd491d	s753	ed3e5	False		0
+e0bc00cebd	s539	78366	False		0
+e0c2665098	s421	190e9	False		0
+e0c3c6678d	s1056	9094b	False		0
+e0cf223da8	s496	6054f	False		0
+e0d72a3be1	s957	10824	False		0
+e0df61b0c7	s652	880bc	False		0
+e1012e53c3	s948	5b471	True	e1012e53c3	1
+e10dcf5bfc	s702	abbea	False		0
+e13935af6a	s1185	284b7	False		0
+e140978081	s439	ee3d2	False		0
+e1492796e1	s1171	47746	False		0
+e18d65a5ec	s1121	0e375	False		0
+e1c7ddba50	s921	a6a62	False		0
+e1ef2bc589	s304	ea3c6	False		0
+e1f06228fc	s339	715da	False		0
+e1f48430d7	s161	781ce	False		0
+e1f6a96cdb	s444	e5fb8	True	e1f6a96cdb	2
+e21c716e35	s1051	f0098	False		0
+e2368879c0	s992	4f3cd	False		0
+e273b189b8	s312	2db87	False		0
+e283d2bd1f	s544	b9dc2	True	e283d2bd1f	1
+e28ebd4fb2	s520	34e11	False		0
+e29baaec79	s86	45f15	False		0
+e2aa8573a6	s540	c34c2	True	e2aa8573a6	4
+e2fa8db14c	s646	54242	False		0
+e2febc7869	s606	78366	True	e2febc7869	1
+e347a97222	s532	3f57d	False		0
+e35e154a11	s1191	ee3d2	False		0
+e35fa8648c	s1011	21138	True	e35fa8648c	2
+e381cef1c7	s162	b7510	True	e381cef1c7	1
+e386822269	s678	252fd	False		0
+e3d246d866	s796	e1e01	True	e3d246d866	1
+e40b3950ee	s191	357e6	False		0
+e4430a29bb	s102	93c65	False		0
+e446aabdc8	s580	3062b	False		0
+e457f7e1dc	s73	5b275	False		0
+e481dc0daa	s470	d52f0	True	e481dc0daa	2
+e4cf97a050	s822	456e2	True	e4cf97a050	1
+e4d0071df9	s466	ba1f0	False		0
+e4de4290dd	s966	52af9	False		0
+e4e74f560a	s1085	5b275	False		0
+e517455626	s1143	f8790	True	e517455626	1
+e52ccc4b4e	s444	c26e2	False		0
+e53ccb906d	s794	252fd	True	e53ccb906d	2
+e55021cc8e	s1177	2db87	False		0
+e55cc1dbdf	s1012	9e6d1	False		0
+e569931a9f	s598	df38e	False		0
+e580c67ea3	s413	95997	True	e580c67ea3	4
+e5b16fbc29	s841	0b370	False		0
+e5b2bd9d5d	s1166	3183b	False		0
+e5c462e061	s87	c5b76	False		0
+e5caac7613	s344	cb1fe	False		0
+e611e81157	s744	c1715	False		0
+e61f675fd2	s232	cd0b3	False		0
+e623e551a7	s356	ab81c	False		0
+e62d7ed93f	s727	40a63	False		0
+e676f5f178	s1106	c3bd0	False		0
+e67f9a3af9	s1030	2b212	False		0
+e6a8c67179	s890	37790	True	e6a8c67179	4
+e6ddaaaf77	s335	7d7d0	False		0
+e6ec035e86	s849	1db0f	False		0
+e6f3368848	s107	3e0de	False		0
+e707e2c25f	s1138	7ab05	True	e707e2c25f	2
+e70c7e1748	s1060	b1a64	False		0
+e71362fb12	s231	3489d	True	e71362fb12	3
+e73776043a	s1137	05d76	True	e73776043a	1
+e74d05043d	s149	0184c	True	e74d05043d	2
+e75477b6a2	s841	85aeb	False		0
+e79dd6f7d9	s900	7f4b1	True	e79dd6f7d9	1
+e7c8d515b8	s836	03500	False		0
+e7ed5db962	s485	d7f61	False		0
+e7f4230d80	s814	6996c	True	e7f4230d80	2
+e802862527	s1078	3be3a	False		0
+e83c80c42d	s1079	746ff	True	e83c80c42d	2
+e83fffad65	s99	65469	False		0
+e84247b23c	s1189	6e111	False		0
+e862d95804	s766	ac562	False		0
+e8806b4974	s501	d6d03	False		0
+e8b148c81d	s809	be173	False		0
+e8e70d3171	s540	fb100	True	e8e70d3171	4
+e8f22dce22	s43	a6a62	False		0
+e90b02b664	s1106	b3777	False		0
+e90c7d9043	s939	7424f	False		0
+e920b28b70	s788	e5fb8	False		0
+e925cdb446	s1193	81570	True	e925cdb446	2
+e94bc41ac1	s1188	4a724	True	e94bc41ac1	1
+e95f563954	s168	41947	False		0
+e96e302ef3	s182	f8790	False		0
+e974d68dac	s897	4b1d7	True	e974d68dac	1
+e97c9de93c	s304	dc5ef	False		0
+e98dedc78a	s739	a9c56	False		0
+e99c253c0e	s366	33901	False		0
+e9a4c6d3d4	s881	74475	False		0
+e9c7bae97f	s571	9a1ed	False		0
+e9ede678ab	s668	c2201	False		0
+ea47144856	s1139	b6ca9	False		0
+ea9dc072f0	s1006	6f51b	False		0
+ea9f449156	s494	05d76	False		0
+eaa5effc5d	s1123	2bc1e	False		0
+eab45a3ff2	s1099	95589	False		0
+eacc1a0fab	s87	b0095	False		0
+ead08d3b3a	s994	7ba10	False		0
+eb2db9157d	s1027	ea3c6	False		0
+eb399d9cbc	s116	b9dc2	False		0
+eb3f415a36	s345	c1691	False		0
+eb48b7ae82	s584	0eea5	True	eb48b7ae82	2
+eb6fe7909d	s1128	d7f61	False		0
+eb7f6dc0e6	s1123	0622a	False		0
+ebc849572d	s60	33901	False		0
+ebc90ab00f	s420	b6ca9	False		0
+ebfde6aad6	s1009	3f57d	True	ebfde6aad6	3
+ec000b19d5	s1170	d4fa9	False		0
+ec0dc46e28	s861	32358	True	ec0dc46e28	1
+ec12bf5f65	s789	4a53b	False		0
+ec1afe8b08	s1089	6e111	False		0
+ec305c13ad	s448	95997	False		0
+ec409dadb5	s663	09537	False		0
+ec6df7290a	s597	0622a	False		0
+eca5662f96	s523	06105	False		0
+ecb0b42433	s681	cb1fe	False		0
+ecca15b5ac	s906	3e0de	False		0
+ecf50bb27d	s664	c094f	True	ecf50bb27d	1
+ecf5717733	s676	0766f	False		0
+ed244a2496	s1163	85aeb	False		0
+ed26bda82f	s978	34e38	False		0
+ed329728bd	s10	d71b2	False		0
+ed39c79e44	s395	456e2	False		0
+ed5aa63e64	s1193	1ccf9	False		0
+ed5f4c5de1	s892	dff99	True	ed5f4c5de1	3
+ed67602fae	s1180	409ee	False		0
+ede8f11094	s585	5b471	True	ede8f11094	2
+ee00c8f489	s905	c094f	False		0
+ee0a2fabec	s582	b796c	False		0
+ee200b18d1	s743	60906	True	ee200b18d1	2
+ee21d1decf	s352	3eb66	False		0
+ee26b7fba3	s263	d6c85	False		0
+ee300eadf0	s479	d316f	False		0
+ee428ee006	s1160	3183b	False		0
+ee4acf3582	s656	d7f61	False		0
+ee7230fef7	s1172	bac38	False		0
+ee914bcfc0	s499	476be	False		0
+ee916e4f21	s1051	a7c07	False		0
+eed25da08c	s867	0184c	False		0
+eef65daa71	s320	37790	True	eef65daa71	2
+ef1fc66348	s647	c34c2	True	ef1fc66348	1
+ef2a8eb269	s1084	6064f	False		0
+ef37fdffb8	s1182	9d5b3	True	ef37fdffb8	1
+ef39ed3c7d	s577	ff3fa	False		0
+ef4ddfb96e	s1109	44e28	False		0
+ef4e6ed04d	s295	2a1cd	False		0
+ef6870dbef	s18	d6ab0	False		0
+ef9ce6973a	s1193	91589	False		0
+efce00abb7	s559	156fe	False		0
+f02af4723b	s365	dff99	False		0
+f06a637dda	s1050	5b275	False		0
+f06c59ac72	s593	40a63	False		0
+f06d0c776f	s1112	a08e7	True	f06d0c776f	1
+f0a29166ae	s1195	b7510	False		0
+f0afc5511b	s1157	17bfd	False		0
+f0c9670c7d	s701	e5fb8	False		0
+f0d6c8ec33	s469	3d532	False		0
+f11cff6aca	s19	b3777	True	f11cff6aca	2
+f123e1de6c	s1096	70278	True	f123e1de6c	1
+f174970275	s1062	72f9d	False		0
+f1888a3ac1	s907	016b5	False		0
+f18ef517e5	s412	ac562	False		0
+f1989ad253	s105	202fc	True	f1989ad253	2
+f1d4e437e8	s1015	bba51	False		0
+f1d65ed0ff	s1196	43121	False		0
+f1d770f204	s1197	b7163	True	f1d770f204	1
+f1dfeb6092	s1176	bba51	False		0
+f211c5b237	s283	ccf7a	False		0
+f25a0afa1d	s645	64af4	True	f25a0afa1d	3
+f26f3e1fea	s570	295d7	False		0
+f27a76764e	s695	715da	False		0
+f287e1d670	s1076	c5a59	True	f287e1d670	1
+f2ac98ff60	s640	0a2fe	False		0
+f2c3bbb615	s1196	4f3cd	False		0
+f2d76c3701	s981	1afa7	False		0
+f3044b8cde	s1191	016b5	False		0
+f313a539ff	s749	cc423	True	f313a539ff	1
+f31fec72e4	s1155	b7510	True	f31fec72e4	1
+f337564ace	s1161	37790	False		0
+f33dbc2d2a	s382	45feb	False		0
+f343cbc996	s253	f200a	True	f343cbc996	2
+f374f8061d	s810	284b7	True	f374f8061d	2
+f383cfbe37	s567	b8a97	False		0
+f3b5268d79	s1075	6b5e6	False		0
+f3b714efcb	s471	89f4f	False		0
+f3c53a9128	s648	781cf	False		0
+f3d9772165	s396	d1c44	False		0
+f3fd0099b1	s879	409ee	True	f3fd0099b1	1
+f4222c7ec3	s894	1575e	False		0
+f4239e7ed5	s838	476be	False		0
+f441db4090	s1179	09537	False		0
+f47479c242	s1198	1c3b9	False		0
+f475621088	s754	d4fa9	True	f475621088	2
+f48363583c	s767	10824	False		0
+f4b7cdbbe6	s1159	781ce	False		0
+f4c3d8c22c	s811	9094b	True	f4c3d8c22c	1
+f4f8685b9c	s579	11528	True	f4f8685b9c	2
+f50ad65ebc	s678	80862	False		0
+f52080c11e	s1045	13abb	True	f52080c11e	1
+f5244f29c7	s1110	5b471	False		0
+f538377451	s402	51515	False		0
+f53b9a8b56	s1024	f2348	False		0
+f53c069ce0	s1183	95997	False		0
+f56bd21fed	s1028	52dbc	False		0
+f5a4a3366a	s921	e1e01	False		0
+f5b51ecd7d	s1111	c4922	True	f5b51ecd7d	1
+f60616b294	s149	8c558	False		0
+f61433ded8	s280	2a845	True	f61433ded8	2
+f61e6fd41a	s1183	ce989	True	f61e6fd41a	2
+f6375f56c3	s1198	a08e7	False		0
+f64cb3e51c	s1158	11528	True	f64cb3e51c	1
+f670d4af99	s165	84afe	False		0
+f67655d7ac	s973	715da	False		0
+f68da68649	s1007	45feb	False		0
+f6a15d3d84	s758	284b7	False		0
+f6c97840d9	s510	1575e	False		0
+f718758cda	s659	7d7d0	False		0
+f72aefda5c	s257	3062b	True	f72aefda5c	1
+f73d0df89a	s577	f32c3	True	f73d0df89a	3
+f748646913	s1197	b9679	False		0
+f790088fa3	s385	25717	False		0
+f7aca039df	s1125	a3d94	True	f7aca039df	1
+f813d7fc2a	s1164	361fc	True	f813d7fc2a	1
+f81f4c052f	s146	8f885	False		0
+f8236dcad0	s961	64af4	True	f8236dcad0	1
+f8492171be	s30	b136f	True	f8492171be	3
+f8550c2bc1	s756	d7784	False		0
+f85e9dcae6	s1156	5c543	False		0
+f89d0e477d	s1064	29f4f	True	f89d0e477d	1
+f8ab5c9a13	s426	1d339	False		0
+f8b112b04a	s114	b0095	False		0
+f8ba1c956e	s1199	d2f72	False		0
+f8c932760f	s885	ccf7a	False		0
+f8f4cb90e0	s1178	3fa09	False		0
+f8fca5c17f	s375	4b1d7	False		0
+f90fa1c490	s784	b8a97	False		0
+f917d7717c	s997	89f4f	False		0
+f93acb04cc	s1008	ad58a	True	f93acb04cc	3
+f9b616d3ed	s1199	85ebd	False		0
+f9b8ae9ebb	s893	c1715	False		0
+fa1a60111f	s1181	be173	True	fa1a60111f	1
+fa26c2a58e	s919	284b7	False		0
+fa29738f15	s769	b06d1	False		0
+fa3d8d3faa	s477	92649	False		0
+fa40381f15	s918	dd6f8	False		0
+fa5871c161	s1018	7f4b1	False		0
+fa794af7e6	s1038	bae1a	True	fa794af7e6	3
+fab446cb55	s1086	5556c	True	fab446cb55	2
+facec4d758	s51	2bc1e	False		0
+fad33daa83	s1195	dff99	False		0
+fadb21e357	s1138	309ce	False		0
+fadfa59fa6	s569	12204	False		0
+faf2e87a6d	s752	338ff	False		0
+faf46ee894	s244	60906	False		0
+fb035ff6db	s1131	1575e	False		0
+fb0bf0f22c	s192	7f4b1	True	fb0bf0f22c	1
+fb260a86bd	s229	dabc0	False		0
+fb27bc5f32	s975	a6a62	True	fb27bc5f32	1
+fb7b5995ca	s229	ad58a	True	fb7b5995ca	6
+fba4497094	s383	781cf	True	fba4497094	3
+fba863d0e3	s780	effa6	False		0
+fbb4600191	s464	2bc1e	False		0
+fbd453aed2	s251	156fe	False		0
+fbdb009c5a	s352	202fc	False		0
+fc164d45a8	s1132	be843	False		0
+fc1691452b	s782	746ff	False		0
+fc5ca7b71f	s552	d78dd	True	fc5ca7b71f	1
+fc81069416	s1093	bac38	False		0
+fc8b9b8210	s1178	8af08	False		0
+fc9c816819	s1133	2b212	False		0
+fcba8e45b3	s769	c6f6b	False		0
+fd10a3816b	s78	5556c	False		0
+fd2f9caac4	s1192	3d027	False		0
+fd5492665a	s486	e35a8	True	fd5492665a	2
+fd54d6cf11	s5	05d76	False		0
+fd84176df3	s800	c696a	False		0
+fda87db4e1	s561	c8784	True	fda87db4e1	1
+fdaca2c6c9	s875	0eade	False		0
+fdd0bdf04f	s176	bba51	False		0
+fddc272868	s846	190e9	False		0
+fdec1b8b79	s1067	ed3e5	False		0
+fe116784b8	s1047	c2201	False		0
+fe15ce7c46	s1082	a0028	True	fe15ce7c46	1
+fe37338562	s856	1c3b9	False		0
+fe41149f56	s146	2fff2	False		0
+fe60cc4e13	s1135	237ce	False		0
+fe66526480	s1162	13abb	False		0
+fe9cbded6a	s834	d1c44	False		0
+fea8170b1f	s355	a624d	False		0
+feadc6ec17	s573	fe361	False		0
+feaf736d93	s1053	53c73	False		0
+fed5ced44f	s479	58355	True	fed5ced44f	2
+fed9dcfb1b	s600	357e6	False		0
+fede32445d	s85	0eee9	False		0
+fee75ddd09	s1113	ed0c5	True	fee75ddd09	1
+ff2fba2057	s269	e3235	False		0
+ff59f29e2d	s657	cf7b2	False		0
+ff5d7bddba	s1153	b796c	False		0
+ff9c7a8348	s1184	09ecc	True	ff9c7a8348	1
+ffa84b0513	s374	781cf	False		0
+ffbb0e3a12	s890	d2f72	True	ffbb0e3a12	4
+ffd1148645	s209	65469	False		0
+ffe865e8ec	s1187	2e076	False		0
+ffea2cc9fb	s285	c6f6b	True	ffea2cc9fb	2

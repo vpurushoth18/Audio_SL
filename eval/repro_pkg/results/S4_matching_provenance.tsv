@@ -1,0 +1,14 @@
+item	value
+utterances in the subset	13219
+OpenSLR-52 utterances	11155
+utterances in a content group	10320
+distinct content groups	4000
+groups with >1 speaker	4000
+distinct speakers (queries)	476
+triplets built (1 per eligible query)	10346
+bootstrap resampling unit	speaker (cluster bootstrap)
+distinct speakers = bootstrap units	476
+candidate reuse	a clip may serve as candidate for several queries; queries are therefore dependent, which is why the bootstrap resamples speakers and not queries
+duration matching	candidates within 1.5x of the query duration where available, else unrestricted
+ties	0 of 10,346 for 5 of 6 encoders; 4 for mms-300m; split half-half, never dropped
+reranking prompts with a single speaker	282 of 1,129; they admit no cross-speaker positive and are excluded by MTEB's own query filter, so the effective denominator is 847 queries, not 1,129

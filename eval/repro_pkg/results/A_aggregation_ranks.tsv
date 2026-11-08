@@ -1,0 +1,13 @@
+model	mean_score	mean_rank	borda	mean_rank_by_type
+facebook/hubert-large-ls960-ft	11	11	11	11
+facebook/mms-300m	10	7	7	10
+facebook/w2v-bert-2.0	6	2	2	7
+facebook/wav2vec2-xls-r-1b	5	3	3	9
+facebook/wav2vec2-xls-r-2b	2	4	4	8
+facebook/wav2vec2-xls-r-300m	12	12	12	12
+microsoft/wavlm-large	1	1	1	1
+openai/whisper-base	8	7	7	4
+openai/whisper-large-v3	7	10	10	6
+openai/whisper-medium	4	9	9	3
+openai/whisper-small	3	6	6	2
+openai/whisper-tiny	9	5	5	5

@@ -1,0 +1,80 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OpenSLR52SpeakerPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.60275,
+        "similarity_f1": 0.66734,
+        "similarity_precision": 0.503175,
+        "similarity_recall": 0.9905,
+        "similarity_ap": 0.640921,
+        "cosine_accuracy": 0.60275,
+        "cosine_f1": 0.66734,
+        "cosine_precision": 0.503175,
+        "cosine_recall": 0.9905,
+        "cosine_ap": 0.64092,
+        "manhattan_accuracy": 0.59825,
+        "manhattan_f1": 0.669021,
+        "manhattan_precision": 0.504055,
+        "manhattan_recall": 0.9945,
+        "manhattan_ap": 0.63573,
+        "euclidean_accuracy": 0.59975,
+        "euclidean_f1": 0.666894,
+        "euclidean_precision": 0.506487,
+        "euclidean_recall": 0.976,
+        "euclidean_ap": 0.636455,
+        "dot_accuracy": 0.569,
+        "dot_f1": 0.667002,
+        "dot_precision": 0.501639,
+        "dot_recall": 0.995,
+        "dot_ap": 0.578469,
+        "max_accuracy": 0.60275,
+        "max_f1": 0.669021,
+        "max_precision": 0.506487,
+        "max_recall": 0.995,
+        "max_ap": 0.640921,
+        "main_score": 0.640921,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 487.6531693220604,
+  "kg_co2_emissions": null,
+  "date": 1791409125.479602,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.02088886103592813,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.028867367887869477,
+      "end": 239.9764702299144,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 239.976581298979,
+      "end": 487.4265322708525,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 487.42660960694775,
+      "end": 487.5409800359048,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

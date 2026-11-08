@@ -1,0 +1,42 @@
+{
+    "loader_kwargs": {},
+    "name": "facebook/w2v-bert-2.0",
+    "revision": "da985ba0987f70aaeb84a80f2851cfac8c697a7b",
+    "release_date": "2023-12-01",
+    "languages": [
+        "sin-Sinh",
+        "eng-Latn"
+    ],
+    "n_parameters": 580000000,
+    "n_active_parameters_override": null,
+    "n_embedding_parameters": null,
+    "memory_usage_mb": 2300.0,
+    "max_tokens": null,
+    "embed_dim": 1024,
+    "license": "mit",
+    "open_weights": true,
+    "public_training_code": "https://github.com/facebookresearch/seamless_communication",
+    "public_training_data": null,
+    "framework": [
+        "PyTorch"
+    ],
+    "reference": "https://huggingface.co/facebook/w2v-bert-2.0",
+    "similarity_fn_name": "cosine",
+    "use_instructions": false,
+    "training_datasets": null,
+    "adapted_from": null,
+    "superseded_by": null,
+    "modalities": [
+        "audio"
+    ],
+    "model_type": [
+        "dense"
+    ],
+    "citation": null,
+    "contacts": null,
+    "experiment_kwargs": null,
+    "output_dtypes": null,
+    "extra_requirements_groups": null,
+    "loader": "W2VBert2Wrapper",
+    "is_cross_encoder": false
+}

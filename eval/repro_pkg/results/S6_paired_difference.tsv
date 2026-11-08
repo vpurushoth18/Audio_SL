@@ -1,0 +1,2 @@
+statistic	observed	ci_lo	ci_hi	n_models	n_resamples
+speech_minus_nonspeech_spearman	-0.06293706293706303	-0.5000448028673836	0.32742876068265014	12	10000

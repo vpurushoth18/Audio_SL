@@ -25,7 +25,19 @@ N_PER_BUCKET = 12
 
 @torch.no_grad()
 def encode_one(model, fe, wave, is_whisper, device, dtype):
-    """One clip, no batch, therefore no padding."""
+    """Encode a single clip.
+
+    For the wav2vec2 family this genuinely removes padding: the extractor pads
+    only to the longest item in a batch, and a batch of one has nothing to pad
+    against. The comparison against the cached batched embedding is therefore a
+    real padding test.
+
+    For Whisper it is NOT. Its extractor pads every input to 30 s regardless of
+    batch size, so both paths carry the same padding and the same frame-count
+    truncation. What the Whisper arm tests is that batch COMPOSITION does not
+    change the result, which is weaker. Whisper's mask cannot be tested this
+    way at all.
+    """
     if is_whisper:
         feats = fe([wave], sampling_rate=SR, return_tensors="pt")
         out = model(feats.input_features.to(device, dtype), output_hidden_states=True)

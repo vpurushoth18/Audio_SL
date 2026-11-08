@@ -1,0 +1,13 @@
+model	plain_mean_rank	borda_rank	core_only_rank	capability_balanced_rank	mean_rank_speaker	mean_rank_content	mean_rank_channel
+openai/whisper-small	3	6	3	1	6.875	2.3332999999999999	8
+microsoft/wavlm-large	1	1	1	2	2.5	7	2.3332999999999999
+openai/whisper-medium	4	9	9	3	8.875	1	6
+openai/whisper-large-v3	7	10	8	4	7.75	2.6667000000000001	8.3332999999999995
+openai/whisper-base	8	7	5	5	6.625	4	7.3333000000000004
+openai/whisper-tiny	9	5	6	6	6.625	4.6666999999999996	6
+facebook/wav2vec2-xls-r-2b	2	4	2	7	4.25	8.6667000000000005	8
+facebook/wav2vec2-xls-r-1b	5	3	7	8	5	9.3332999999999995	5
+facebook/w2v-bert-2.0	6	2	4	9	4.125	10.333299999999999	5.6666999999999996
+facebook/hubert-large-ls960-ft	11	11	11	10	9.25	6	5
+facebook/mms-300m	10	8	9	11	5.375	10.333299999999999	4.6666999999999996
+facebook/wav2vec2-xls-r-300m	12	12	12	12	10.625	11	11.333299999999999

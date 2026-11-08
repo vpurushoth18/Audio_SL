@@ -1,0 +1,87 @@
+{
+  "dataset_revision": "20701cbd51bf282719674c9f38ec91e698b62e48",
+  "task_name": "CREMADPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.553581,
+        "similarity_f1": 0.667266,
+        "similarity_precision": 0.500877,
+        "similarity_recall": 0.999192,
+        "similarity_ap": 0.556591,
+        "cosine_accuracy": 0.553581,
+        "cosine_f1": 0.667266,
+        "cosine_precision": 0.500877,
+        "cosine_recall": 0.999192,
+        "cosine_ap": 0.556591,
+        "manhattan_accuracy": 0.549946,
+        "manhattan_f1": 0.666787,
+        "manhattan_precision": 0.500608,
+        "manhattan_recall": 0.998115,
+        "manhattan_ap": 0.554163,
+        "euclidean_accuracy": 0.551696,
+        "euclidean_f1": 0.667087,
+        "euclidean_precision": 0.501082,
+        "euclidean_recall": 0.997577,
+        "euclidean_ap": 0.558163,
+        "dot_accuracy": 0.527329,
+        "dot_f1": 0.667146,
+        "dot_precision": 0.500946,
+        "dot_recall": 0.998384,
+        "dot_ap": 0.531284,
+        "max_accuracy": 0.553581,
+        "max_f1": 0.667266,
+        "max_precision": 0.501082,
+        "max_recall": 0.999192,
+        "max_ap": 0.558163,
+        "main_score": 0.558163,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 88.74511895817704,
+  "kg_co2_emissions": null,
+  "date": 1791310938.457189,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 1.1481111869215965e-05,
+      "end": 0.8849153500050306,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.8849281740840524,
+      "end": 0.8849298369605094,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.8877252510283142,
+      "end": 44.86919014202431,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 44.86929520894773,
+      "end": 88.55235380097292,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 88.5524215081241,
+      "end": 88.61270993202925,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

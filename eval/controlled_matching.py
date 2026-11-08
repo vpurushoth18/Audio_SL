@@ -86,14 +86,21 @@ def build_triplets(meta, max_dur_ratio, seed):
         if not cands_c or not cands_s:
             continue
 
+        fell_back = 0
         if max_dur_ratio:
-            # keep candidates whose duration is within a ratio of the query's,
-            # so neither candidate wins on length alone
+            # Keep candidates whose duration is within a ratio of the query's,
+            # so neither candidate wins on length alone. If NO candidate
+            # qualifies the unrestricted list is used rather than dropping the
+            # query, and that fallback is counted: a reader needs to know how
+            # often the constraint actually bound.
             def near(js):
-                return [j for j in js
-                        if max(dur[j], dur[i]) / max(min(dur[j], dur[i]), 1e-6)
-                        <= max_dur_ratio] or js
-            cands_c, cands_s = near(cands_c), near(cands_s)
+                ok = [j for j in js
+                      if max(dur[j], dur[i]) / max(min(dur[j], dur[i]), 1e-6)
+                      <= max_dur_ratio]
+                return (ok, 0) if ok else (js, 1)
+            cands_c, fc = near(cands_c)
+            cands_s, fs = near(cands_s)
+            fell_back = fc + fs
 
         c = int(rng.choice(cands_c))
         sm = int(rng.choice(cands_s))
@@ -104,9 +111,9 @@ def build_triplets(meta, max_dur_ratio, seed):
                 break
         else:
             continue
-        rows.append((i, c, sm, n, s))
+        rows.append((i, c, sm, n, s, fell_back))
     return pd.DataFrame(rows, columns=["q", "content", "speaker", "neg",
-                                       "q_speaker"])
+                                       "q_speaker", "dur_fallbacks"])
 
 
 def cos(a, b):
@@ -204,6 +211,16 @@ def main():
             if a.layers == "all":
                 layer_rows.append(r) if li != n_layers - 1 else None
         del emb, z
+
+    # export the exact triplets so the split is auditable, not merely seeded
+    if tri_cache:
+        any_tri = next(iter(tri_cache.values()))
+        nfb = int((any_tri.dur_fallbacks > 0).sum())
+        print(f"\n  duration constraint: {len(any_tri) - nfb} of {len(any_tri)} "
+              f"queries had at least one in-ratio candidate for BOTH slots; "
+              f"{nfb} fell back to the unrestricted list")
+        any_tri.to_csv(os.path.join(a.out, "S7_matching_triplet_ids.tsv"),
+                       sep="\t", index=False)
 
     cols = ["model", "layer", "n_layers", "p_content_over_speaker", "ci_lo",
             "ci_hi", "n_queries", "n_ties", "mean_sim_content",

@@ -1,0 +1,151 @@
+{
+  "dataset_revision": "582215665b247604b555da7ff4e071f82d3617db",
+  "task_name": "BirdCLEF",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.23,
+            "f1": 0.186006,
+            "f1_weighted": 0.215541,
+            "precision": 0.191048,
+            "precision_weighted": 0.230905,
+            "recall": 0.206714,
+            "recall_weighted": 0.23,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.21,
+            "f1": 0.194135,
+            "f1_weighted": 0.212009,
+            "precision": 0.242613,
+            "precision_weighted": 0.278856,
+            "recall": 0.207524,
+            "recall_weighted": 0.21,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.22,
+            "f1": 0.197282,
+            "f1_weighted": 0.223823,
+            "precision": 0.21296,
+            "precision_weighted": 0.248962,
+            "recall": 0.208381,
+            "recall_weighted": 0.22,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.17,
+            "f1": 0.163628,
+            "f1_weighted": 0.164434,
+            "precision": 0.170886,
+            "precision_weighted": 0.192625,
+            "recall": 0.195562,
+            "recall_weighted": 0.17,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.24,
+            "f1": 0.198708,
+            "f1_weighted": 0.237741,
+            "precision": 0.245405,
+            "precision_weighted": 0.325018,
+            "recall": 0.224984,
+            "recall_weighted": 0.24,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.214,
+        "f1": 0.187952,
+        "f1_weighted": 0.21071,
+        "precision": 0.212582,
+        "precision_weighted": 0.255273,
+        "recall": 0.208633,
+        "recall_weighted": 0.214,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.214,
+        "hf_subset": "default",
+        "languages": [
+          "zxx-Zxxx"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 178.50899509782903,
+  "kg_co2_emissions": null,
+  "date": 1791232130.231257,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 1.203198917210102e-05,
+      "end": 0.8079427708871663,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.8079587609972805,
+      "end": 0.8079610648564994,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 0.8099969250615686,
+      "end": 175.0779738558922,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 175.42659009690396,
+      "end": 175.95865173987113,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 176.04465186200105,
+      "end": 176.60625454084948,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 176.6918815919198,
+      "end": 177.23831400601193,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 177.32421354902908,
+      "end": 177.8752073419746,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 177.9612141570542,
+      "end": 178.4973382819444,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 175.07802448095754,
+      "end": 178.49734963290393,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

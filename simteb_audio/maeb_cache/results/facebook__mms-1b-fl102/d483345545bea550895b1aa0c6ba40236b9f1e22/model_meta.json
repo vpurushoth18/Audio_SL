@@ -1,0 +1,43 @@
+{
+    "loader_kwargs": {},
+    "name": "facebook/mms-1b-fl102",
+    "revision": "d483345545bea550895b1aa0c6ba40236b9f1e22",
+    "release_date": "2023-05-22",
+    "languages": [
+        "eng-Latn"
+    ],
+    "n_parameters": 1000000000,
+    "n_active_parameters_override": null,
+    "n_embedding_parameters": 99840,
+    "memory_usage_mb": 3680.0,
+    "max_tokens": null,
+    "embed_dim": 1024,
+    "license": "mit",
+    "open_weights": true,
+    "public_training_code": "https://github.com/facebookresearch/fairseq/tree/main/examples/mms",
+    "public_training_data": "https://github.com/facebookresearch/fairseq/tree/main/examples/mms#data",
+    "framework": [
+        "PyTorch"
+    ],
+    "reference": "https://huggingface.co/facebook/mms-1b-fl102",
+    "similarity_fn_name": "cosine",
+    "use_instructions": false,
+    "training_datasets": [
+        "FleursA2TRetrieval"
+    ],
+    "adapted_from": null,
+    "superseded_by": null,
+    "modalities": [
+        "audio"
+    ],
+    "model_type": [
+        "dense"
+    ],
+    "citation": "\n@misc{pratap2023scalingspeechtechnology1000,\n  title={Scaling Speech Technology to 1,000+ Languages},\n  author={Vineel Pratap and Andros Tjandra and Bowen Shi and Paden Tomasello and Arun Babu and Sayani Kundu and Ali Elkahky and Zhaoheng Ni and Apoorv Vyas and Maryam Fazel-Zarandi and Alexei Baevski and Yossi Adi and Xiaohui Zhang and Wei-Ning Hsu and Alexis Conneau and Michael Auli},\n  year={2023},\n  eprint={2305.13516},\n  archivePrefix={arXiv},\n  primaryClass={cs.CL},\n  url={https://arxiv.org/abs/2305.13516},\n}",
+    "contacts": null,
+    "experiment_kwargs": null,
+    "output_dtypes": null,
+    "extra_requirements_groups": null,
+    "loader": "MMSWrapper",
+    "is_cross_encoder": false
+}

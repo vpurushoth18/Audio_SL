@@ -1,0 +1,151 @@
+{
+  "dataset_revision": "fed432f5ad94bc8d76c96d0ba05a38e805254281",
+  "task_name": "BeijingOpera",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.541667,
+            "f1": 0.525281,
+            "f1_weighted": 0.502251,
+            "precision": 0.511905,
+            "precision_weighted": 0.510417,
+            "recall": 0.589746,
+            "recall_weighted": 0.541667,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.531915,
+            "f1": 0.514425,
+            "f1_weighted": 0.514378,
+            "precision": 0.568994,
+            "precision_weighted": 0.569656,
+            "recall": 0.536131,
+            "recall_weighted": 0.531915,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.595745,
+            "f1": 0.565861,
+            "f1_weighted": 0.591617,
+            "precision": 0.570513,
+            "precision_weighted": 0.589744,
+            "recall": 0.563916,
+            "recall_weighted": 0.595745,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.638298,
+            "f1": 0.630215,
+            "f1_weighted": 0.628909,
+            "precision": 0.629501,
+            "precision_weighted": 0.628058,
+            "recall": 0.638095,
+            "recall_weighted": 0.638298,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.680851,
+            "f1": 0.666143,
+            "f1_weighted": 0.671566,
+            "precision": 0.694853,
+            "precision_weighted": 0.720171,
+            "recall": 0.701604,
+            "recall_weighted": 0.680851,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.597695,
+        "f1": 0.580385,
+        "f1_weighted": 0.581744,
+        "precision": 0.595153,
+        "precision_weighted": 0.603609,
+        "recall": 0.605898,
+        "recall_weighted": 0.597695,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.597695,
+        "hf_subset": "default",
+        "languages": [
+          "zxx-Zxxx"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 3.1528176749125123,
+  "kg_co2_emissions": null,
+  "date": 1791331785.360931,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 1.2824079021811485e-05,
+      "end": 0.7790518649853766,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.7790649998933077,
+      "end": 0.7790663118939847,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 0.7801067589316517,
+      "end": 2.6365633490495384,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 2.6598714580759406,
+      "end": 2.746912967879325,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 2.7681398219428957,
+      "end": 2.844931344036013,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 2.8658364529255778,
+      "end": 2.9434214369393885,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 2.964560435852036,
+      "end": 3.048304544063285,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 3.069562457036227,
+      "end": 3.1449943508487195,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 2.636577815981582,
+      "end": 3.145002245903015,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

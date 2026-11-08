@@ -1,0 +1,82 @@
+{
+  "dataset_revision": "a9d0821955c418752248b8310438854e56a1cf34",
+  "task_name": "CREMA_DClustering",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "v_measures": {
+          "Level 0": [
+            0.121848,
+            0.124501,
+            0.132873,
+            0.131849,
+            0.12163,
+            0.116201,
+            0.124435,
+            0.140786,
+            0.111506,
+            0.118494
+          ]
+        },
+        "v_measure": 0.124412,
+        "v_measure_std": 0.008236,
+        "ami_scores": {
+          "Level 0": [
+            0.121471,
+            0.124124,
+            0.132497,
+            0.131472,
+            0.121249,
+            0.115817,
+            0.124056,
+            0.140416,
+            0.111115,
+            0.118108
+          ]
+        },
+        "ami": 0.124033,
+        "ami_std": 0.008241,
+        "main_score": 0.124412,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 14.11804295424372,
+  "kg_co2_emissions": null,
+  "date": 1791226986.114436,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 8.926959708333015e-06,
+      "end": 0.8999348869547248,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.8999467899557203,
+      "end": 0.9026288350578398,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding",
+      "start": 0.9045322830788791,
+      "end": 12.940842401003465,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 12.997594113927335,
+      "end": 14.110260993940756,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

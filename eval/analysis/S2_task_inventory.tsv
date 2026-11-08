@@ -1,15 +1,15 @@
 task	corpus	capability	metric	label_provenance	status	best_model	best_score	mfcc_score	split	mfcc_ratio
 OmnilingualSinhalaContentRetrieval	Omnilingual	content	nDCG@10	human prompt id	core	openai/whisper-medium	10.43	0.8	test (MTEB default for the task)	0.07670182166826463
-OmnilingualSinhalaSpeakerClassification	Omnilingual	speaker	accuracy	human speaker id	diagnostic	microsoft/wavlm-large	93.06	90.89	test (MTEB default for the task)	0.9766817107242639
+OmnilingualSinhalaSpeakerClassification	Omnilingual	speaker	accuracy	human speaker id	core	microsoft/wavlm-large	93.06	90.89	test (MTEB default for the task)	0.9766817107242639
 OmnilingualSinhalaSpeakerClustering	Omnilingual	speaker	V-measure (and AMI reported separately)	human speaker id	core	baseline/mfcc-40	79.85	79.85	test (MTEB default for the task)	1.0
-OpenSLR30SpeakerClassification	OpenSLR-30	speaker	accuracy	human speaker id	diagnostic	baseline/mfcc-40	92.78	92.78	test (MTEB default for the task)	1.0
-OpenSLR30SpeakerClustering	OpenSLR-30	speaker	V-measure (and AMI reported separately)	human speaker id	diagnostic	baseline/mfcc-40	44.29	44.29	test (MTEB default for the task)	1.0
-OpenSLR30SpeakerPairClassification	OpenSLR-30	speaker	accuracy	derived from human speaker id	diagnostic	baseline/mfcc-40	87.68	87.68	test (MTEB default for the task)	1.0
+OpenSLR30SpeakerClassification	OpenSLR-30	speaker	accuracy	human speaker id	core	baseline/mfcc-40	92.78	92.78	test (MTEB default for the task)	1.0
+OpenSLR30SpeakerClustering	OpenSLR-30	speaker	V-measure (and AMI reported separately)	human speaker id	core	baseline/mfcc-40	44.29	44.29	test (MTEB default for the task)	1.0
+OpenSLR30SpeakerPairClassification	OpenSLR-30	speaker	accuracy	derived from human speaker id	core	baseline/mfcc-40	87.68	87.68	test (MTEB default for the task)	1.0
 OpenSLR52AudioReranking	OpenSLR-52	content	MAP	derived from human transcript	core	openai/whisper-medium	12.0	0.09	test (MTEB default for the task)	0.0075
 OpenSLR52AudioRetrieval	OpenSLR-52	content	nDCG@10	derived from human transcript	core	openai/whisper-medium	36.71	0.33	test (MTEB default for the task)	0.00898937619177336
-OpenSLR52SpeakerClassification	OpenSLR-52	speaker	accuracy	human speaker id	diagnostic	facebook/wav2vec2-xls-r-2b	77.56	60.85	test (MTEB default for the task)	0.7845538937596699
-OpenSLR52SpeakerClustering	OpenSLR-52	speaker	V-measure (and AMI reported separately)	human speaker id	diagnostic	baseline/mfcc-40	64.66	64.66	test (MTEB default for the task)	1.0
-OpenSLR52SpeakerPairClassification	OpenSLR-52	speaker	accuracy	derived from human speaker id	diagnostic	baseline/mfcc-40	90.51	90.51	test (MTEB default for the task)	1.0
+OpenSLR52SpeakerClassification	OpenSLR-52	speaker	accuracy	human speaker id	core	facebook/wav2vec2-xls-r-2b	77.56	60.85	test (MTEB default for the task)	0.7845538937596699
+OpenSLR52SpeakerClustering	OpenSLR-52	speaker	V-measure (and AMI reported separately)	human speaker id	core	baseline/mfcc-40	64.66	64.66	test (MTEB default for the task)	1.0
+OpenSLR52SpeakerPairClassification	OpenSLR-52	speaker	accuracy	derived from human speaker id	core	baseline/mfcc-40	90.51	90.51	test (MTEB default for the task)	1.0
 VoxLingua107SinhalaVideoClustering	VoxLingua107	channel	V-measure (and AMI reported separately)	automatic video id, may hold several speakers	diagnostic	facebook/w2v-bert-2.0	97.4	96.95	test (MTEB default for the task)	0.9953798767967146
 WorldSpeechSinhalaQualityClassification	WorldSpeech	channel	accuracy	DNSMOS terciles chosen here	diagnostic	baseline/mfcc-40	48.54	48.54	test (MTEB default for the task)	1.0
 WorldSpeechSinhalaSessionClustering	WorldSpeech	channel	V-measure (and AMI reported separately)	session metadata, not speaker	diagnostic	facebook/hubert-large-ls960-ft	92.94	92.87	test (MTEB default for the task)	0.9992468259091888

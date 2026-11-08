@@ -1,0 +1,13 @@
+{
+  "sample_rate_hz": 16000,
+  "channels": "mono (averaged)",
+  "max_duration_s": 20.0,
+  "crop": "head",
+  "layer": "final hidden state",
+  "pooling": "mean over valid frames, padding masked",
+  "normalisation": "L2 before cosine",
+  "similarity": "cosine",
+  "precision": "bfloat16 forward, float32 output, float16 on disk",
+  "wrapper": "simteb_audio.models.extra_audio_models / mteb 2.21.10",
+  "note": "identical for SinAEB and MAEB; a checkpoint whose embedding differs between benchmarks cannot enter the correlation"
+}

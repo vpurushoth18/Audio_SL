@@ -1,0 +1,12 @@
+task	kind	metric	n	k	mfcc_score	mfcc_ami	chance	chance_sd
+OpenSLR52SpeakerClustering	clustering	v_measure	9557	478	0.6288618460321539	0.2650359196969533	0.4949193292805935	0.0003345978374032026
+OpenSLR30SpeakerClustering	clustering	v_measure	240	12	0.5338898783026235	0.4718147699183549	0.11714332912182282	0.011769490460367925
+OmnilingualSinhalaSpeakerClustering	clustering	v_measure	415	7	0.5471185118937151	0.5358579978453375	0.022826227162744968	0.00488275850954688
+WorldSpeechSinhalaSessionClustering	clustering	v_measure	924	84	0.5293490331059408	0.14955579839740135	0.44610835304282925	0.0020818676073391085
+VoxLingua107SinhalaVideoClustering	clustering	v_measure	1439	173	0.7902696521107956	0.5182292860198344	0.5641526036254213	0.0008690310559948723
+OpenSLR52SpeakerClassification	classification	accuracy	2867	478	0.8262992675270318		0.0020926756352765323	
+OpenSLR30SpeakerClassification	classification	accuracy	72	12	0.9722222222222222		0.08333333333333333	
+OmnilingualSinhalaSpeakerClassification	classification	accuracy	124	7	0.9919354838709677		0.14432989690721648	
+WorldSpeechSinhalaQualityClassification	classification	accuracy	315	3	0.6063492063492063		0.33741496598639453	
+OpenSLR52SpeakerPairClassification	pair	max_ap	4000	2	0.8319815152648711		0.5	
+OpenSLR30SpeakerPairClassification	pair	max_ap	960	2	0.8192815764508077		0.5	

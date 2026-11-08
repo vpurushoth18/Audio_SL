@@ -1,0 +1,80 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OpenSLR30SpeakerPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.0,
+        "similarity_f1": 0.0,
+        "similarity_precision": 0.0,
+        "similarity_recall": 0.0,
+        "similarity_ap": 0.5,
+        "cosine_accuracy": 0.0,
+        "cosine_f1": 0.0,
+        "cosine_precision": 0.0,
+        "cosine_recall": 0.0,
+        "cosine_ap": 0.5,
+        "manhattan_accuracy": 0.0,
+        "manhattan_f1": 0.0,
+        "manhattan_precision": 0.0,
+        "manhattan_recall": 0.0,
+        "manhattan_ap": 0.5,
+        "euclidean_accuracy": 0.0,
+        "euclidean_f1": 0.0,
+        "euclidean_precision": 0.0,
+        "euclidean_recall": 0.0,
+        "euclidean_ap": 0.5,
+        "dot_accuracy": 0.0,
+        "dot_f1": 0.0,
+        "dot_precision": 0.0,
+        "dot_recall": 0.0,
+        "dot_ap": 0.5,
+        "max_accuracy": 0.0,
+        "max_f1": 0.0,
+        "max_precision": 0.0,
+        "max_recall": 0.0,
+        "max_ap": 0.5,
+        "main_score": 0.5,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 129.91660961299203,
+  "kg_co2_emissions": null,
+  "date": 1791361368.727646,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.006344967056065798,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.009035994997248054,
+      "end": 64.33588062110357,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 64.33599403500557,
+      "end": 129.88195574609563,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 129.8820183740463,
+      "end": 129.89123972901143,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

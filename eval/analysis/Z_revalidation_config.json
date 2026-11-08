@@ -1,0 +1,25 @@
+{
+  "excluded": [],
+  "overlaid_corrected": [
+    "facebook/wav2vec2-conformer-rel-pos-large",
+    "facebook/wav2vec2-xls-r-300m-21-to-en"
+  ],
+  "n_validated": 45,
+  "n_deduped": 42,
+  "n_families_validated": 12,
+  "n_families_deduped": 12,
+  "duplicate_groups": [
+    [
+      "microsoft/wavlm-base",
+      "microsoft/wavlm-base-sv"
+    ],
+    [
+      "microsoft/wavlm-base-plus",
+      "microsoft/wavlm-base-plus-sd",
+      "microsoft/wavlm-base-plus-sv"
+    ]
+  ],
+  "n_boot": 2000,
+  "n_oneper": 500,
+  "seed": 0
+}

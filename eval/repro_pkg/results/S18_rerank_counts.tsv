@@ -1,0 +1,9 @@
+quantity	value	note
+requested_queries	500	--rerank-queries default in prepare_retrieval.py
+generated_queries	500	rows carrying a query_id
+unique_prompts_in_dataset	1129	distinct sentence_id across all rows
+candidate_recordings	2384	all rows serve as candidates
+queries_excluded_no_cross_speaker_positive	0	queries were constructed to have positives, so none are excluded
+final_scored_queries	500	queries actually scored
+single_speaker_prompts	282	prompts with one speaker - these are CANDIDATES, never queries
+847_figure	WITHDRAWN	1,129 minus 282; a miscount of the prompt inventory against the query set

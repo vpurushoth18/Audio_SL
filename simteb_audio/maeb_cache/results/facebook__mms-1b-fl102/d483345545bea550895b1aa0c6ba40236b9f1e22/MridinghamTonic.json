@@ -1,0 +1,151 @@
+{
+  "dataset_revision": "9304553355441e3d2bf2432691b6209ff9a9339c",
+  "task_name": "MridinghamTonic",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.296562,
+            "f1": 0.295472,
+            "f1_weighted": 0.29599,
+            "precision": 0.296235,
+            "precision_weighted": 0.298075,
+            "recall": 0.297676,
+            "recall_weighted": 0.296562,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.376074,
+            "f1": 0.375657,
+            "f1_weighted": 0.379348,
+            "precision": 0.400495,
+            "precision_weighted": 0.417166,
+            "recall": 0.387126,
+            "recall_weighted": 0.376074,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.351971,
+            "f1": 0.343606,
+            "f1_weighted": 0.358106,
+            "precision": 0.356359,
+            "precision_weighted": 0.377349,
+            "recall": 0.343462,
+            "recall_weighted": 0.351971,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.341219,
+            "f1": 0.335412,
+            "f1_weighted": 0.339543,
+            "precision": 0.34247,
+            "precision_weighted": 0.356249,
+            "recall": 0.346654,
+            "recall_weighted": 0.341219,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.369892,
+            "f1": 0.36295,
+            "f1_weighted": 0.360437,
+            "precision": 0.386404,
+            "precision_weighted": 0.395685,
+            "recall": 0.382315,
+            "recall_weighted": 0.369892,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.347144,
+        "f1": 0.34262,
+        "f1_weighted": 0.346685,
+        "precision": 0.356392,
+        "precision_weighted": 0.368905,
+        "recall": 0.351447,
+        "recall_weighted": 0.347144,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.347144,
+        "hf_subset": "default",
+        "languages": [
+          "zxx-Zxxx"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 80.37323575583287,
+  "kg_co2_emissions": null,
+  "date": 1791272696.932578,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 8.626142516732216e-06,
+      "end": 0.783693860983476,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.7837044801563025,
+      "end": 0.783705793088302,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 0.7847523300442845,
+      "end": 69.68181756604463,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 70.39159559109248,
+      "end": 71.83628089400008,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 72.54826705995947,
+      "end": 73.98456435301341,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 74.69217447307892,
+      "end": 76.10577394394204,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 76.81676417798735,
+      "end": 78.23699583811685,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 78.9476947740186,
+      "end": 80.36141072493047,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 69.68188932095654,
+      "end": 80.36144897597842,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

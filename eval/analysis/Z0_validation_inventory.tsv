@@ -1,0 +1,46 @@
+model	corrected_rerun_overlaid	family	objective	status	duplicate_group_size	duplicate_group	is_duplicate_representative	kept_in_deduped
+asapp/sew-d-base-plus-400k-ft-ls100h	False	sew-d	asr-finetuned	VALIDATED	1		True	True
+asapp/sew-d-mid-400k-ft-ls100h	False	sew-d	asr-finetuned	VALIDATED	1		True	True
+facebook/data2vec-audio-base	False	data2vec	self-supervised	VALIDATED	1		True	True
+facebook/data2vec-audio-base-960h	False	data2vec	asr-finetuned	VALIDATED	1		True	True
+facebook/data2vec-audio-large	False	data2vec	self-supervised	VALIDATED	1		True	True
+facebook/data2vec-audio-large-960h	False	data2vec	asr-finetuned	VALIDATED	1		True	True
+facebook/hubert-base-ls960	False	hubert	self-supervised	VALIDATED	1		True	True
+facebook/hubert-large-ll60k	False	hubert	self-supervised	VALIDATED	1		True	True
+facebook/hubert-large-ls960-ft	False	hubert	asr-finetuned	VALIDATED	1		True	True
+facebook/hubert-xlarge-ll60k	False	hubert	self-supervised	VALIDATED	1		True	True
+facebook/mms-1b-all	False	mms	asr-finetuned	VALIDATED	1		True	True
+facebook/mms-1b-fl102	False	mms	asr-finetuned	VALIDATED	1		True	True
+facebook/mms-300m	False	mms	self-supervised	VALIDATED	1		True	True
+facebook/w2v-bert-2.0	False	w2v-bert	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-base	False	wav2vec2	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-base-960h	False	wav2vec2	asr-finetuned	VALIDATED	1		True	True
+facebook/wav2vec2-conformer-rel-pos-large	True	wav2vec2-conformer	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-large-960h	False	wav2vec2	asr-finetuned	VALIDATED	1		True	True
+facebook/wav2vec2-large-robust	False	wav2vec2	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-large-xlsr-53	False	xls-r	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-xls-r-1b	False	xls-r	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-xls-r-2b	False	xls-r	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-xls-r-300m	False	xls-r	self-supervised	VALIDATED	1		True	True
+facebook/wav2vec2-xls-r-300m-21-to-en	True	xls-r	translation-finetuned	VALIDATED	1		True	True
+microsoft/speecht5_asr	False	speecht5	asr-finetuned	VALIDATED	1		True	True
+microsoft/unispeech-sat-base	False	unispeech	self-supervised	VALIDATED	1		True	True
+microsoft/unispeech-sat-base-plus	False	unispeech	self-supervised	VALIDATED	1		True	True
+microsoft/unispeech-sat-large	False	unispeech	self-supervised	VALIDATED	1		True	True
+microsoft/wavlm-base	False	wavlm	self-supervised	VALIDATED	2	microsoft/wavlm-base; microsoft/wavlm-base-sv	True	True
+microsoft/wavlm-base-plus	False	wavlm	self-supervised	VALIDATED	3	microsoft/wavlm-base-plus; microsoft/wavlm-base-plus-sd; microsoft/wavlm-base-plus-sv	True	True
+microsoft/wavlm-base-plus-sd	False	wavlm	diarization-finetuned	VALIDATED	3	microsoft/wavlm-base-plus; microsoft/wavlm-base-plus-sd; microsoft/wavlm-base-plus-sv	False	False
+microsoft/wavlm-base-plus-sv	False	wavlm	speaker-verification-finetuned	VALIDATED	3	microsoft/wavlm-base-plus; microsoft/wavlm-base-plus-sd; microsoft/wavlm-base-plus-sv	False	False
+microsoft/wavlm-base-sv	False	wavlm	speaker-verification-finetuned	VALIDATED	2	microsoft/wavlm-base; microsoft/wavlm-base-sv	False	False
+microsoft/wavlm-large	False	wavlm	self-supervised	VALIDATED	1		True	True
+openai/whisper-base	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-base.en	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-large-v2	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-large-v3	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-large-v3-turbo	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-medium	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-medium.en	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-small	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-small.en	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-tiny	False	whisper	asr-supervised	VALIDATED	1		True	True
+openai/whisper-tiny.en	False	whisper	asr-supervised	VALIDATED	1		True	True

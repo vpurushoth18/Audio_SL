@@ -1,0 +1,151 @@
+{
+  "dataset_revision": "6d4225271da423e791e16770d335cfa351cdf88e",
+  "task_name": "IEMOCAPGender",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.474104,
+            "f1": 0.321622,
+            "f1_weighted": 0.304964,
+            "precision": 0.237052,
+            "precision_weighted": 0.224774,
+            "recall": 0.5,
+            "recall_weighted": 0.474104,
+            "ap": 0.525896,
+            "ap_weighted": 0.525896
+          },
+          {
+            "accuracy": 0.469622,
+            "f1": 0.319553,
+            "f1_weighted": 0.300138,
+            "precision": 0.234811,
+            "precision_weighted": 0.220544,
+            "recall": 0.5,
+            "recall_weighted": 0.469622,
+            "ap": 0.530378,
+            "ap_weighted": 0.530378
+          },
+          {
+            "accuracy": 0.469124,
+            "f1": 0.319322,
+            "f1_weighted": 0.299603,
+            "precision": 0.234562,
+            "precision_weighted": 0.220077,
+            "recall": 0.5,
+            "recall_weighted": 0.469124,
+            "ap": 0.530876,
+            "ap_weighted": 0.530876
+          },
+          {
+            "accuracy": 0.50747,
+            "f1": 0.336637,
+            "f1_weighted": 0.341666,
+            "precision": 0.253735,
+            "precision_weighted": 0.257526,
+            "recall": 0.5,
+            "recall_weighted": 0.50747,
+            "ap": 0.49253,
+            "ap_weighted": 0.49253
+          },
+          {
+            "accuracy": 0.470354,
+            "f1": 0.319892,
+            "f1_weighted": 0.300924,
+            "precision": 0.235177,
+            "precision_weighted": 0.221233,
+            "recall": 0.5,
+            "recall_weighted": 0.470354,
+            "ap": 0.529646,
+            "ap_weighted": 0.529646
+          }
+        ],
+        "accuracy": 0.478134,
+        "f1": 0.323405,
+        "f1_weighted": 0.309459,
+        "precision": 0.239067,
+        "precision_weighted": 0.228831,
+        "recall": 0.5,
+        "recall_weighted": 0.478134,
+        "ap": 0.521866,
+        "ap_weighted": 0.521866,
+        "main_score": 0.478134,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 424.1897411139216,
+  "kg_co2_emissions": null,
+  "date": 1791364970.64804,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 1.343502663075924e-05,
+      "end": 0.8371496670879424,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.8371647950261831,
+      "end": 0.8432132659945637,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 0.8447141221258789,
+      "end": 405.75894921808504,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 406.57618529512547,
+      "end": 409.4291690560058,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 410.2719803801738,
+      "end": 413.1396650511306,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 413.9732427462004,
+      "end": 416.77667644503526,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 417.60816628020257,
+      "end": 420.4679106262047,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 421.30618161405437,
+      "end": 424.17477498506196,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 405.7590367330704,
+      "end": 424.1748253200203,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+    "loader_kwargs": {},
+    "name": "microsoft/speecht5_asr",
+    "revision": "53615c10408485422e09a12cda191a747f4bbe34",
+    "release_date": "2022-05-16",
+    "languages": [
+        "eng-Latn"
+    ],
+    "n_parameters": 151575936,
+    "n_active_parameters_override": null,
+    "n_embedding_parameters": null,
+    "memory_usage_mb": 578.0,
+    "max_tokens": null,
+    "embed_dim": 768,
+    "license": "mit",
+    "open_weights": true,
+    "public_training_code": "https://github.com/microsoft/SpeechT5",
+    "public_training_data": "https://www.openslr.org/12",
+    "framework": [
+        "PyTorch"
+    ],
+    "reference": "https://huggingface.co/microsoft/speecht5_asr",
+    "similarity_fn_name": "cosine",
+    "use_instructions": false,
+    "training_datasets": [],
+    "adapted_from": null,
+    "superseded_by": null,
+    "modalities": [
+        "audio"
+    ],
+    "model_type": [
+        "dense"
+    ],
+    "citation": "\n@misc{ao2022speecht5unifiedmodalencoderdecoderpretraining,\n      title={SpeechT5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing},\n      author={Junyi Ao and Rui Wang and Long Zhou and Chengyi Wang and Shuo Ren and Yu Wu and Shujie Liu and Tom Ko and Qing Li and Yu Zhang and Zhihua Wei and Yao Qian and Jinyu Li and Furu Wei},\n      year={2022},\n      eprint={2110.07205},\n      archivePrefix={arXiv},\n      primaryClass={eess.AS},\n      url={https://arxiv.org/abs/2110.07205},\n}",
+    "contacts": null,
+    "experiment_kwargs": null,
+    "output_dtypes": null,
+    "extra_requirements_groups": null,
+    "loader": "SpeechT5Audio",
+    "is_cross_encoder": false
+}

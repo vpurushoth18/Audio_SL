@@ -1,0 +1,66 @@
+arm	model	layer	seed	ami
+mfcc40	baseline/mfcc-40		0	0.3932304706663665
+mfcc40	baseline/mfcc-40		1	0.4539170162928287
+mfcc40	baseline/mfcc-40		2	0.39875619969796583
+mfcc40	baseline/mfcc-40		3	0.37862143251215424
+mfcc40	baseline/mfcc-40		4	0.414975596065611
+final	facebook/hubert-large-ls960-ft	24.0	0	0.18967827032575232
+final	facebook/hubert-large-ls960-ft	24.0	1	0.18706834677662373
+final	facebook/hubert-large-ls960-ft	24.0	2	0.1933255698728231
+final	facebook/hubert-large-ls960-ft	24.0	3	0.19766818169631428
+final	facebook/hubert-large-ls960-ft	24.0	4	0.19031050857773038
+selected	facebook/hubert-large-ls960-ft	3.0	0	0.8472318359327659
+selected	facebook/hubert-large-ls960-ft	3.0	1	0.8636523272160002
+selected	facebook/hubert-large-ls960-ft	3.0	2	0.8532093587138535
+selected	facebook/hubert-large-ls960-ft	3.0	3	0.8813704107649319
+selected	facebook/hubert-large-ls960-ft	3.0	4	0.8371066609649019
+final	facebook/mms-300m	24.0	0	0.22305996941323908
+final	facebook/mms-300m	24.0	1	0.19920527818292846
+final	facebook/mms-300m	24.0	2	0.21907323494023642
+final	facebook/mms-300m	24.0	3	0.20796273082068703
+final	facebook/mms-300m	24.0	4	0.21096642220483539
+selected	facebook/mms-300m	4.0	0	0.795906600783144
+selected	facebook/mms-300m	4.0	1	0.789583243825119
+selected	facebook/mms-300m	4.0	2	0.7775926074908177
+selected	facebook/mms-300m	4.0	3	0.7890745307248247
+selected	facebook/mms-300m	4.0	4	0.7714677275266973
+final	facebook/w2v-bert-2.0	24.0	0	0.5531122256486242
+final	facebook/w2v-bert-2.0	24.0	1	0.5335378325192799
+final	facebook/w2v-bert-2.0	24.0	2	0.5497976100912546
+final	facebook/w2v-bert-2.0	24.0	3	0.5431200485358185
+final	facebook/w2v-bert-2.0	24.0	4	0.5113801444685421
+selected	facebook/w2v-bert-2.0	17.0	0	0.7953808457237908
+selected	facebook/w2v-bert-2.0	17.0	1	0.8473623553763365
+selected	facebook/w2v-bert-2.0	17.0	2	0.7977134543054843
+selected	facebook/w2v-bert-2.0	17.0	3	0.8012767467810346
+selected	facebook/w2v-bert-2.0	17.0	4	0.8383339634470505
+final	microsoft/wavlm-large	24.0	0	0.33234902255571275
+final	microsoft/wavlm-large	24.0	1	0.3254194010757943
+final	microsoft/wavlm-large	24.0	2	0.29826090333274646
+final	microsoft/wavlm-large	24.0	3	0.3616305496345362
+final	microsoft/wavlm-large	24.0	4	0.34981942771047864
+selected	microsoft/wavlm-large	3.0	0	0.8686021630664051
+selected	microsoft/wavlm-large	3.0	1	0.8088191718769807
+selected	microsoft/wavlm-large	3.0	2	0.8216115144940846
+selected	microsoft/wavlm-large	3.0	3	0.8050762735485982
+selected	microsoft/wavlm-large	3.0	4	0.828891600321556
+final	openai/whisper-large-v3	32.0	0	0.21237840302136546
+final	openai/whisper-large-v3	32.0	1	0.2048585856259161
+final	openai/whisper-large-v3	32.0	2	0.21340116565619835
+final	openai/whisper-large-v3	32.0	3	0.2005501527367927
+final	openai/whisper-large-v3	32.0	4	0.2135329075041357
+selected	openai/whisper-large-v3	13.0	0	0.808694799471598
+selected	openai/whisper-large-v3	13.0	1	0.7764999678770632
+selected	openai/whisper-large-v3	13.0	2	0.831279291360529
+selected	openai/whisper-large-v3	13.0	3	0.8786140662778791
+selected	openai/whisper-large-v3	13.0	4	0.8581421039305077
+final	facebook/wav2vec2-xls-r-300m	24.0	0	0.06107789128802353
+final	facebook/wav2vec2-xls-r-300m	24.0	1	0.07096163587540323
+final	facebook/wav2vec2-xls-r-300m	24.0	2	0.05926308927698877
+final	facebook/wav2vec2-xls-r-300m	24.0	3	0.06552478164626473
+final	facebook/wav2vec2-xls-r-300m	24.0	4	0.06547799139912659
+selected	facebook/wav2vec2-xls-r-300m	4.0	0	0.7336667227952134
+selected	facebook/wav2vec2-xls-r-300m	4.0	1	0.7219237404232948
+selected	facebook/wav2vec2-xls-r-300m	4.0	2	0.7447162129996511
+selected	facebook/wav2vec2-xls-r-300m	4.0	3	0.7687831443486678
+selected	facebook/wav2vec2-xls-r-300m	4.0	4	0.7976949628936213

@@ -1,0 +1,13 @@
+model	speaker_mean_rank	content_mean_rank
+microsoft/wavlm-large	2.5	7.0
+facebook/w2v-bert-2.0	4.125	10.333333333333334
+facebook/wav2vec2-xls-r-2b	4.25	8.666666666666666
+facebook/wav2vec2-xls-r-1b	5.0	9.5
+facebook/mms-300m	5.375	10.333333333333334
+openai/whisper-tiny	6.625	4.666666666666667
+openai/whisper-base	6.6875	4.166666666666667
+openai/whisper-small	6.875	2.5
+openai/whisper-large-v3	7.8125	2.6666666666666665
+openai/whisper-medium	8.875	1.0
+facebook/hubert-large-ls960-ft	9.25	6.0
+facebook/wav2vec2-xls-r-300m	10.625	11.166666666666666

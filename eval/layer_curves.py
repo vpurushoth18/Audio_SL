@@ -54,11 +54,14 @@ def probe_gpu(X, y, seeds=(0, 1), l2_pen=1.0):
     keep = pd.Series(y).groupby(y).transform("size").values >= 4
     X, y = X[keep], np.asarray(y)[keep]
     codes, uniq = pd.factorize(y)
-    Xs = ((X - X.mean(0)) / (X.std(0) + 1e-9)).astype(np.float32)
     accs = []
     for s in seeds:
-        Xa, Xb, ya, yb = train_test_split(Xs, codes, test_size=0.4,
+        Xa, Xb, ya, yb = train_test_split(X, codes, test_size=0.4,
                                           random_state=s, stratify=codes)
+        # fitted on train only; see layer_transfer_clf.probe
+        mu, sd = Xa.mean(0), Xa.std(0) + 1e-9
+        Xa = ((Xa - mu) / sd).astype(np.float32)
+        Xb = ((Xb - mu) / sd).astype(np.float32)
         Xa_t = torch.as_tensor(Xa, device=DEVICE)
         Xb_t = torch.as_tensor(Xb, device=DEVICE)
         ya_t = torch.as_tensor(ya, device=DEVICE, dtype=torch.long)

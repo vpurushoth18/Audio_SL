@@ -1,0 +1,5 @@
+table	script	seeds	n_init	batch_size	max_iter	tol	dev_set	eval_set	matched_within_table
+J_layer_transfer	eval/layer_transfer.py	(0,)	3	1024	sklearn default (100)	sklearn default (0.0)	OpenSLR-52 11,155 utts / 476 spk	OpenSLR-30 2,064 utts / 12 spk (speaker); OpenSLR-52 speakers B 2,229 utts / 238 spk (content)	yes - final, selected and uniform all use these settings
+Q_layer_seeds_uniform	eval/layer_seeds.py	(0,1,2,3,4)	5	1024	100	0.0	layer frozen from J	OpenSLR-30 2,064 utts / 12 spk	yes - selected, final, all-layer-mean and test-chosen oracle all use 5 seeds (corrected; the oracle previously used 1)
+O_layer_transfer_omnilingual	eval/layer_transfer_omni_eval.py	(0,1,2,3,4)  <- FIVE, not three	5	512	sklearn default (100)	sklearn default (0.0)	layer frozen from J (OpenSLR-52)	Omnilingual 415 utts / 7 spk	yes - selected, final, all-layer-mean and oracle all use 5 seeds
+P_mfcc_vs_layer	eval/mfcc_vs_layer.py	(0,1,2)	5	512	sklearn default (100)	sklearn default (0.0)	n/a - no selection	OpenSLR-30 2,064 / 12 spk; OpenSLR-52 11,155 / 476 spk	MFCC rows use these settings; the encoder rows in the same table are copied from J (n_init=3) - NOT matched, see note

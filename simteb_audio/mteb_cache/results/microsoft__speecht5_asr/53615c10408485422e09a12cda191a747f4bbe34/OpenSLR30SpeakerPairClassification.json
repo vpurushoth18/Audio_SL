@@ -1,0 +1,80 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OpenSLR30SpeakerPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.670833,
+        "similarity_f1": 0.707608,
+        "similarity_precision": 0.631751,
+        "similarity_recall": 0.804167,
+        "similarity_ap": 0.674997,
+        "cosine_accuracy": 0.670833,
+        "cosine_f1": 0.707608,
+        "cosine_precision": 0.631751,
+        "cosine_recall": 0.804167,
+        "cosine_ap": 0.674997,
+        "manhattan_accuracy": 0.642708,
+        "manhattan_f1": 0.67953,
+        "manhattan_precision": 0.56882,
+        "manhattan_recall": 0.84375,
+        "manhattan_ap": 0.659365,
+        "euclidean_accuracy": 0.646875,
+        "euclidean_f1": 0.680147,
+        "euclidean_precision": 0.608553,
+        "euclidean_recall": 0.770833,
+        "euclidean_ap": 0.663495,
+        "dot_accuracy": 0.603125,
+        "dot_f1": 0.681481,
+        "dot_precision": 0.528736,
+        "dot_recall": 0.958333,
+        "dot_ap": 0.612875,
+        "max_accuracy": 0.670833,
+        "max_f1": 0.707608,
+        "max_precision": 0.631751,
+        "max_recall": 0.958333,
+        "max_ap": 0.674997,
+        "main_score": 0.674997,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 83.93242755718529,
+  "kg_co2_emissions": null,
+  "date": 1791402835.787102,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.005758095998317003,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.008182615041732788,
+      "end": 41.68592717102729,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 41.6860306460876,
+      "end": 83.89658580813557,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 83.89666584902443,
+      "end": 83.90516941505484,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

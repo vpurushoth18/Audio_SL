@@ -1,0 +1,14 @@
+model	revision	encoder_params_M	whole_model_params_M	counts_differ
+facebook/wav2vec2-xls-r-2b	3b6d89d0fabe	2162.4	2162.4	False
+facebook/wav2vec2-xls-r-1b	35eaea9a0ed0	962.8	962.8	False
+openai/whisper-large-v3	main	637.0	1543.5	True
+facebook/w2v-bert-2.0	da985ba0987f	580.0	580.0	False
+microsoft/wavlm-large	c1423ed94bb0	315.5	315.5	False
+facebook/wav2vec2-xls-r-300m	1a640f32ac3e	315.4	315.4	False
+facebook/hubert-large-ls960-ft	ece5fabbf034	315.4	315.4	False
+facebook/mms-300m	4ee317ce793c	315.4	315.4	False
+openai/whisper-medium	main	307.2	763.9	True
+openai/whisper-small	main	88.2	241.7	True
+openai/whisper-base	main	20.6	72.6	True
+openai/whisper-tiny	main	8.2	37.8	True
+baseline/mfcc-40	1	0.0	0.0	False

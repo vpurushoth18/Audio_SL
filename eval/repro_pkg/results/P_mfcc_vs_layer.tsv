@@ -1,0 +1,15 @@
+corpus	n	k	model	layer_condition	ami	ami_sd	v_measure	ratio_to_mfcc
+openslr30	2064	12	baseline/mfcc-40	n/a (no layers)	0.4046263780873922	0.0260254372663428	0.4120894703936889	
+openslr52	11155	476	baseline/mfcc-40	n/a (no layers)	0.27443338329669836	0.001591848011199105	0.6150076942916399	
+openslr30	2064	12	facebook/hubert-large-ls960-ft	final layer (24)	0.1875754354854493			0.46357688387022633
+openslr30	2064	12	facebook/hubert-large-ls960-ft	selected layer (3)	0.8476727507984902			2.0949517794794086
+openslr30	2064	12	facebook/wav2vec2-xls-r-300m	final layer (24)	0.0867735910711771			0.2144536188701853
+openslr30	2064	12	facebook/wav2vec2-xls-r-300m	selected layer (4)	0.7331005350017101			1.8117962018862084
+openslr30	2064	12	openai/whisper-large-v3	final layer (32)	0.2179989356012117			0.5387660009504565
+openslr30	2064	12	openai/whisper-large-v3	selected layer (13)	0.8074012108385723			1.9954240617110428
+openslr30	2064	12	facebook/mms-300m	final layer (24)	0.2294903340467764			0.5671660239541044
+openslr30	2064	12	facebook/mms-300m	selected layer (4)	0.7838103850350374			1.9371213234786886
+openslr30	2064	12	microsoft/wavlm-large	final layer (24)	0.3151957584406656			0.7789797588841053
+openslr30	2064	12	microsoft/wavlm-large	selected layer (3)	0.8460602440184545			2.0909666048408746
+openslr30	2064	12	facebook/w2v-bert-2.0	final layer (24)	0.5119896269619298			1.2653392232657383
+openslr30	2064	12	facebook/w2v-bert-2.0	selected layer (17)	0.8100383126615508			2.0019414366667827

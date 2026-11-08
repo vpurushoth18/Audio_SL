@@ -91,12 +91,17 @@ def probe(X, y, seeds=SEEDS, test_size=0.3):
     keep = pd.Series(y).groupby(y).transform("size").values >= 2
     X, y = X[keep], np.asarray(y)[keep]
     codes, uniq = pd.factorize(y)
-    mu, sd = X.mean(0), X.std(0) + 1e-9
-    Xs = ((X - mu) / sd).astype(np.float32)
     out = []
     for s in seeds:
-        Xtr, Xte, ytr, yte = train_test_split(Xs, codes, test_size=test_size,
+        Xtr, Xte, ytr, yte = train_test_split(X, codes, test_size=test_size,
                                               random_state=s, stratify=codes)
+        # Standardisation is fitted on TRAIN ONLY and applied to test. Fitting
+        # it on the full matrix first, as an earlier version did, lets the test
+        # split inform the preprocessing; the statistics are label-free so the
+        # effect is small, but it is still leakage.
+        mu, sd = Xtr.mean(0), Xtr.std(0) + 1e-9
+        Xtr = ((Xtr - mu) / sd).astype(np.float32)
+        Xte = ((Xte - mu) / sd).astype(np.float32)
         out.append(_fit_probe_gpu(Xtr, ytr, Xte, yte, len(uniq)))
     return float(np.mean(out)), float(np.std(out)), int(len(y)), int(len(uniq))
 

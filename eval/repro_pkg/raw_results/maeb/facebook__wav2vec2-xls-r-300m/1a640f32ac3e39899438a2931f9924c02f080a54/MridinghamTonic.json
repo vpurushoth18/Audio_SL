@@ -1,0 +1,151 @@
+{
+  "dataset_revision": "9304553355441e3d2bf2432691b6209ff9a9339c",
+  "task_name": "MridinghamTonic",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "train": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.297278,
+            "f1": 0.262617,
+            "f1_weighted": 0.267519,
+            "precision": 0.278388,
+            "precision_weighted": 0.28673,
+            "recall": 0.291632,
+            "recall_weighted": 0.297278,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.361748,
+            "f1": 0.331108,
+            "f1_weighted": 0.344156,
+            "precision": 0.365798,
+            "precision_weighted": 0.3688,
+            "recall": 0.340343,
+            "recall_weighted": 0.361748,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.317563,
+            "f1": 0.288151,
+            "f1_weighted": 0.302924,
+            "precision": 0.320907,
+            "precision_weighted": 0.322527,
+            "recall": 0.295358,
+            "recall_weighted": 0.317563,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.362724,
+            "f1": 0.311876,
+            "f1_weighted": 0.324606,
+            "precision": 0.314603,
+            "precision_weighted": 0.327046,
+            "recall": 0.348488,
+            "recall_weighted": 0.362724,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.301792,
+            "f1": 0.301717,
+            "f1_weighted": 0.300136,
+            "precision": 0.330572,
+            "precision_weighted": 0.330777,
+            "recall": 0.307067,
+            "recall_weighted": 0.301792,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.328221,
+        "f1": 0.299094,
+        "f1_weighted": 0.307868,
+        "precision": 0.322054,
+        "precision_weighted": 0.327176,
+        "recall": 0.316578,
+        "recall_weighted": 0.328221,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.328221,
+        "hf_subset": "default",
+        "languages": [
+          "zxx-Zxxx"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 55.893361422931775,
+  "kg_co2_emissions": null,
+  "date": 1790960162.413618,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 8.75699333846569e-06,
+      "end": 13.49941291497089,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 13.49945876095444,
+      "end": 13.499463320011273,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 13.501043728087097,
+      "end": 45.60914623411372,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 46.302006968064234,
+      "end": 47.68203727109358,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 48.38728914409876,
+      "end": 49.73706368613057,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 50.43163882009685,
+      "end": 51.78566125012003,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 52.47911391314119,
+      "end": 53.826278523076326,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 54.521130049135536,
+      "end": 55.8825569730252,
+      "split": "train",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 45.6092117279768,
+      "end": 55.88258409500122,
+      "split": "train",
+      "subset": "default"
+    }
+  ]
+}

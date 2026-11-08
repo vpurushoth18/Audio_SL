@@ -1,0 +1,5 @@
+group	count	median	mean
+different corpus, different capability	49	0.24805562878987603	0.25097148143918202
+different corpus, same capability	25	0.76169764070119939	0.72336597920325274
+same corpus, different capability	8	-0.024076754029325922	-0.088678867056089739
+same corpus, same capability	9	0.74640833003822316	0.69562334983443674

@@ -1,0 +1,27 @@
+{
+  "n_checkpoints": 45,
+  "n_families": 12,
+  "family_sizes": {
+    "data2vec": 4,
+    "hubert": 4,
+    "mms": 3,
+    "sew-d": 2,
+    "speecht5": 1,
+    "unispeech": 3,
+    "w2v-bert": 1,
+    "wav2vec2": 4,
+    "wav2vec2-conformer": 1,
+    "wavlm": 6,
+    "whisper": 11,
+    "xls-r": 5
+  },
+  "n_boot": 2000,
+  "n_oneper": 500,
+  "seed": 0,
+  "separation_point": -0.7857743947305253,
+  "separation_family_ci": [
+    -1.2278346935282627,
+    -0.44885206832300484
+  ],
+  "survives": true
+}

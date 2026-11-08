@@ -322,6 +322,76 @@ def fig5_layer_validation():
     save(fig, "fig5_layer_validation")
 
 
+
+# ---------------------------------------------------------------- figure 6
+def fig6_task_correlations():
+    """Task-by-task Spearman, ordered by corpus then capability.
+
+    A diverging scale, because the sign is the point: same-corpus pairs that
+    ask different questions go negative, which is the finding.
+    """
+    d = pd.read_csv(os.path.join(AN, "task_correlations.tsv"), sep="\t")
+    tasks = sorted(set(d.task_a) | set(d.task_b))
+    CORP = dict(zip(d.task_a, d.corpus_a))
+    CORP.update(dict(zip(d.task_b, d.corpus_b)))
+    CAP = dict(zip(d.task_a, d.capability_a))
+    CAP.update(dict(zip(d.task_b, d.capability_b)))
+    order = sorted(tasks, key=lambda t: (CORP[t], CAP[t], t))
+
+    M = pd.DataFrame(np.eye(len(order)), index=order, columns=order)
+    for _, r in d.iterrows():
+        M.loc[r.task_a, r.task_b] = r.spearman
+        M.loc[r.task_b, r.task_a] = r.spearman
+
+    SHORT_T = {t: (t.replace("OpenSLR52", "SLR52-").replace("OpenSLR30", "SLR30-")
+                   .replace("OmnilingualSinhala", "Omni-")
+                   .replace("WorldSpeechSinhala", "WS-")
+                   .replace("VoxLingua107Sinhala", "VL-")
+                   .replace("SpeakerClustering", "spk clust")
+                   .replace("SpeakerClassification", "spk clf")
+                   .replace("SpeakerPairClassification", "spk pair")
+                   .replace("AudioRetrieval", "retrieval")
+                   .replace("AudioReranking", "rerank")
+                   .replace("ContentRetrieval", "retrieval")
+                   .replace("SessionClustering", "session")
+                   .replace("QualityClassification", "quality")
+                   .replace("VideoClustering", "video")) for t in order}
+
+    # diverging: two hues with a neutral midpoint, since sign carries meaning
+    cmap = LinearSegmentedColormap.from_list(
+        "div", [OI["vermil"], "#f2f2f0", OI["blue"]])
+    fig, ax = plt.subplots(figsize=(COL2, 4.1))
+    im = ax.imshow(M.values, cmap=cmap, vmin=-1, vmax=1)
+    ax.set_xticks(range(len(order)))
+    ax.set_xticklabels([SHORT_T[t] for t in order], rotation=55, ha="right", fontsize=6)
+    ax.set_yticks(range(len(order)))
+    ax.set_yticklabels([SHORT_T[t] for t in order], fontsize=6)
+    for i in range(len(order)):
+        for j in range(len(order)):
+            v = M.values[i, j]
+            if i != j:
+                ax.text(j, i, f"{v:.2f}".replace("0.", "."), ha="center",
+                        va="center", fontsize=4.6,
+                        color="white" if abs(v) > 0.6 else INK2)
+    # corpus block boundaries
+    bounds, prev = [], None
+    for k, t in enumerate(order):
+        if prev is not None and CORP[t] != prev:
+            bounds.append(k - 0.5)
+        prev = CORP[t]
+    for b in bounds:
+        ax.axhline(b, color=INK, lw=0.7)
+        ax.axvline(b, color=INK, lw=0.7)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.tick_params(length=0)
+    cb = fig.colorbar(im, ax=ax, fraction=0.03, pad=0.02, ticks=[-1, 0, 1])
+    cb.ax.tick_params(labelsize=6)
+    cb.set_label(r"Spearman $\rho$", fontsize=7)
+    cb.outline.set_visible(False)
+    save(fig, "fig6_task_correlations")
+
+
 if __name__ == "__main__":
     import matplotlib.font_manager as fm
     have = {f.name for f in fm.fontManager.ttflist}
@@ -331,5 +401,6 @@ if __name__ == "__main__":
     fig3_capability_heatmap()
     fig4_benchmark_transfer()
     fig5_layer_validation()
+    fig6_task_correlations()
     fig1_layer_curves()
     print(f"\n{OUT}")

@@ -1,0 +1,15 @@
+task	provenance	best_encoder	mfcc	chance	verdict	reason
+OmnilingualSinhalaContentRetrieval	human	0.1043			core	passes
+OmnilingualSinhalaSpeakerClustering	human	0.7909999999999999	0.5471185118937151	0.022826227162744968	core	passes
+OpenSLR52AudioReranking	derived	0.12			core	passes
+OpenSLR52AudioRetrieval	derived	0.3671			core	passes
+OmnilingualSinhalaSpeakerClassification	human	0.9306	0.9919354838709677	0.14432989690721648	diagnostic	MFCC reaches 107% of best encoder
+OpenSLR30SpeakerClassification	human	0.9111	0.9722222222222222	0.08333333333333333	diagnostic	MFCC reaches 107% of best encoder
+OpenSLR30SpeakerClustering	human	0.39299999999999996	0.5338898783026235	0.11714332912182282	diagnostic	MFCC reaches 136% of best encoder
+OpenSLR30SpeakerPairClassification	derived	0.8162999999999999	0.8192815764508077	0.5	diagnostic	MFCC reaches 100% of best encoder
+OpenSLR52SpeakerClassification	human	0.7756000000000001	0.8262992675270318	0.0020926756352765323	diagnostic	MFCC reaches 107% of best encoder
+OpenSLR52SpeakerClustering	human	0.6096	0.6288618460321539	0.4949193292805935	diagnostic	MFCC reaches 103% of best encoder
+OpenSLR52SpeakerPairClassification	derived	0.8734000000000001	0.8319815152648711	0.5	diagnostic	MFCC reaches 95% of best encoder
+VoxLingua107SinhalaVideoClustering	automatic	0.9740000000000001	0.7902696521107956	0.5641526036254213	diagnostic	automatic label: not a speaker capability
+WorldSpeechSinhalaQualityClassification	derived-by-us	0.4667	0.6063492063492063	0.33741496598639453	diagnostic	MFCC reaches 130% of best encoder; label thresholds chosen by us
+WorldSpeechSinhalaSessionClustering	metadata	0.9294	0.5293490331059408	0.44610835304282925	diagnostic	metadata label: not a speaker capability

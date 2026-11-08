@@ -1,0 +1,416 @@
+dataset	utt_id	path	speaker_id	duration_s	sample_rate	channels	n_samples	transcript	has_transcript	n_chars	content_group
+omnilingual	spk05__i099__s01	data/omni_wav/spk05__i099__s01.flac	4	20.0	16000	1	320000		0	0	i099
+omnilingual	spk04__a017__s01	data/omni_wav/spk04__a017__s01.flac	3	16.7	16000	1	267264		0	0	
+omnilingual	spk01__x153__s01	data/omni_wav/spk01__x153__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk05__n046__s01	data/omni_wav/spk05__n046__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk04__i081__s01	data/omni_wav/spk04__i081__s01.flac	3	20.0	16000	1	320000		0	0	i081
+omnilingual	spk04__w099__s01	data/omni_wav/spk04__w099__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk04__a026__s01	data/omni_wav/spk04__a026__s01.flac	3	18.15	16000	1	290474		0	0	
+omnilingual	spk04__a005__s01	data/omni_wav/spk04__a005__s01.flac	3	11.71	16000	1	187392		0	0	
+omnilingual	spk05__a081__s01	data/omni_wav/spk05__a081__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk03__w053__s01	data/omni_wav/spk03__w053__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk06__r118__s01	data/omni_wav/spk06__r118__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x005__s01	data/omni_wav/spk01__x005__s01.flac	0	20.0	16000	1	320000		0	0	x005
+omnilingual	spk03__w063__s01	data/omni_wav/spk03__w063__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk02__w087__s01	data/omni_wav/spk02__w087__s01.flac	1	20.0	16000	1	320000		0	0	w087
+omnilingual	spk07__p104__s01	data/omni_wav/spk07__p104__s01.flac	6	20.0	16000	1	320000		0	0	p104
+omnilingual	spk04__x032__s01	data/omni_wav/spk04__x032__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk07__p111__s01	data/omni_wav/spk07__p111__s01.flac	6	20.0	16000	1	320000		0	0	p111
+omnilingual	spk04__a027__s01	data/omni_wav/spk04__a027__s01.flac	3	13.61	16000	1	217771		0	0	
+omnilingual	spk03__f001__s01	data/omni_wav/spk03__f001__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk05__p061__s01	data/omni_wav/spk05__p061__s01.flac	4	20.0	16000	1	320000		0	0	p061
+omnilingual	spk04__a023__s01	data/omni_wav/spk04__a023__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk07__p056__s01	data/omni_wav/spk07__p056__s01.flac	6	20.0	16000	1	320000		0	0	p056
+omnilingual	spk07__p113__s01	data/omni_wav/spk07__p113__s01.flac	6	20.0	16000	1	320000		0	0	p113
+omnilingual	spk07__i038__s01	data/omni_wav/spk07__i038__s01.flac	6	20.0	16000	1	320000		0	0	i038
+omnilingual	spk03__x056__s01	data/omni_wav/spk03__x056__s01.flac	2	20.0	16000	1	320000		0	0	x056
+omnilingual	spk04__m001__s01	data/omni_wav/spk04__m001__s01.flac	3	20.0	16000	1	320000		0	0	m001
+omnilingual	spk07__m053__s01	data/omni_wav/spk07__m053__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk04__a013__s01	data/omni_wav/spk04__a013__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk06__h034__s01	data/omni_wav/spk06__h034__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk05__s022__s01	data/omni_wav/spk05__s022__s01.flac	4	20.0	16000	1	320000		0	0	s022
+omnilingual	spk02__w088__s01	data/omni_wav/spk02__w088__s01.flac	1	20.0	16000	1	320000		0	0	w088
+omnilingual	spk07__h141__s01	data/omni_wav/spk07__h141__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk02__c090__s01	data/omni_wav/spk02__c090__s01.flac	1	20.0	16000	1	320000		0	0	c090
+omnilingual	spk06__m016__s01	data/omni_wav/spk06__m016__s01.flac	5	20.0	16000	1	320000		0	0	m016
+omnilingual	spk05__f028__s01	data/omni_wav/spk05__f028__s01.flac	4	20.0	16000	1	320000		0	0	f028
+omnilingual	spk06__r092__s01	data/omni_wav/spk06__r092__s01.flac	5	20.0	16000	1	320000		0	0	r092
+omnilingual	spk04__p113__s01	data/omni_wav/spk04__p113__s01.flac	3	20.0	16000	1	320000		0	0	p113
+omnilingual	spk04__w081__s01	data/omni_wav/spk04__w081__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk02__r092__s01	data/omni_wav/spk02__r092__s01.flac	1	20.0	16000	1	320000		0	0	r092
+omnilingual	spk07__s020__s01	data/omni_wav/spk07__s020__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk05__m008__s01	data/omni_wav/spk05__m008__s01.flac	4	20.0	16000	1	320000		0	0	m008
+omnilingual	spk06__h039__s01	data/omni_wav/spk06__h039__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk01__w079__s01	data/omni_wav/spk01__w079__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk06__p067__s01	data/omni_wav/spk06__p067__s01.flac	5	20.0	16000	1	320000		0	0	p067
+omnilingual	spk01__f079__s01	data/omni_wav/spk01__f079__s01.flac	0	20.0	16000	1	320000		0	0	f079
+omnilingual	spk01__x069__s01	data/omni_wav/spk01__x069__s01.flac	0	20.0	16000	1	320000		0	0	x069
+omnilingual	spk03__w051__s01	data/omni_wav/spk03__w051__s01.flac	2	20.0	16000	1	320000		0	0	w051
+omnilingual	spk05__p072__s01	data/omni_wav/spk05__p072__s01.flac	4	20.0	16000	1	320000		0	0	p072
+omnilingual	spk04__x008__s01	data/omni_wav/spk04__x008__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk03__p111__s01	data/omni_wav/spk03__p111__s01.flac	2	20.0	16000	1	320000		0	0	p111
+omnilingual	spk01__x024__s01	data/omni_wav/spk01__x024__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk04__w071__s01	data/omni_wav/spk04__w071__s01.flac	3	20.0	16000	1	320000		0	0	w071
+omnilingual	spk07__f026__s01	data/omni_wav/spk07__f026__s01.flac	6	20.0	16000	1	320000		0	0	f026
+omnilingual	spk05__m016__s01	data/omni_wav/spk05__m016__s01.flac	4	20.0	16000	1	320000		0	0	m016
+omnilingual	spk02__p069__s01	data/omni_wav/spk02__p069__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk02__i041__s01	data/omni_wav/spk02__i041__s01.flac	1	20.0	16000	1	320000		0	0	i041
+omnilingual	spk01__x001__s01	data/omni_wav/spk01__x001__s01.flac	0	20.0	16000	1	320000		0	0	x001
+omnilingual	spk06__i075__s01	data/omni_wav/spk06__i075__s01.flac	5	20.0	16000	1	320000		0	0	i075
+omnilingual	spk06__f104__s01	data/omni_wav/spk06__f104__s01.flac	5	20.0	16000	1	320000		0	0	f104
+omnilingual	spk01__x093__s01	data/omni_wav/spk01__x093__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk05__h138__s01	data/omni_wav/spk05__h138__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk07__a057__s01	data/omni_wav/spk07__a057__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk06__f103__s01	data/omni_wav/spk06__f103__s01.flac	5	20.0	16000	1	320000		0	0	f103
+omnilingual	spk05__f085__s01	data/omni_wav/spk05__f085__s01.flac	4	20.0	16000	1	320000		0	0	f085
+omnilingual	spk07__f028__s01	data/omni_wav/spk07__f028__s01.flac	6	20.0	16000	1	320000		0	0	f028
+omnilingual	spk05__f106__s01	data/omni_wav/spk05__f106__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk07__m058__s01	data/omni_wav/spk07__m058__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk06__x061__s01	data/omni_wav/spk06__x061__s01.flac	5	20.0	16000	1	320000		0	0	x061
+omnilingual	spk01__f005__s01	data/omni_wav/spk01__f005__s01.flac	0	20.0	16000	1	320000		0	0	f005
+omnilingual	spk05__h032__s01	data/omni_wav/spk05__h032__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk01__a069__s01	data/omni_wav/spk01__a069__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk02__i105__s01	data/omni_wav/spk02__i105__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk03__p116__s01	data/omni_wav/spk03__p116__s01.flac	2	20.0	16000	1	320000		0	0	p116
+omnilingual	spk03__f016__s01	data/omni_wav/spk03__f016__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk01__w084__s01	data/omni_wav/spk01__w084__s01.flac	0	20.0	16000	1	320000		0	0	w084
+omnilingual	spk05__h107__s01	data/omni_wav/spk05__h107__s01.flac	4	20.0	16000	1	320000		0	0	h107
+omnilingual	spk07__n072__s01	data/omni_wav/spk07__n072__s01.flac	6	20.0	16000	1	320000		0	0	n072
+omnilingual	spk02__n077__s01	data/omni_wav/spk02__n077__s01.flac	1	20.0	16000	1	320000		0	0	n077
+omnilingual	spk01__x182__s01	data/omni_wav/spk01__x182__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk03__a030__s01	data/omni_wav/spk03__a030__s01.flac	2	20.0	16000	1	320000		0	0	a030
+omnilingual	spk04__m017__s01	data/omni_wav/spk04__m017__s01.flac	3	20.0	16000	1	320000		0	0	m017
+omnilingual	spk02__i074__s01	data/omni_wav/spk02__i074__s01.flac	1	20.0	16000	1	320000		0	0	i074
+omnilingual	spk04__a001__s01	data/omni_wav/spk04__a001__s01.flac	3	13.01	16000	1	208213		0	0	
+omnilingual	spk06__n057__s01	data/omni_wav/spk06__n057__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x061__s01	data/omni_wav/spk01__x061__s01.flac	0	20.0	16000	1	320000		0	0	x061
+omnilingual	spk02__i079__s01	data/omni_wav/spk02__i079__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk06__f038__s01	data/omni_wav/spk06__f038__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x053__s01	data/omni_wav/spk01__x053__s01.flac	0	20.0	16000	1	320000		0	0	x053
+omnilingual	spk03__w060__s01	data/omni_wav/spk03__w060__s01.flac	2	20.0	16000	1	320000		0	0	w060
+omnilingual	spk05__c086__s01	data/omni_wav/spk05__c086__s01.flac	4	20.0	16000	1	320000		0	0	c086
+omnilingual	spk03__i099__s01	data/omni_wav/spk03__i099__s01.flac	2	20.0	16000	1	320000		0	0	i099
+omnilingual	spk01__x100__s01	data/omni_wav/spk01__x100__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk02__w096__s01	data/omni_wav/spk02__w096__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk04__x075__s01	data/omni_wav/spk04__x075__s01.flac	3	20.0	16000	1	320000		0	0	x075
+omnilingual	spk06__i071__s01	data/omni_wav/spk06__i071__s01.flac	5	20.0	16000	1	320000		0	0	i071
+omnilingual	spk03__p092__s01	data/omni_wav/spk03__p092__s01.flac	2	20.0	16000	1	320000		0	0	p092
+omnilingual	spk07__n074__s01	data/omni_wav/spk07__n074__s01.flac	6	20.0	16000	1	320000		0	0	n074
+omnilingual	spk07__n069__s01	data/omni_wav/spk07__n069__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk07__w089__s01	data/omni_wav/spk07__w089__s01.flac	6	20.0	16000	1	320000		0	0	w089
+omnilingual	spk06__i067__s01	data/omni_wav/spk06__i067__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk04__x004__s01	data/omni_wav/spk04__x004__s01.flac	3	20.0	16000	1	320000		0	0	x004
+omnilingual	spk07__f040__s01	data/omni_wav/spk07__f040__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk03__f082__s01	data/omni_wav/spk03__f082__s01.flac	2	20.0	16000	1	320000		0	0	f082
+omnilingual	spk03__r052__s01	data/omni_wav/spk03__r052__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk06__p056__s01	data/omni_wav/spk06__p056__s01.flac	5	20.0	16000	1	320000		0	0	p056
+omnilingual	spk03__f032__s01	data/omni_wav/spk03__f032__s01.flac	2	20.0	16000	1	320000		0	0	f032
+omnilingual	spk04__x062__s01	data/omni_wav/spk04__x062__s01.flac	3	20.0	16000	1	320000		0	0	x062
+omnilingual	spk07__r112__s01	data/omni_wav/spk07__r112__s01.flac	6	20.0	16000	1	320000		0	0	r112
+omnilingual	spk05__f042__s01	data/omni_wav/spk05__f042__s01.flac	4	20.0	16000	1	320000		0	0	f042
+omnilingual	spk03__f036__s01	data/omni_wav/spk03__f036__s01.flac	2	20.0	16000	1	320000		0	0	f036
+omnilingual	spk07__m004__s01	data/omni_wav/spk07__m004__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk02__p088__s01	data/omni_wav/spk02__p088__s01.flac	1	20.0	16000	1	320000		0	0	p088
+omnilingual	spk02__r090__s01	data/omni_wav/spk02__r090__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk03__p059__s01	data/omni_wav/spk03__p059__s01.flac	2	20.0	16000	1	320000		0	0	p059
+omnilingual	spk02__f074__s01	data/omni_wav/spk02__f074__s01.flac	1	20.0	16000	1	320000		0	0	f074
+omnilingual	spk06__n049__s01	data/omni_wav/spk06__n049__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk02__w100__s01	data/omni_wav/spk02__w100__s01.flac	1	20.0	16000	1	320000		0	0	w100
+omnilingual	spk01__w100__s01	data/omni_wav/spk01__w100__s01.flac	0	20.0	16000	1	320000		0	0	w100
+omnilingual	spk07__f032__s01	data/omni_wav/spk07__f032__s01.flac	6	20.0	16000	1	320000		0	0	f032
+omnilingual	spk07__m002__s01	data/omni_wav/spk07__m002__s01.flac	6	20.0	16000	1	320000		0	0	m002
+omnilingual	spk01__x065__s01	data/omni_wav/spk01__x065__s01.flac	0	20.0	16000	1	320000		0	0	x065
+omnilingual	spk07__i056__s01	data/omni_wav/spk07__i056__s01.flac	6	20.0	16000	1	320000		0	0	i056
+omnilingual	spk03__i056__s01	data/omni_wav/spk03__i056__s01.flac	2	20.0	16000	1	320000		0	0	i056
+omnilingual	spk03__f042__s01	data/omni_wav/spk03__f042__s01.flac	2	20.0	16000	1	320000		0	0	f042
+omnilingual	spk07__p073__s01	data/omni_wav/spk07__p073__s01.flac	6	20.0	16000	1	320000		0	0	p073
+omnilingual	spk05__f067__s01	data/omni_wav/spk05__f067__s01.flac	4	20.0	16000	1	320000		0	0	f067
+omnilingual	spk02__n075__s01	data/omni_wav/spk02__n075__s01.flac	1	20.0	16000	1	320000		0	0	n075
+omnilingual	spk07__p126__s01	data/omni_wav/spk07__p126__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk06__t177__s01	data/omni_wav/spk06__t177__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk06__r069__s01	data/omni_wav/spk06__r069__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk03__r053__s01	data/omni_wav/spk03__r053__s01.flac	2	20.0	16000	1	320000		0	0	r053
+omnilingual	spk01__p055__s01	data/omni_wav/spk01__p055__s01.flac	0	20.0	16000	1	320000		0	0	p055
+omnilingual	spk06__p059__s01	data/omni_wav/spk06__p059__s01.flac	5	20.0	16000	1	320000		0	0	p059
+omnilingual	spk03__i092__s01	data/omni_wav/spk03__i092__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk06__r115__s01	data/omni_wav/spk06__r115__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk06__n037__s01	data/omni_wav/spk06__n037__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk07__c097__s01	data/omni_wav/spk07__c097__s01.flac	6	20.0	16000	1	320000		0	0	c097
+omnilingual	spk04__w069__s01	data/omni_wav/spk04__w069__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk06__x051__s01	data/omni_wav/spk06__x051__s01.flac	5	20.0	16000	1	320000		0	0	x051
+omnilingual	spk02__s014__s01	data/omni_wav/spk02__s014__s01.flac	1	20.0	16000	1	320000		0	0	s014
+omnilingual	spk03__t246__s01	data/omni_wav/spk03__t246__s01.flac	2	20.0	16000	1	320000		0	0	t246
+omnilingual	spk07__m030__s01	data/omni_wav/spk07__m030__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk04__p072__s01	data/omni_wav/spk04__p072__s01.flac	3	20.0	16000	1	320000		0	0	p072
+omnilingual	spk06__p073__s01	data/omni_wav/spk06__p073__s01.flac	5	20.0	16000	1	320000		0	0	p073
+omnilingual	spk05__f026__s01	data/omni_wav/spk05__f026__s01.flac	4	20.0	16000	1	320000		0	0	f026
+omnilingual	spk02__n065__s01	data/omni_wav/spk02__n065__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk02__f044__s01	data/omni_wav/spk02__f044__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk05__f075__s01	data/omni_wav/spk05__f075__s01.flac	4	20.0	16000	1	320000		0	0	f075
+omnilingual	spk01__n072__s01	data/omni_wav/spk01__n072__s01.flac	0	20.0	16000	1	320000		0	0	n072
+omnilingual	spk06__s028__s01	data/omni_wav/spk06__s028__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk02__i071__s01	data/omni_wav/spk02__i071__s01.flac	1	20.0	16000	1	320000		0	0	i071
+omnilingual	spk01__t046__s01	data/omni_wav/spk01__t046__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk02__s022__s01	data/omni_wav/spk02__s022__s01.flac	1	20.0	16000	1	320000		0	0	s022
+omnilingual	spk07__m051__s01	data/omni_wav/spk07__m051__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk05__h137__s01	data/omni_wav/spk05__h137__s01.flac	4	20.0	16000	1	320000		0	0	h137
+omnilingual	spk05__h084__s01	data/omni_wav/spk05__h084__s01.flac	4	20.0	16000	1	320000		0	0	h084
+omnilingual	spk06__w054__s01	data/omni_wav/spk06__w054__s01.flac	5	20.0	16000	1	320000		0	0	w054
+omnilingual	spk03__n054__s01	data/omni_wav/spk03__n054__s01.flac	2	20.0	16000	1	320000		0	0	n054
+omnilingual	spk02__p099__s01	data/omni_wav/spk02__p099__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk01__w078__s01	data/omni_wav/spk01__w078__s01.flac	0	20.0	16000	1	320000		0	0	w078
+omnilingual	spk06__t027__s01	data/omni_wav/spk06__t027__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk05__m039__s01	data/omni_wav/spk05__m039__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk01__w071__s01	data/omni_wav/spk01__w071__s01.flac	0	20.0	16000	1	320000		0	0	w071
+omnilingual	spk05__f020__s01	data/omni_wav/spk05__f020__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk06__w051__s01	data/omni_wav/spk06__w051__s01.flac	5	20.0	16000	1	320000		0	0	w051
+omnilingual	spk02__h119__s01	data/omni_wav/spk02__h119__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk04__x001__s01	data/omni_wav/spk04__x001__s01.flac	3	20.0	16000	1	320000		0	0	x001
+omnilingual	spk03__f088__s01	data/omni_wav/spk03__f088__s01.flac	2	20.0	16000	1	320000		0	0	f088
+omnilingual	spk03__c094__s01	data/omni_wav/spk03__c094__s01.flac	2	20.0	16000	1	320000		0	0	c094
+omnilingual	spk02__p104__s01	data/omni_wav/spk02__p104__s01.flac	1	20.0	16000	1	320000		0	0	p104
+omnilingual	spk05__f088__s01	data/omni_wav/spk05__f088__s01.flac	4	20.0	16000	1	320000		0	0	f088
+omnilingual	spk06__s025__s01	data/omni_wav/spk06__s025__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk07__h099__s01	data/omni_wav/spk07__h099__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk07__c094__s01	data/omni_wav/spk07__c094__s01.flac	6	20.0	16000	1	320000		0	0	c094
+omnilingual	spk06__i083__s01	data/omni_wav/spk06__i083__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x031__s01	data/omni_wav/spk01__x031__s01.flac	0	20.0	16000	1	320000		0	0	x031
+omnilingual	spk04__x011__s01	data/omni_wav/spk04__x011__s01.flac	3	20.0	16000	1	320000		0	0	x011
+omnilingual	spk05__f025__s01	data/omni_wav/spk05__f025__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk07__f036__s01	data/omni_wav/spk07__f036__s01.flac	6	20.0	16000	1	320000		0	0	f036
+omnilingual	spk03__x052__s01	data/omni_wav/spk03__x052__s01.flac	2	20.0	16000	1	320000		0	0	x052
+omnilingual	spk02__c091__s01	data/omni_wav/spk02__c091__s01.flac	1	20.0	16000	1	320000		0	0	c091
+omnilingual	spk01__p134__s01	data/omni_wav/spk01__p134__s01.flac	0	20.0	16000	1	320000		0	0	p134
+omnilingual	spk04__m009__s01	data/omni_wav/spk04__m009__s01.flac	3	20.0	16000	1	320000		0	0	m009
+omnilingual	spk05__f008__s01	data/omni_wav/spk05__f008__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk07__m006__s01	data/omni_wav/spk07__m006__s01.flac	6	20.0	16000	1	320000		0	0	m006
+omnilingual	spk01__x063__s01	data/omni_wav/spk01__x063__s01.flac	0	20.0	16000	1	320000		0	0	x063
+omnilingual	spk04__w078__s01	data/omni_wav/spk04__w078__s01.flac	3	20.0	16000	1	320000		0	0	w078
+omnilingual	spk02__i075__s01	data/omni_wav/spk02__i075__s01.flac	1	20.0	16000	1	320000		0	0	i075
+omnilingual	spk05__r112__s01	data/omni_wav/spk05__r112__s01.flac	4	20.0	16000	1	320000		0	0	r112
+omnilingual	spk05__m007__s01	data/omni_wav/spk05__m007__s01.flac	4	20.0	16000	1	320000		0	0	m007
+omnilingual	spk06__i082__s01	data/omni_wav/spk06__i082__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk07__n055__s01	data/omni_wav/spk07__n055__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk03__c086__s01	data/omni_wav/spk03__c086__s01.flac	2	20.0	16000	1	320000		0	0	c086
+omnilingual	spk06__i074__s01	data/omni_wav/spk06__i074__s01.flac	5	20.0	16000	1	320000		0	0	i074
+omnilingual	spk03__p055__s01	data/omni_wav/spk03__p055__s01.flac	2	20.0	16000	1	320000		0	0	p055
+omnilingual	spk05__i059__s01	data/omni_wav/spk05__i059__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk01__p072__s01	data/omni_wav/spk01__p072__s01.flac	0	20.0	16000	1	320000		0	0	p072
+omnilingual	spk01__w097__s01	data/omni_wav/spk01__w097__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk06__s043__s01	data/omni_wav/spk06__s043__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk04__w085__s01	data/omni_wav/spk04__w085__s01.flac	3	20.0	16000	1	320000		0	0	w085
+omnilingual	spk04__x014__s01	data/omni_wav/spk04__x014__s01.flac	3	20.0	16000	1	320000		0	0	x014
+omnilingual	spk02__x031__s01	data/omni_wav/spk02__x031__s01.flac	1	20.0	16000	1	320000		0	0	x031
+omnilingual	spk07__p057__s01	data/omni_wav/spk07__p057__s01.flac	6	20.0	16000	1	320000		0	0	p057
+omnilingual	spk04__a024__s01	data/omni_wav/spk04__a024__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk06__i081__s01	data/omni_wav/spk06__i081__s01.flac	5	20.0	16000	1	320000		0	0	i081
+omnilingual	spk01__x052__s01	data/omni_wav/spk01__x052__s01.flac	0	20.0	16000	1	320000		0	0	x052
+omnilingual	spk01__x025__s01	data/omni_wav/spk01__x025__s01.flac	0	20.0	16000	1	320000		0	0	x025
+omnilingual	spk06__n043__s01	data/omni_wav/spk06__n043__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk02__n053__s01	data/omni_wav/spk02__n053__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x171__s01	data/omni_wav/spk01__x171__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk07__i062__s01	data/omni_wav/spk07__i062__s01.flac	6	20.0	16000	1	320000		0	0	i062
+omnilingual	spk03__x055__s01	data/omni_wav/spk03__x055__s01.flac	2	20.0	16000	1	320000		0	0	x055
+omnilingual	spk07__i068__s01	data/omni_wav/spk07__i068__s01.flac	6	20.0	16000	1	320000		0	0	i068
+omnilingual	spk06__x055__s01	data/omni_wav/spk06__x055__s01.flac	5	20.0	16000	1	320000		0	0	x055
+omnilingual	spk02__i080__s01	data/omni_wav/spk02__i080__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk07__a015__s01	data/omni_wav/spk07__a015__s01.flac	6	20.0	16000	1	320000		0	0	a015
+omnilingual	spk06__p065__s01	data/omni_wav/spk06__p065__s01.flac	5	20.0	16000	1	320000		0	0	p065
+omnilingual	spk05__f048__s01	data/omni_wav/spk05__f048__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk03__f087__s01	data/omni_wav/spk03__f087__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk01__w095__s01	data/omni_wav/spk01__w095__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk02__n078__s01	data/omni_wav/spk02__n078__s01.flac	1	20.0	16000	1	320000		0	0	n078
+omnilingual	spk07__p066__s01	data/omni_wav/spk07__p066__s01.flac	6	20.0	16000	1	320000		0	0	p066
+omnilingual	spk06__i054__s01	data/omni_wav/spk06__i054__s01.flac	5	20.0	16000	1	320000		0	0	i054
+omnilingual	spk04__c086__s01	data/omni_wav/spk04__c086__s01.flac	3	20.0	16000	1	320000		0	0	c086
+omnilingual	spk05__h038__s01	data/omni_wav/spk05__h038__s01.flac	4	20.0	16000	1	320000		0	0	h038
+omnilingual	spk03__i054__s01	data/omni_wav/spk03__i054__s01.flac	2	20.0	16000	1	320000		0	0	i054
+omnilingual	spk01__x056__s01	data/omni_wav/spk01__x056__s01.flac	0	20.0	16000	1	320000		0	0	x056
+omnilingual	spk02__f047__s01	data/omni_wav/spk02__f047__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk07__t151__s01	data/omni_wav/spk07__t151__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk02__c086__s01	data/omni_wav/spk02__c086__s01.flac	1	20.0	16000	1	320000		0	0	c086
+omnilingual	spk06__i057__s01	data/omni_wav/spk06__i057__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk02__p072__s01	data/omni_wav/spk02__p072__s01.flac	1	20.0	16000	1	320000		0	0	p072
+omnilingual	spk02__r097__s01	data/omni_wav/spk02__r097__s01.flac	1	20.0	16000	1	320000		0	0	r097
+omnilingual	spk05__n075__s01	data/omni_wav/spk05__n075__s01.flac	4	20.0	16000	1	320000		0	0	n075
+omnilingual	spk05__w058__s01	data/omni_wav/spk05__w058__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk03__n077__s01	data/omni_wav/spk03__n077__s01.flac	2	20.0	16000	1	320000		0	0	n077
+omnilingual	spk01__x178__s01	data/omni_wav/spk01__x178__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk04__x046__s01	data/omni_wav/spk04__x046__s01.flac	3	20.0	16000	1	320000		0	0	x046
+omnilingual	spk02__p123__s01	data/omni_wav/spk02__p123__s01.flac	1	20.0	16000	1	320000		0	0	p123
+omnilingual	spk06__f002__s01	data/omni_wav/spk06__f002__s01.flac	5	20.0	16000	1	320000		0	0	f002
+omnilingual	spk02__s017__s01	data/omni_wav/spk02__s017__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk03__x049__s01	data/omni_wav/spk03__x049__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk02__n033__s01	data/omni_wav/spk02__n033__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk07__r100__s01	data/omni_wav/spk07__r100__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk02__p134__s01	data/omni_wav/spk02__p134__s01.flac	1	20.0	16000	1	320000		0	0	p134
+omnilingual	spk04__x016__s01	data/omni_wav/spk04__x016__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk07__f005__s01	data/omni_wav/spk07__f005__s01.flac	6	20.0	16000	1	320000		0	0	f005
+omnilingual	spk01__i061__s01	data/omni_wav/spk01__i061__s01.flac	0	20.0	16000	1	320000		0	0	i061
+omnilingual	spk03__f002__s01	data/omni_wav/spk03__f002__s01.flac	2	20.0	16000	1	320000		0	0	f002
+omnilingual	spk03__p134__s01	data/omni_wav/spk03__p134__s01.flac	2	20.0	16000	1	320000		0	0	p134
+omnilingual	spk06__w092__s01	data/omni_wav/spk06__w092__s01.flac	5	20.0	16000	1	320000		0	0	w092
+omnilingual	spk06__x056__s01	data/omni_wav/spk06__x056__s01.flac	5	20.0	16000	1	320000		0	0	x056
+omnilingual	spk01__x060__s01	data/omni_wav/spk01__x060__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk05__x012__s01	data/omni_wav/spk05__x012__s01.flac	4	20.0	16000	1	320000		0	0	x012
+omnilingual	spk06__m009__s01	data/omni_wav/spk06__m009__s01.flac	5	20.0	16000	1	320000		0	0	m009
+omnilingual	spk07__n066__s01	data/omni_wav/spk07__n066__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk03__i039__s01	data/omni_wav/spk03__i039__s01.flac	2	20.0	16000	1	320000		0	0	i039
+omnilingual	spk02__n079__s01	data/omni_wav/spk02__n079__s01.flac	1	20.0	16000	1	320000		0	0	n079
+omnilingual	spk06__r088__s01	data/omni_wav/spk06__r088__s01.flac	5	20.0	16000	1	320000		0	0	r088
+omnilingual	spk05__r077__s01	data/omni_wav/spk05__r077__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x097__s01	data/omni_wav/spk01__x097__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk03__f103__s01	data/omni_wav/spk03__f103__s01.flac	2	20.0	16000	1	320000		0	0	f103
+omnilingual	spk05__n048__s01	data/omni_wav/spk05__n048__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk07__f017__s01	data/omni_wav/spk07__f017__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x033__s01	data/omni_wav/spk01__x033__s01.flac	0	20.0	16000	1	320000		0	0	x033
+omnilingual	spk06__f003__s01	data/omni_wav/spk06__f003__s01.flac	5	20.0	16000	1	320000		0	0	f003
+omnilingual	spk07__i099__s01	data/omni_wav/spk07__i099__s01.flac	6	20.0	16000	1	320000		0	0	i099
+omnilingual	spk06__x101__s01	data/omni_wav/spk06__x101__s01.flac	5	20.0	16000	1	320000		0	0	x101
+omnilingual	spk04__m008__s01	data/omni_wav/spk04__m008__s01.flac	3	20.0	16000	1	320000		0	0	m008
+omnilingual	spk06__h159__s01	data/omni_wav/spk06__h159__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk02__n072__s01	data/omni_wav/spk02__n072__s01.flac	1	20.0	16000	1	320000		0	0	n072
+omnilingual	spk03__f066__s01	data/omni_wav/spk03__f066__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk05__x010__s01	data/omni_wav/spk05__x010__s01.flac	4	20.0	16000	1	320000		0	0	x010
+omnilingual	spk05__f002__s01	data/omni_wav/spk05__f002__s01.flac	4	20.0	16000	1	320000		0	0	f002
+omnilingual	spk06__r097__s01	data/omni_wav/spk06__r097__s01.flac	5	20.0	16000	1	320000		0	0	r097
+omnilingual	spk05__i089__s01	data/omni_wav/spk05__i089__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x174__s01	data/omni_wav/spk01__x174__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk03__w067__s01	data/omni_wav/spk03__w067__s01.flac	2	20.0	16000	1	320000		0	0	w067
+omnilingual	spk02__x021__s01	data/omni_wav/spk02__x021__s01.flac	1	20.0	16000	1	320000		0	0	x021
+omnilingual	spk03__x053__s01	data/omni_wav/spk03__x053__s01.flac	2	20.0	16000	1	320000		0	0	x053
+omnilingual	spk04__m006__s01	data/omni_wav/spk04__m006__s01.flac	3	20.0	16000	1	320000		0	0	m006
+omnilingual	spk04__x029__s01	data/omni_wav/spk04__x029__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk05__h131__s01	data/omni_wav/spk05__h131__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x064__s01	data/omni_wav/spk01__x064__s01.flac	0	20.0	16000	1	320000		0	0	x064
+omnilingual	spk01__f013__s01	data/omni_wav/spk01__f013__s01.flac	0	20.0	16000	1	320000		0	0	f013
+omnilingual	spk03__r057__s01	data/omni_wav/spk03__r057__s01.flac	2	20.0	16000	1	320000		0	0	r057
+omnilingual	spk05__f018__s01	data/omni_wav/spk05__f018__s01.flac	4	20.0	16000	1	320000		0	0	f018
+omnilingual	spk06__w075__s01	data/omni_wav/spk06__w075__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk04__x034__s01	data/omni_wav/spk04__x034__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk05__x004__s01	data/omni_wav/spk05__x004__s01.flac	4	20.0	16000	1	320000		0	0	x004
+omnilingual	spk02__f071__s01	data/omni_wav/spk02__f071__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk06__n032__s01	data/omni_wav/spk06__n032__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk04__a030__s01	data/omni_wav/spk04__a030__s01.flac	3	20.0	16000	1	320000		0	0	a030
+omnilingual	spk07__a046__s01	data/omni_wav/spk07__a046__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk07__n071__s01	data/omni_wav/spk07__n071__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk02__s018__s01	data/omni_wav/spk02__s018__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk02__c089__s01	data/omni_wav/spk02__c089__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk06__p061__s01	data/omni_wav/spk06__p061__s01.flac	5	20.0	16000	1	320000		0	0	p061
+omnilingual	spk06__x149__s01	data/omni_wav/spk06__x149__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk07__s035__s01	data/omni_wav/spk07__s035__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk02__p062__s01	data/omni_wav/spk02__p062__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk04__m002__s01	data/omni_wav/spk04__m002__s01.flac	3	20.0	16000	1	320000		0	0	m002
+omnilingual	spk04__x069__s01	data/omni_wav/spk04__x069__s01.flac	3	20.0	16000	1	320000		0	0	x069
+omnilingual	spk01__x114__s01	data/omni_wav/spk01__x114__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk02__n042__s01	data/omni_wav/spk02__n042__s01.flac	1	20.0	16000	1	320000		0	0	n042
+omnilingual	spk04__x061__s01	data/omni_wav/spk04__x061__s01.flac	3	20.0	16000	1	320000		0	0	x061
+omnilingual	spk01__p065__s01	data/omni_wav/spk01__p065__s01.flac	0	20.0	16000	1	320000		0	0	p065
+omnilingual	spk05__i111__s01	data/omni_wav/spk05__i111__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk05__h105__s01	data/omni_wav/spk05__h105__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk06__f082__s01	data/omni_wav/spk06__f082__s01.flac	5	14.13	16000	1	226136		0	0	f082
+omnilingual	spk03__p129__s01	data/omni_wav/spk03__p129__s01.flac	2	20.0	16000	1	320000		0	0	p129
+omnilingual	spk06__i055__s01	data/omni_wav/spk06__i055__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk03__f105__s01	data/omni_wav/spk03__f105__s01.flac	2	20.0	16000	1	320000		0	0	f105
+omnilingual	spk02__s024__s01	data/omni_wav/spk02__s024__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk07__p129__s01	data/omni_wav/spk07__p129__s01.flac	6	20.0	16000	1	320000		0	0	p129
+omnilingual	spk05__p064__s01	data/omni_wav/spk05__p064__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk03__x059__s01	data/omni_wav/spk03__x059__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk03__w052__s01	data/omni_wav/spk03__w052__s01.flac	2	20.0	16000	1	320000		0	0	w052
+omnilingual	spk01__x098__s01	data/omni_wav/spk01__x098__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x062__s01	data/omni_wav/spk01__x062__s01.flac	0	20.0	16000	1	320000		0	0	x062
+omnilingual	spk04__i061__s01	data/omni_wav/spk04__i061__s01.flac	3	20.0	16000	1	320000		0	0	i061
+omnilingual	spk06__w077__s01	data/omni_wav/spk06__w077__s01.flac	5	20.0	16000	1	320000		0	0	w077
+omnilingual	spk04__a029__s01	data/omni_wav/spk04__a029__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk02__x018__s01	data/omni_wav/spk02__x018__s01.flac	1	20.0	16000	1	320000		0	0	x018
+omnilingual	spk05__a018__s01	data/omni_wav/spk05__a018__s01.flac	4	20.0	16000	1	320000		0	0	a018
+omnilingual	spk07__m005__s01	data/omni_wav/spk07__m005__s01.flac	6	20.0	16000	1	320000		0	0	m005
+omnilingual	spk07__n070__s01	data/omni_wav/spk07__n070__s01.flac	6	15.15	16000	1	242347		0	0	
+omnilingual	spk04__w092__s01	data/omni_wav/spk04__w092__s01.flac	3	20.0	16000	1	320000		0	0	w092
+omnilingual	spk02__p059__s01	data/omni_wav/spk02__p059__s01.flac	1	20.0	16000	1	320000		0	0	p059
+omnilingual	spk05__p116__s01	data/omni_wav/spk05__p116__s01.flac	4	20.0	16000	1	320000		0	0	p116
+omnilingual	spk04__a004__s01	data/omni_wav/spk04__a004__s01.flac	3	12.25	16000	1	195925		0	0	
+omnilingual	spk04__f067__s01	data/omni_wav/spk04__f067__s01.flac	3	20.0	16000	1	320000		0	0	f067
+omnilingual	spk05__f065__s01	data/omni_wav/spk05__f065__s01.flac	4	20.0	16000	1	320000		0	0	f065
+omnilingual	spk02__c092__s01	data/omni_wav/spk02__c092__s01.flac	1	20.0	16000	1	320000		0	0	c092
+omnilingual	spk07__h082__s01	data/omni_wav/spk07__h082__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk01__w066__s01	data/omni_wav/spk01__w066__s01.flac	0	20.0	16000	1	320000		0	0	w066
+omnilingual	spk07__p088__s01	data/omni_wav/spk07__p088__s01.flac	6	20.0	16000	1	320000		0	0	p088
+omnilingual	spk05__c091__s01	data/omni_wav/spk05__c091__s01.flac	4	20.0	16000	1	320000		0	0	c091
+omnilingual	spk01__x046__s01	data/omni_wav/spk01__x046__s01.flac	0	20.0	16000	1	320000		0	0	x046
+omnilingual	spk03__w068__s01	data/omni_wav/spk03__w068__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x014__s01	data/omni_wav/spk01__x014__s01.flac	0	20.0	16000	1	320000		0	0	x014
+omnilingual	spk06__c091__s01	data/omni_wav/spk06__c091__s01.flac	5	20.0	16000	1	320000		0	0	c091
+omnilingual	spk04__i039__s01	data/omni_wav/spk04__i039__s01.flac	3	20.0	16000	1	320000		0	0	i039
+omnilingual	spk03__p085__s01	data/omni_wav/spk03__p085__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk04__i048__s01	data/omni_wav/spk04__i048__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk02__h107__s01	data/omni_wav/spk02__h107__s01.flac	1	20.0	16000	1	320000		0	0	h107
+omnilingual	spk01__x092__s01	data/omni_wav/spk01__x092__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk03__f018__s01	data/omni_wav/spk03__f018__s01.flac	2	20.0	16000	1	320000		0	0	f018
+omnilingual	spk05__i061__s01	data/omni_wav/spk05__i061__s01.flac	4	20.0	16000	1	320000		0	0	i061
+omnilingual	spk01__p067__s01	data/omni_wav/spk01__p067__s01.flac	0	20.0	16000	1	320000		0	0	p067
+omnilingual	spk01__x099__s01	data/omni_wav/spk01__x099__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x021__s01	data/omni_wav/spk01__x021__s01.flac	0	20.0	16000	1	320000		0	0	x021
+omnilingual	spk03__x061__s01	data/omni_wav/spk03__x061__s01.flac	2	20.0	16000	1	320000		0	0	x061
+omnilingual	spk04__a022__s01	data/omni_wav/spk04__a022__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk07__p107__s01	data/omni_wav/spk07__p107__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk02__p128__s01	data/omni_wav/spk02__p128__s01.flac	1	20.0	16000	1	320000		0	0	
+omnilingual	spk04__x072__s01	data/omni_wav/spk04__x072__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk06__i058__s01	data/omni_wav/spk06__i058__s01.flac	5	20.0	16000	1	320000		0	0	i058
+omnilingual	spk04__x048__s01	data/omni_wav/spk04__x048__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk07__a034__s01	data/omni_wav/spk07__a034__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x018__s01	data/omni_wav/spk01__x018__s01.flac	0	20.0	16000	1	320000		0	0	x018
+omnilingual	spk06__n035__s01	data/omni_wav/spk06__n035__s01.flac	5	20.0	16000	1	320000		0	0	n035
+omnilingual	spk05__a090__s01	data/omni_wav/spk05__a090__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk07__h097__s01	data/omni_wav/spk07__h097__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk01__w052__s01	data/omni_wav/spk01__w052__s01.flac	0	20.0	16000	1	320000		0	0	w052
+omnilingual	spk02__r112__s01	data/omni_wav/spk02__r112__s01.flac	1	20.0	16000	1	320000		0	0	r112
+omnilingual	spk02__n035__s01	data/omni_wav/spk02__n035__s01.flac	1	20.0	16000	1	320000		0	0	n035
+omnilingual	spk03__f019__s01	data/omni_wav/spk03__f019__s01.flac	2	20.0	16000	1	320000		0	0	f019
+omnilingual	spk02__f075__s01	data/omni_wav/spk02__f075__s01.flac	1	20.0	16000	1	320000		0	0	f075
+omnilingual	spk03__p067__s01	data/omni_wav/spk03__p067__s01.flac	2	20.0	16000	1	320000		0	0	p067
+omnilingual	spk03__r071__s01	data/omni_wav/spk03__r071__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x051__s01	data/omni_wav/spk01__x051__s01.flac	0	20.0	16000	1	320000		0	0	x051
+omnilingual	spk07__n061__s01	data/omni_wav/spk07__n061__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk04__w098__s01	data/omni_wav/spk04__w098__s01.flac	3	20.0	16000	1	320000		0	0	w098
+omnilingual	spk01__r053__s01	data/omni_wav/spk01__r053__s01.flac	0	20.0	16000	1	320000		0	0	r053
+omnilingual	spk04__w082__s01	data/omni_wav/spk04__w082__s01.flac	3	20.0	16000	1	320000		0	0	w082
+omnilingual	spk01__x139__s01	data/omni_wav/spk01__x139__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk04__w077__s01	data/omni_wav/spk04__w077__s01.flac	3	20.0	16000	1	320000		0	0	w077
+omnilingual	spk01__t246__s01	data/omni_wav/spk01__t246__s01.flac	0	20.0	16000	1	320000		0	0	t246
+omnilingual	spk04__a007__s01	data/omni_wav/spk04__a007__s01.flac	3	19.14	16000	1	306176		0	0	
+omnilingual	spk03__p074__s01	data/omni_wav/spk03__p074__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk07__t062__s01	data/omni_wav/spk07__t062__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk03__n042__s01	data/omni_wav/spk03__n042__s01.flac	2	20.0	16000	1	320000		0	0	n042
+omnilingual	spk03__x058__s01	data/omni_wav/spk03__x058__s01.flac	2	20.0	16000	1	320000		0	0	x058
+omnilingual	spk04__w088__s01	data/omni_wav/spk04__w088__s01.flac	3	20.0	16000	1	320000		0	0	w088
+omnilingual	spk07__f004__s01	data/omni_wav/spk07__f004__s01.flac	6	20.0	16000	1	320000		0	0	f004
+omnilingual	spk03__f074__s01	data/omni_wav/spk03__f074__s01.flac	2	20.0	16000	1	320000		0	0	f074
+omnilingual	spk05__n058__s01	data/omni_wav/spk05__n058__s01.flac	4	20.0	16000	1	320000		0	0	
+omnilingual	spk07__w056__s01	data/omni_wav/spk07__w056__s01.flac	6	20.0	16000	1	320000		0	0	w056
+omnilingual	spk05__n077__s01	data/omni_wav/spk05__n077__s01.flac	4	20.0	16000	1	320000		0	0	n077
+omnilingual	spk01__x088__s01	data/omni_wav/spk01__x088__s01.flac	0	20.0	16000	1	320000		0	0	
+omnilingual	spk06__h137__s01	data/omni_wav/spk06__h137__s01.flac	5	20.0	16000	1	320000		0	0	h137
+omnilingual	spk05__f103__s01	data/omni_wav/spk05__f103__s01.flac	4	20.0	16000	1	320000		0	0	f103
+omnilingual	spk03__w065__s01	data/omni_wav/spk03__w065__s01.flac	2	20.0	16000	1	320000		0	0	
+omnilingual	spk07__h080__s01	data/omni_wav/spk07__h080__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk04__x033__s01	data/omni_wav/spk04__x033__s01.flac	3	20.0	16000	1	320000		0	0	x033
+omnilingual	spk02__x010__s01	data/omni_wav/spk02__x010__s01.flac	1	20.0	16000	1	320000		0	0	x010
+omnilingual	spk04__x070__s01	data/omni_wav/spk04__x070__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk03__f065__s01	data/omni_wav/spk03__f065__s01.flac	2	20.0	16000	1	320000		0	0	f065
+omnilingual	spk02__n054__s01	data/omni_wav/spk02__n054__s01.flac	1	20.0	16000	1	320000		0	0	n054
+omnilingual	spk04__a028__s01	data/omni_wav/spk04__a028__s01.flac	3	20.0	16000	1	320000		0	0	a028
+omnilingual	spk04__a019__s01	data/omni_wav/spk04__a019__s01.flac	3	16.75	16000	1	267946		0	0	
+omnilingual	spk02__p061__s01	data/omni_wav/spk02__p061__s01.flac	1	20.0	16000	1	320000		0	0	p061
+omnilingual	spk02__p101__s01	data/omni_wav/spk02__p101__s01.flac	1	20.0	16000	1	320000		0	0	p101
+omnilingual	spk05__x019__s01	data/omni_wav/spk05__x019__s01.flac	4	20.0	16000	1	320000		0	0	x019
+omnilingual	spk04__a012__s01	data/omni_wav/spk04__a012__s01.flac	3	20.0	16000	1	320000		0	0	
+omnilingual	spk02__i062__s01	data/omni_wav/spk02__i062__s01.flac	1	20.0	16000	1	320000		0	0	i062
+omnilingual	spk01__w083__s01	data/omni_wav/spk01__w083__s01.flac	0	20.0	16000	1	320000		0	0	w083
+omnilingual	spk07__h083__s01	data/omni_wav/spk07__h083__s01.flac	6	20.0	16000	1	320000		0	0	
+omnilingual	spk06__h038__s01	data/omni_wav/spk06__h038__s01.flac	5	20.0	16000	1	320000		0	0	h038
+omnilingual	spk03__f007__s01	data/omni_wav/spk03__f007__s01.flac	2	20.0	16000	1	320000		0	0	f007
+omnilingual	spk04__x019__s01	data/omni_wav/spk04__x019__s01.flac	3	20.0	16000	1	320000		0	0	x019
+omnilingual	spk03__i038__s01	data/omni_wav/spk03__i038__s01.flac	2	20.0	16000	1	320000		0	0	i038
+omnilingual	spk06__r070__s01	data/omni_wav/spk06__r070__s01.flac	5	20.0	16000	1	320000		0	0	
+omnilingual	spk01__x055__s01	data/omni_wav/spk01__x055__s01.flac	0	20.0	16000	1	320000		0	0	x055

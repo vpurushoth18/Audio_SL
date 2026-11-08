@@ -1,0 +1,13 @@
+model	channel	content	speaker	capability_balanced_rank	plain_borda_rank
+openai/whisper-small	8.0	2.5	6.875	1	6
+microsoft/wavlm-large	2.3333333333333335	7.0	2.5	2	1
+openai/whisper-medium	6.166666666666667	1.0	8.875	3	9
+openai/whisper-large-v3	8.5	2.6666666666666665	7.8125	4	10
+openai/whisper-base	7.333333333333333	4.166666666666667	6.6875	5	7
+openai/whisper-tiny	6.0	4.666666666666667	6.625	6	5
+facebook/wav2vec2-xls-r-2b	8.0	8.666666666666666	4.25	7	4
+facebook/w2v-bert-2.0	5.666666666666667	10.333333333333334	4.125	8	2
+facebook/wav2vec2-xls-r-1b	5.0	9.5	5.0	9	3
+facebook/hubert-large-ls960-ft	5.0	6.0	9.25	10	11
+facebook/mms-300m	4.666666666666667	10.333333333333334	5.375	11	7
+facebook/wav2vec2-xls-r-300m	11.333333333333334	11.166666666666666	10.625	12	12

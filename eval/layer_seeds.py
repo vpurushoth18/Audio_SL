@@ -49,15 +49,21 @@ def clean(a):
 
 
 def ami_seeds(X, labels, seeds=SEEDS):
-    """Mean and sd of AMI over seeds."""
+    """Mean, sd, and the individual per-seed AMI values.
+
+    The per-seed values are returned as well as the summary because a mean and
+    sd cannot distinguish one outlying initialisation from genuine variance,
+    and a reviewer is entitled to see which it is.
+    """
     y = pd.factorize(labels)[0]
     k = len(np.unique(y))
     out = []
     for s in seeds:
         pred = MiniBatchKMeans(n_clusters=k, random_state=s, n_init=5,
-                               batch_size=1024).fit_predict(l2(X))
+                               batch_size=1024, max_iter=100, tol=0.0,
+                               max_no_improvement=10).fit_predict(l2(X))
         out.append(adjusted_mutual_info_score(y, pred))
-    return float(np.mean(out)), float(np.std(out))
+    return float(np.mean(out)), float(np.std(out)), [float(v) for v in out]
 
 
 def main():
@@ -68,7 +74,7 @@ def main():
     picked = {r.tag: int(r.picked_layer)
               for _, r in J[J.capability == "speaker"].iterrows()}
 
-    rows = []
+    rows, seed_rows = [], []
     for tag in sorted(picked):
         z = np.load(os.path.join(ROOT, f"eval/emb/{tag}.npz"), allow_pickle=True)
         emb, utt = z["emb"], z["utt"].astype(str)
@@ -79,15 +85,21 @@ def main():
         final = n_layers - 1
         pick = picked[tag]
 
-        sel_m, sel_s = ami_seeds(clean(emb[pick])[test], y)
-        fin_m, fin_s = ami_seeds(clean(emb[final])[test], y)
+        sel_m, sel_s, sel_each = ami_seeds(clean(emb[pick])[test], y)
+        fin_m, fin_s, fin_each = ami_seeds(clean(emb[final])[test], y)
         # uniform: mean of the per-layer pooled embeddings
         uni = clean(emb.mean(axis=0))[test]
-        uni_m, uni_s = ami_seeds(uni, y)
+        uni_m, uni_s, uni_each = ami_seeds(uni, y)
 
-        # upper bound: best layer judged on test (not an honest procedure)
-        per_layer = [ami_seeds(clean(emb[li])[test], y, seeds=(0,))[0]
+        # Upper bound: best layer judged on test (not an honest procedure).
+        # This MUST use the same seed set as sel/final/uniform. An earlier
+        # version scored it with one seed while scoring the selected layer with
+        # five, which made the two incomparable and let a five-seed mean exceed
+        # the single-seed "oracle" for hubert-large.
+        per_layer = [ami_seeds(clean(emb[li])[test], y)[0]
                      for li in range(n_layers)]
+        orc_m, orc_s, orc_each = ami_seeds(
+            clean(emb[int(np.argmax(per_layer))])[test], y)
         best_li = int(np.argmax(per_layer))
 
         rows.append(dict(
@@ -102,6 +114,11 @@ def main():
             gain_vs_uniform=sel_m - uni_m,
             shortfall_vs_oracle=per_layer[best_li] - sel_m,
         ))
+        for cond, vals in (("selected", sel_each), ("final", fin_each),
+                           ("all_layer_mean", uni_each), ("test_chosen", orc_each)):
+            for seed, v in zip(SEEDS, vals):
+                seed_rows.append(dict(model=NAMES.get(tag, tag), tag=tag,
+                                      condition=cond, seed=seed, ami=v))
         print(f"  {NAMES.get(tag, tag):34s} sel {sel_m:.3f}±{sel_s:.3f}  "
               f"final {fin_m:.3f}±{fin_s:.3f}  uniform {uni_m:.3f}±{uni_s:.3f}  "
               f"oracle {per_layer[best_li]:.3f} (L{best_li})")
@@ -110,6 +127,9 @@ def main():
     df = pd.DataFrame(rows).sort_values("gain_vs_uniform", ascending=False)
     out = os.path.join(ROOT, "eval/analysis/Q_layer_seeds_uniform.tsv")
     df.to_csv(out, sep="\t", index=False)
+
+    seeds_out = os.path.join(ROOT, "eval/analysis/Q2_per_seed_scores.tsv")
+    pd.DataFrame(seed_rows).to_csv(seeds_out, sep="\t", index=False)
 
     print("\n## Q. Layer gains over 5 seeds, against two baselines")
     print(f"   test = OpenSLR-30, {df.n_test.iloc[0]} utts, "
@@ -127,6 +147,8 @@ def main():
     print(f"  shortfall against a test-chosen layer: median "
           f"{df.shortfall_vs_oracle.median():+.3f}")
     print(f"\nwrote {out}")
+    print(f"wrote {seeds_out} "
+          f"({len(seed_rows)} per-seed rows)")
 
 
 if __name__ == "__main__":

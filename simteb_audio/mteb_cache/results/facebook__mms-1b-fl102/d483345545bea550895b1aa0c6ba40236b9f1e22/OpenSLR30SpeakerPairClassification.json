@@ -1,0 +1,80 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OpenSLR30SpeakerPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.571875,
+        "similarity_f1": 0.66713,
+        "similarity_precision": 0.500521,
+        "similarity_recall": 1.0,
+        "similarity_ap": 0.588313,
+        "cosine_accuracy": 0.571875,
+        "cosine_f1": 0.66713,
+        "cosine_precision": 0.500521,
+        "cosine_recall": 1.0,
+        "cosine_ap": 0.588313,
+        "manhattan_accuracy": 0.565625,
+        "manhattan_f1": 0.66713,
+        "manhattan_precision": 0.500521,
+        "manhattan_recall": 1.0,
+        "manhattan_ap": 0.575082,
+        "euclidean_accuracy": 0.566667,
+        "euclidean_f1": 0.66713,
+        "euclidean_precision": 0.500521,
+        "euclidean_recall": 1.0,
+        "euclidean_ap": 0.577467,
+        "dot_accuracy": 0.560417,
+        "dot_f1": 0.667594,
+        "dot_precision": 0.501044,
+        "dot_recall": 1.0,
+        "dot_ap": 0.574154,
+        "max_accuracy": 0.571875,
+        "max_f1": 0.667594,
+        "max_precision": 0.501044,
+        "max_recall": 1.0,
+        "max_ap": 0.588313,
+        "main_score": 0.588313,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 274.6854564200621,
+  "kg_co2_emissions": null,
+  "date": 1791271101.893472,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.005704205017536879,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.007862763945013285,
+      "end": 135.43613133206964,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 135.43622751301154,
+      "end": 274.64482163405046,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 274.6448805250693,
+      "end": 274.6555041410029,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

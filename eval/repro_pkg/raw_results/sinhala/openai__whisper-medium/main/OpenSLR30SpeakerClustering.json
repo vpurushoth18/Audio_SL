@@ -1,0 +1,75 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OpenSLR30SpeakerClustering",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "v_measures": {
+          "Level 0": [
+            0.253182,
+            0.268082,
+            0.279038,
+            0.294646,
+            0.277378,
+            0.278143,
+            0.295276,
+            0.292048,
+            0.225237,
+            0.281456
+          ]
+        },
+        "v_measure": 0.274449,
+        "v_measure_std": 0.020392,
+        "ami_scores": {
+          "Level 0": [
+            0.252041,
+            0.266952,
+            0.277941,
+            0.293564,
+            0.276237,
+            0.277024,
+            0.2942,
+            0.290963,
+            0.22403,
+            0.280327
+          ]
+        },
+        "ami": 0.273328,
+        "ami_std": 0.020427,
+        "main_score": 0.274449,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 41.51943977805786,
+  "kg_co2_emissions": null,
+  "date": 1790812949.710105,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.005121310940012336,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding",
+      "start": 0.00609625200740993,
+      "end": 39.15983925713226,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 39.16313481796533,
+      "end": 41.50989247299731,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

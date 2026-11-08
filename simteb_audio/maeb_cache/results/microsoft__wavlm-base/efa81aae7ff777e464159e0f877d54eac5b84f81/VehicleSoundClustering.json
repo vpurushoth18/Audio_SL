@@ -1,0 +1,82 @@
+{
+  "dataset_revision": "5f905f9544d0c78b607639662c88c2ddd1216384",
+  "task_name": "VehicleSoundClustering",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "v_measures": {
+          "Level 0": [
+            0.020279,
+            0.009451,
+            0.023049,
+            0.061669,
+            0.013289,
+            0.045791,
+            0.03976,
+            0.027904,
+            0.019929,
+            0.015374
+          ]
+        },
+        "v_measure": 0.027649,
+        "v_measure_std": 0.015673,
+        "ami_scores": {
+          "Level 0": [
+            0.020142,
+            0.009311,
+            0.02291,
+            0.061529,
+            0.013143,
+            0.045649,
+            0.039624,
+            0.027764,
+            0.019788,
+            0.015233
+          ]
+        },
+        "ami": 0.027509,
+        "ami_std": 0.015673,
+        "main_score": 0.027649,
+        "hf_subset": "default",
+        "languages": [
+          "zxx-Zxxx"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 22.202270548790693,
+  "kg_co2_emissions": null,
+  "date": 1791310487.046487,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 1.0930001735687256e-05,
+      "end": 0.7919532130472362,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.7919675400480628,
+      "end": 0.7919688830152154,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding",
+      "start": 0.7932966519147158,
+      "end": 21.344213017029688,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 21.35914707207121,
+      "end": 22.193807936972007,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+model	Rank (Borda)	Total Parameters (B)	Embedding Dimensions	License	Commercial Use	Mean (Task)	Mean (TaskType)	AudioClassification	AudioClustering	AudioPairClassification	AudioReranking	AudioRetrieval	Release Date
+baseline/mfcc-40	1		40	mit	yes	60.79	47.75	73.26	75.73	89.10	0.09	0.56	2026-10-02
+microsoft/wavlm-large	2	0.32	1024	mit	yes	56.82	45.27	65.35	72.08	75.50	4.16	9.26	2022-07-19
+facebook/w2v-bert-2.0	3	0.58	1024	mit	yes	51.82	41.23	48.02	72.52	84.49	0.36	0.74	2023-12-01
+facebook/wav2vec2-xls-r-2b	4	2.00	1024	apache-2.0	yes	56.20	43.00	75.25	68.83	68.97	0.29	1.67	2024-09-10
+facebook/wav2vec2-xls-r-1b	5	1.00	1024	apache-2.0	yes	52.21	39.98	61.64	69.36	67.21	0.26	1.45	2024-09-10
+openai/whisper-tiny	6	0.04	512	mit	yes	51.50	42.26	52.05	67.27	68.63	7.54	15.82	2022-09-27
+openai/whisper-small	7	0.24	768	mit	yes	53.20	43.91	57.99	66.08	69.63	8.49	17.36	2022-09-27
+openai/whisper-base	8	0.07	512	mit	yes	51.75	42.56	53.42	66.70	68.93	8.01	15.76	2022-09-27
+facebook/mms-300m	9	0.32	1024	cc-by-nc-4.0	no	49.50	38.32	46.69	72.14	71.45	0.01	1.32	2023-05-22
+openai/whisper-medium	10	0.77	1024	mit	yes	53.02	44.65	56.77	64.71	66.23	12.00	23.57	2022-09-27
+openai/whisper-large-v3	11	1.55	1280	mit	yes	51.79	42.64	53.95	66.40	66.27	8.40	18.16	2022-09-27
+facebook/hubert-large-ls960-ft	12	0.32	1024	mit	yes	45.16	36.18	36.24	67.46	62.77	4.42	9.99	2021-06-14
+facebook/wav2vec2-xls-r-300m	13	0.30	1024	apache-2.0	yes	40.79	31.49	30.50	65.09	61.07	0.10	0.70	2021-10-13

@@ -22,6 +22,7 @@ from scipy import stats
 ROOT = "/nfs/cc-filer/home/pvelayuthan/Documents/audio_SL"
 OUT = os.path.join(ROOT, "eval/analysis")
 CACHE = os.path.join(ROOT, "simteb_audio/mteb_cache")
+RNG = np.random.default_rng(0)
 
 # Encoder-only parameter counts, measured not quoted. The earlier protocol
 # table used whole-model totals for Whisper, which include a decoder this study
@@ -86,10 +87,29 @@ PROVENANCE = {
     "WorldSpeechSinhalaQualityClassification": "DNSMOS terciles chosen here",
     "VoxLingua107SinhalaVideoClustering": "automatic video id, may hold several speakers",
 }
-VERDICT = {t: ("core" if t in ("OpenSLR52AudioRetrieval", "OpenSLR52AudioReranking",
-                               "OmnilingualSinhalaContentRetrieval",
-                               "OmnilingualSinhalaSpeakerClustering")
-               else "diagnostic") for t in CAPABILITY}
+# Task status. The criterion is LABEL PROVENANCE, not whether a parameter-free
+# baseline beats the encoders.
+#
+# An earlier version demoted every task on which pooled MFCCs matched the
+# encoders, which removed seven genuine speaker-identity tasks. The layer study
+# then showed that MFCC competitiveness is a property of FINAL-LAYER
+# extraction: at a development-selected layer the encoders score about twice
+# the baseline. The demotion rationale was therefore measuring the extraction
+# default, not the task, and it has been withdrawn.
+#
+# What survives as a reason to demote is a label that does not mean what the
+# capability claims. Three tasks have that problem, independently of any
+# baseline:
+#   VoxLingua107 video id   automatic, and one video may hold several speakers
+#   WorldSpeech session     a sitting day, which is not a speaker
+#   WorldSpeech quality     DNSMOS terciles chosen by us, not a corpus label
+CHANNEL_DIAGNOSTIC = {
+    "VoxLingua107SinhalaVideoClustering",
+    "WorldSpeechSinhalaSessionClustering",
+    "WorldSpeechSinhalaQualityClassification",
+}
+VERDICT = {t: ("diagnostic" if t in CHANNEL_DIAGNOSTIC else "core")
+           for t in CAPABILITY}
 
 # MAEB tasks matched to the two capabilities this study measures, rather than to
 # audio domain. Emotion, gender, age and accent are speaker-attribute tasks;
@@ -285,6 +305,17 @@ def s6_maeb_capability():
     sin_cap = {c: sin[[t for t in sin.columns if CAPABILITY.get(t) == c]].mean(axis=1)
                for c in ("speaker", "content")}
 
+    def ci(x, y, n=10000):
+        """Percentile bootstrap of Spearman, resampling CHECKPOINTS."""
+        out = []
+        for _ in range(n):
+            i = RNG.integers(0, len(x), len(x))
+            if len(np.unique(x[i])) < 3 or len(np.unique(y[i])) < 3:
+                continue
+            out.append(stats.spearmanr(x[i], y[i]).statistic)
+        return (float(np.percentile(out, 2.5)),
+                float(np.percentile(out, 97.5))) if out else (np.nan, np.nan)
+
     rows = []
     for mcap in ("speaker", "content", "non-speech"):
         tasks = [t for t in shared if MAEB_CAP.get(t) == mcap]
@@ -294,10 +325,13 @@ def s6_maeb_capability():
         for scap in ("speaker", "content"):
             y = sin_cap[scap].loc[common]
             rho = stats.spearmanr(x, y).statistic
-            rows.append(dict(maeb_capability=mcap, n_maeb_tasks=len(tasks),
-                             sinhala_capability=scap, n_models=len(common),
-                             spearman=rho,
-                             kendall=stats.kendalltau(x, y).statistic))
+            lo, hi = ci(x.values, y.values)
+            # the figure reads `maeb` and `sinhala`; keep those names so the
+            # table and the plot cannot drift apart again
+            rows.append(dict(maeb=mcap, n_tasks=len(tasks), sinhala=scap,
+                             n_models=len(common), spearman=rho,
+                             kendall=stats.kendalltau(x, y).statistic,
+                             ci_lo=lo, ci_hi=hi, excludes_zero=bool(lo > 0)))
     df = pd.DataFrame(rows)
     df.to_csv(os.path.join(OUT, "S6_maeb_capability_matched.tsv"), sep="\t",
               index=False)

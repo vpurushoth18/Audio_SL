@@ -1,0 +1,87 @@
+{
+  "dataset_revision": "ac4587795abbac156982e41775e1428f5933a32e",
+  "task_name": "VoxPopuliAccentPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.0,
+        "similarity_f1": 0.0,
+        "similarity_precision": 0.0,
+        "similarity_recall": 0.0,
+        "similarity_ap": 0.49973,
+        "cosine_accuracy": 0.0,
+        "cosine_f1": 0.0,
+        "cosine_precision": 0.0,
+        "cosine_recall": 0.0,
+        "cosine_ap": 0.49973,
+        "manhattan_accuracy": 0.0,
+        "manhattan_f1": 0.0,
+        "manhattan_precision": 0.0,
+        "manhattan_recall": 0.0,
+        "manhattan_ap": 0.49973,
+        "euclidean_accuracy": 0.0,
+        "euclidean_f1": 0.0,
+        "euclidean_precision": 0.0,
+        "euclidean_recall": 0.0,
+        "euclidean_ap": 0.49973,
+        "dot_accuracy": 0.0,
+        "dot_f1": 0.0,
+        "dot_precision": 0.0,
+        "dot_recall": 0.0,
+        "dot_ap": 0.49973,
+        "max_accuracy": 0.0,
+        "max_f1": 0.0,
+        "max_precision": 0.0,
+        "max_recall": 0.0,
+        "max_ap": 0.49973,
+        "main_score": 0.49973,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 1517.6520668189041,
+  "kg_co2_emissions": null,
+  "date": 1791405217.928666,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 1.2483913451433182e-05,
+      "end": 0.8088049569632858,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 0.8088201249483973,
+      "end": 0.8088224888779223,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.8123940438963473,
+      "end": 757.8288520709611,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 757.828954444034,
+      "end": 1517.488765602,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 1517.4888470249716,
+      "end": 1517.5537037139293,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

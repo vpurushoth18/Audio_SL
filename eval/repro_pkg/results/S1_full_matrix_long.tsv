@@ -1,0 +1,183 @@
+model	task	score	metric	capability	corpus	verdict	encoder_params_M	revision
+facebook/w2v-bert-2.0	VoxLingua107SinhalaVideoClustering	97.4	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	580.0	da985ba0987f
+microsoft/wavlm-large	VoxLingua107SinhalaVideoClustering	97.3	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	315.5	c1423ed94bb0
+baseline/mfcc-40	VoxLingua107SinhalaVideoClustering	96.95	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	0.0	1
+facebook/hubert-large-ls960-ft	VoxLingua107SinhalaVideoClustering	96.89	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	315.4	ece5fabbf034
+facebook/wav2vec2-xls-r-1b	VoxLingua107SinhalaVideoClustering	96.55	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	962.8	35eaea9a0ed0
+openai/whisper-small	VoxLingua107SinhalaVideoClustering	96.13	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	88.2	main
+openai/whisper-medium	VoxLingua107SinhalaVideoClustering	96.1	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	307.2	main
+openai/whisper-large-v3	VoxLingua107SinhalaVideoClustering	96.07	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	637.0	main
+openai/whisper-base	VoxLingua107SinhalaVideoClustering	96.05	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	20.6	main
+openai/whisper-tiny	VoxLingua107SinhalaVideoClustering	95.96	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	8.2	main
+facebook/mms-300m	VoxLingua107SinhalaVideoClustering	95.92	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	315.4	4ee317ce793c
+facebook/wav2vec2-xls-r-300m	VoxLingua107SinhalaVideoClustering	95.49	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	315.4	1a640f32ac3e
+facebook/wav2vec2-xls-r-2b	VoxLingua107SinhalaVideoClustering	95.23	V-measure (and AMI reported separately)	channel	VoxLingua107	diagnostic	2162.4	3b6d89d0fabe
+baseline/mfcc-40	WorldSpeechSinhalaQualityClassification	48.54	accuracy	channel	WorldSpeech	diagnostic	0.0	1
+facebook/mms-300m	WorldSpeechSinhalaQualityClassification	46.67	accuracy	channel	WorldSpeech	diagnostic	315.4	4ee317ce793c
+facebook/wav2vec2-xls-r-2b	WorldSpeechSinhalaQualityClassification	44.67	accuracy	channel	WorldSpeech	diagnostic	2162.4	3b6d89d0fabe
+microsoft/wavlm-large	WorldSpeechSinhalaQualityClassification	44.48	accuracy	channel	WorldSpeech	diagnostic	315.5	c1423ed94bb0
+facebook/wav2vec2-xls-r-1b	WorldSpeechSinhalaQualityClassification	39.46	accuracy	channel	WorldSpeech	diagnostic	962.8	35eaea9a0ed0
+openai/whisper-tiny	WorldSpeechSinhalaQualityClassification	37.4	accuracy	channel	WorldSpeech	diagnostic	8.2	main
+openai/whisper-medium	WorldSpeechSinhalaQualityClassification	37.08	accuracy	channel	WorldSpeech	diagnostic	307.2	main
+openai/whisper-large-v3	WorldSpeechSinhalaQualityClassification	37.08	accuracy	channel	WorldSpeech	diagnostic	637.0	main
+facebook/w2v-bert-2.0	WorldSpeechSinhalaQualityClassification	36.7	accuracy	channel	WorldSpeech	diagnostic	580.0	da985ba0987f
+openai/whisper-base	WorldSpeechSinhalaQualityClassification	36.22	accuracy	channel	WorldSpeech	diagnostic	20.6	main
+openai/whisper-small	WorldSpeechSinhalaQualityClassification	36.03	accuracy	channel	WorldSpeech	diagnostic	88.2	main
+facebook/hubert-large-ls960-ft	WorldSpeechSinhalaQualityClassification	34.89	accuracy	channel	WorldSpeech	diagnostic	315.4	ece5fabbf034
+facebook/wav2vec2-xls-r-300m	WorldSpeechSinhalaQualityClassification	34.38	accuracy	channel	WorldSpeech	diagnostic	315.4	1a640f32ac3e
+facebook/hubert-large-ls960-ft	WorldSpeechSinhalaSessionClustering	92.94	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	315.4	ece5fabbf034
+baseline/mfcc-40	WorldSpeechSinhalaSessionClustering	92.87	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	0.0	1
+microsoft/wavlm-large	WorldSpeechSinhalaSessionClustering	92.84	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	315.5	c1423ed94bb0
+facebook/mms-300m	WorldSpeechSinhalaSessionClustering	92.66	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	315.4	4ee317ce793c
+openai/whisper-tiny	WorldSpeechSinhalaSessionClustering	91.98	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	8.2	main
+openai/whisper-base	WorldSpeechSinhalaSessionClustering	91.83	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	20.6	main
+openai/whisper-medium	WorldSpeechSinhalaSessionClustering	91.8	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	307.2	main
+facebook/wav2vec2-xls-r-1b	WorldSpeechSinhalaSessionClustering	91.78	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	962.8	35eaea9a0ed0
+facebook/w2v-bert-2.0	WorldSpeechSinhalaSessionClustering	91.76	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	580.0	da985ba0987f
+openai/whisper-small	WorldSpeechSinhalaSessionClustering	91.59	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	88.2	main
+facebook/wav2vec2-xls-r-2b	WorldSpeechSinhalaSessionClustering	91.46	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	2162.4	3b6d89d0fabe
+facebook/wav2vec2-xls-r-300m	WorldSpeechSinhalaSessionClustering	91.43	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	315.4	1a640f32ac3e
+openai/whisper-large-v3	WorldSpeechSinhalaSessionClustering	91.37	V-measure (and AMI reported separately)	channel	WorldSpeech	diagnostic	637.0	main
+openai/whisper-medium	OmnilingualSinhalaContentRetrieval	10.43	nDCG@10	content	Omnilingual	core	307.2	main
+openai/whisper-small	OmnilingualSinhalaContentRetrieval	8.02	nDCG@10	content	Omnilingual	core	88.2	main
+openai/whisper-large-v3	OmnilingualSinhalaContentRetrieval	7.75	nDCG@10	content	Omnilingual	core	637.0	main
+openai/whisper-tiny	OmnilingualSinhalaContentRetrieval	6.42	nDCG@10	content	Omnilingual	core	8.2	main
+openai/whisper-base	OmnilingualSinhalaContentRetrieval	4.81	nDCG@10	content	Omnilingual	core	20.6	main
+facebook/hubert-large-ls960-ft	OmnilingualSinhalaContentRetrieval	4.28	nDCG@10	content	Omnilingual	core	315.4	ece5fabbf034
+microsoft/wavlm-large	OmnilingualSinhalaContentRetrieval	3.21	nDCG@10	content	Omnilingual	core	315.5	c1423ed94bb0
+facebook/wav2vec2-xls-r-2b	OmnilingualSinhalaContentRetrieval	1.87	nDCG@10	content	Omnilingual	core	2162.4	3b6d89d0fabe
+facebook/mms-300m	OmnilingualSinhalaContentRetrieval	1.34	nDCG@10	content	Omnilingual	core	315.4	4ee317ce793c
+baseline/mfcc-40	OmnilingualSinhalaContentRetrieval	0.8	nDCG@10	content	Omnilingual	core	0.0	1
+facebook/wav2vec2-xls-r-1b	OmnilingualSinhalaContentRetrieval	0.8	nDCG@10	content	Omnilingual	core	962.8	35eaea9a0ed0
+facebook/wav2vec2-xls-r-300m	OmnilingualSinhalaContentRetrieval	0.8	nDCG@10	content	Omnilingual	core	315.4	1a640f32ac3e
+facebook/w2v-bert-2.0	OmnilingualSinhalaContentRetrieval	0.53	nDCG@10	content	Omnilingual	core	580.0	da985ba0987f
+openai/whisper-medium	OpenSLR52AudioReranking	12.0	MAP	content	OpenSLR-52	core	307.2	main
+openai/whisper-small	OpenSLR52AudioReranking	8.49	MAP	content	OpenSLR-52	core	88.2	main
+openai/whisper-large-v3	OpenSLR52AudioReranking	8.4	MAP	content	OpenSLR-52	core	637.0	main
+openai/whisper-base	OpenSLR52AudioReranking	8.01	MAP	content	OpenSLR-52	core	20.6	main
+openai/whisper-tiny	OpenSLR52AudioReranking	7.54	MAP	content	OpenSLR-52	core	8.2	main
+facebook/hubert-large-ls960-ft	OpenSLR52AudioReranking	4.42	MAP	content	OpenSLR-52	core	315.4	ece5fabbf034
+microsoft/wavlm-large	OpenSLR52AudioReranking	4.16	MAP	content	OpenSLR-52	core	315.5	c1423ed94bb0
+facebook/w2v-bert-2.0	OpenSLR52AudioReranking	0.36	MAP	content	OpenSLR-52	core	580.0	da985ba0987f
+facebook/wav2vec2-xls-r-2b	OpenSLR52AudioReranking	0.29	MAP	content	OpenSLR-52	core	2162.4	3b6d89d0fabe
+facebook/wav2vec2-xls-r-1b	OpenSLR52AudioReranking	0.26	MAP	content	OpenSLR-52	core	962.8	35eaea9a0ed0
+facebook/wav2vec2-xls-r-300m	OpenSLR52AudioReranking	0.1	MAP	content	OpenSLR-52	core	315.4	1a640f32ac3e
+baseline/mfcc-40	OpenSLR52AudioReranking	0.09	MAP	content	OpenSLR-52	core	0.0	1
+facebook/mms-300m	OpenSLR52AudioReranking	0.01	MAP	content	OpenSLR-52	core	315.4	4ee317ce793c
+openai/whisper-medium	OpenSLR52AudioRetrieval	36.71	nDCG@10	content	OpenSLR-52	core	307.2	main
+openai/whisper-large-v3	OpenSLR52AudioRetrieval	28.57	nDCG@10	content	OpenSLR-52	core	637.0	main
+openai/whisper-small	OpenSLR52AudioRetrieval	26.7	nDCG@10	content	OpenSLR-52	core	88.2	main
+openai/whisper-base	OpenSLR52AudioRetrieval	26.7	nDCG@10	content	OpenSLR-52	core	20.6	main
+openai/whisper-tiny	OpenSLR52AudioRetrieval	25.23	nDCG@10	content	OpenSLR-52	core	8.2	main
+facebook/hubert-large-ls960-ft	OpenSLR52AudioRetrieval	15.71	nDCG@10	content	OpenSLR-52	core	315.4	ece5fabbf034
+microsoft/wavlm-large	OpenSLR52AudioRetrieval	15.31	nDCG@10	content	OpenSLR-52	core	315.5	c1423ed94bb0
+facebook/wav2vec2-xls-r-1b	OpenSLR52AudioRetrieval	2.09	nDCG@10	content	OpenSLR-52	core	962.8	35eaea9a0ed0
+facebook/wav2vec2-xls-r-2b	OpenSLR52AudioRetrieval	1.47	nDCG@10	content	OpenSLR-52	core	2162.4	3b6d89d0fabe
+facebook/mms-300m	OpenSLR52AudioRetrieval	1.31	nDCG@10	content	OpenSLR-52	core	315.4	4ee317ce793c
+facebook/w2v-bert-2.0	OpenSLR52AudioRetrieval	0.95	nDCG@10	content	OpenSLR-52	core	580.0	da985ba0987f
+facebook/wav2vec2-xls-r-300m	OpenSLR52AudioRetrieval	0.59	nDCG@10	content	OpenSLR-52	core	315.4	1a640f32ac3e
+baseline/mfcc-40	OpenSLR52AudioRetrieval	0.33	nDCG@10	content	OpenSLR-52	core	0.0	1
+microsoft/wavlm-large	OmnilingualSinhalaSpeakerClassification	93.06	accuracy	speaker	Omnilingual	core	315.5	c1423ed94bb0
+baseline/mfcc-40	OmnilingualSinhalaSpeakerClassification	90.89	accuracy	speaker	Omnilingual	core	0.0	1
+facebook/wav2vec2-xls-r-2b	OmnilingualSinhalaSpeakerClassification	87.66	accuracy	speaker	Omnilingual	core	2162.4	3b6d89d0fabe
+facebook/wav2vec2-xls-r-1b	OmnilingualSinhalaSpeakerClassification	84.11	accuracy	speaker	Omnilingual	core	962.8	35eaea9a0ed0
+openai/whisper-tiny	OmnilingualSinhalaSpeakerClassification	83.23	accuracy	speaker	Omnilingual	core	8.2	main
+facebook/w2v-bert-2.0	OmnilingualSinhalaSpeakerClassification	82.58	accuracy	speaker	Omnilingual	core	580.0	da985ba0987f
+openai/whisper-base	OmnilingualSinhalaSpeakerClassification	81.85	accuracy	speaker	Omnilingual	core	20.6	main
+openai/whisper-large-v3	OmnilingualSinhalaSpeakerClassification	81.85	accuracy	speaker	Omnilingual	core	637.0	main
+openai/whisper-small	OmnilingualSinhalaSpeakerClassification	80.97	accuracy	speaker	Omnilingual	core	88.2	main
+openai/whisper-medium	OmnilingualSinhalaSpeakerClassification	80.65	accuracy	speaker	Omnilingual	core	307.2	main
+facebook/mms-300m	OmnilingualSinhalaSpeakerClassification	74.19	accuracy	speaker	Omnilingual	core	315.4	4ee317ce793c
+facebook/hubert-large-ls960-ft	OmnilingualSinhalaSpeakerClassification	64.92	accuracy	speaker	Omnilingual	core	315.4	ece5fabbf034
+facebook/wav2vec2-xls-r-300m	OmnilingualSinhalaSpeakerClassification	46.05	accuracy	speaker	Omnilingual	core	315.4	1a640f32ac3e
+baseline/mfcc-40	OmnilingualSinhalaSpeakerClustering	79.85	V-measure (and AMI reported separately)	speaker	Omnilingual	core	0.0	1
+facebook/mms-300m	OmnilingualSinhalaSpeakerClustering	79.1	V-measure (and AMI reported separately)	speaker	Omnilingual	core	315.4	4ee317ce793c
+microsoft/wavlm-large	OmnilingualSinhalaSpeakerClustering	76.92	V-measure (and AMI reported separately)	speaker	Omnilingual	core	315.5	c1423ed94bb0
+facebook/wav2vec2-xls-r-2b	OmnilingualSinhalaSpeakerClustering	75.85	V-measure (and AMI reported separately)	speaker	Omnilingual	core	2162.4	3b6d89d0fabe
+facebook/wav2vec2-xls-r-1b	OmnilingualSinhalaSpeakerClustering	74.61	V-measure (and AMI reported separately)	speaker	Omnilingual	core	962.8	35eaea9a0ed0
+facebook/w2v-bert-2.0	OmnilingualSinhalaSpeakerClustering	73.76	V-measure (and AMI reported separately)	speaker	Omnilingual	core	580.0	da985ba0987f
+facebook/hubert-large-ls960-ft	OmnilingualSinhalaSpeakerClustering	67.55	V-measure (and AMI reported separately)	speaker	Omnilingual	core	315.4	ece5fabbf034
+openai/whisper-tiny	OmnilingualSinhalaSpeakerClustering	66.71	V-measure (and AMI reported separately)	speaker	Omnilingual	core	8.2	main
+openai/whisper-base	OmnilingualSinhalaSpeakerClustering	64.91	V-measure (and AMI reported separately)	speaker	Omnilingual	core	20.6	main
+openai/whisper-small	OmnilingualSinhalaSpeakerClustering	64.63	V-measure (and AMI reported separately)	speaker	Omnilingual	core	88.2	main
+openai/whisper-large-v3	OmnilingualSinhalaSpeakerClustering	64.0	V-measure (and AMI reported separately)	speaker	Omnilingual	core	637.0	main
+facebook/wav2vec2-xls-r-300m	OmnilingualSinhalaSpeakerClustering	63.42	V-measure (and AMI reported separately)	speaker	Omnilingual	core	315.4	1a640f32ac3e
+openai/whisper-medium	OmnilingualSinhalaSpeakerClustering	61.27	V-measure (and AMI reported separately)	speaker	Omnilingual	core	307.2	main
+baseline/mfcc-40	OpenSLR30SpeakerClassification	92.78	accuracy	speaker	OpenSLR-30	core	0.0	1
+facebook/wav2vec2-xls-r-2b	OpenSLR30SpeakerClassification	91.11	accuracy	speaker	OpenSLR-30	core	2162.4	3b6d89d0fabe
+microsoft/wavlm-large	OpenSLR30SpeakerClassification	80.14	accuracy	speaker	OpenSLR-30	core	315.5	c1423ed94bb0
+facebook/wav2vec2-xls-r-1b	OpenSLR30SpeakerClassification	71.67	accuracy	speaker	OpenSLR-30	core	962.8	35eaea9a0ed0
+openai/whisper-small	OpenSLR30SpeakerClassification	68.06	accuracy	speaker	OpenSLR-30	core	88.2	main
+openai/whisper-medium	OpenSLR30SpeakerClassification	65.28	accuracy	speaker	OpenSLR-30	core	307.2	main
+openai/whisper-base	OpenSLR30SpeakerClassification	63.61	accuracy	speaker	OpenSLR-30	core	20.6	main
+openai/whisper-large-v3	OpenSLR30SpeakerClassification	61.25	accuracy	speaker	OpenSLR-30	core	637.0	main
+openai/whisper-tiny	OpenSLR30SpeakerClassification	60.83	accuracy	speaker	OpenSLR-30	core	8.2	main
+facebook/w2v-bert-2.0	OpenSLR30SpeakerClassification	50.14	accuracy	speaker	OpenSLR-30	core	580.0	da985ba0987f
+facebook/mms-300m	OpenSLR30SpeakerClassification	49.17	accuracy	speaker	OpenSLR-30	core	315.4	4ee317ce793c
+facebook/hubert-large-ls960-ft	OpenSLR30SpeakerClassification	38.06	accuracy	speaker	OpenSLR-30	core	315.4	ece5fabbf034
+facebook/wav2vec2-xls-r-300m	OpenSLR30SpeakerClassification	34.72	accuracy	speaker	OpenSLR-30	core	315.4	1a640f32ac3e
+baseline/mfcc-40	OpenSLR30SpeakerClustering	44.29	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	0.0	1
+microsoft/wavlm-large	OpenSLR30SpeakerClustering	39.3	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	315.5	c1423ed94bb0
+facebook/w2v-bert-2.0	OpenSLR30SpeakerClustering	38.71	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	580.0	da985ba0987f
+facebook/mms-300m	OpenSLR30SpeakerClustering	34.23	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	315.4	4ee317ce793c
+openai/whisper-large-v3	OpenSLR30SpeakerClustering	32.4	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	637.0	main
+facebook/hubert-large-ls960-ft	OpenSLR30SpeakerClustering	31.71	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	315.4	ece5fabbf034
+openai/whisper-base	OpenSLR30SpeakerClustering	31.54	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	20.6	main
+openai/whisper-tiny	OpenSLR30SpeakerClustering	31.09	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	8.2	main
+openai/whisper-small	OpenSLR30SpeakerClustering	30.73	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	88.2	main
+facebook/wav2vec2-xls-r-1b	OpenSLR30SpeakerClustering	30.25	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	962.8	35eaea9a0ed0
+openai/whisper-medium	OpenSLR30SpeakerClustering	27.44	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	307.2	main
+facebook/wav2vec2-xls-r-2b	OpenSLR30SpeakerClustering	27.35	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	2162.4	3b6d89d0fabe
+facebook/wav2vec2-xls-r-300m	OpenSLR30SpeakerClustering	20.43	V-measure (and AMI reported separately)	speaker	OpenSLR-30	core	315.4	1a640f32ac3e
+baseline/mfcc-40	OpenSLR30SpeakerPairClassification	87.68	accuracy	speaker	OpenSLR-30	core	0.0	1
+facebook/w2v-bert-2.0	OpenSLR30SpeakerPairClassification	81.63	accuracy	speaker	OpenSLR-30	core	580.0	da985ba0987f
+microsoft/wavlm-large	OpenSLR30SpeakerPairClassification	73.28	accuracy	speaker	OpenSLR-30	core	315.5	c1423ed94bb0
+facebook/wav2vec2-xls-r-1b	OpenSLR30SpeakerPairClassification	68.17	accuracy	speaker	OpenSLR-30	core	962.8	35eaea9a0ed0
+facebook/mms-300m	OpenSLR30SpeakerPairClassification	67.94	accuracy	speaker	OpenSLR-30	core	315.4	4ee317ce793c
+facebook/wav2vec2-xls-r-2b	OpenSLR30SpeakerPairClassification	67.18	accuracy	speaker	OpenSLR-30	core	2162.4	3b6d89d0fabe
+openai/whisper-tiny	OpenSLR30SpeakerPairClassification	66.39	accuracy	speaker	OpenSLR-30	core	8.2	main
+openai/whisper-base	OpenSLR30SpeakerPairClassification	65.86	accuracy	speaker	OpenSLR-30	core	20.6	main
+openai/whisper-small	OpenSLR30SpeakerPairClassification	65.41	accuracy	speaker	OpenSLR-30	core	88.2	main
+facebook/hubert-large-ls960-ft	OpenSLR30SpeakerPairClassification	63.32	accuracy	speaker	OpenSLR-30	core	315.4	ece5fabbf034
+openai/whisper-large-v3	OpenSLR30SpeakerPairClassification	62.88	accuracy	speaker	OpenSLR-30	core	637.0	main
+openai/whisper-medium	OpenSLR30SpeakerPairClassification	61.8	accuracy	speaker	OpenSLR-30	core	307.2	main
+facebook/wav2vec2-xls-r-300m	OpenSLR30SpeakerPairClassification	59.38	accuracy	speaker	OpenSLR-30	core	315.4	1a640f32ac3e
+facebook/wav2vec2-xls-r-2b	OpenSLR52SpeakerClassification	77.56	accuracy	speaker	OpenSLR-52	core	2162.4	3b6d89d0fabe
+baseline/mfcc-40	OpenSLR52SpeakerClassification	60.85	accuracy	speaker	OpenSLR-52	core	0.0	1
+facebook/wav2vec2-xls-r-1b	OpenSLR52SpeakerClassification	51.32	accuracy	speaker	OpenSLR-52	core	962.8	35eaea9a0ed0
+openai/whisper-small	OpenSLR52SpeakerClassification	46.89	accuracy	speaker	OpenSLR-52	core	88.2	main
+openai/whisper-medium	OpenSLR52SpeakerClassification	44.08	accuracy	speaker	OpenSLR-52	core	307.2	main
+microsoft/wavlm-large	OpenSLR52SpeakerClassification	43.73	accuracy	speaker	OpenSLR-52	core	315.5	c1423ed94bb0
+openai/whisper-large-v3	OpenSLR52SpeakerClassification	35.61	accuracy	speaker	OpenSLR-52	core	637.0	main
+openai/whisper-base	OpenSLR52SpeakerClassification	31.98	accuracy	speaker	OpenSLR-52	core	20.6	main
+openai/whisper-tiny	OpenSLR52SpeakerClassification	26.75	accuracy	speaker	OpenSLR-52	core	8.2	main
+facebook/w2v-bert-2.0	OpenSLR52SpeakerClassification	22.66	accuracy	speaker	OpenSLR-52	core	580.0	da985ba0987f
+facebook/mms-300m	OpenSLR52SpeakerClassification	16.75	accuracy	speaker	OpenSLR-52	core	315.4	4ee317ce793c
+facebook/hubert-large-ls960-ft	OpenSLR52SpeakerClassification	7.1	accuracy	speaker	OpenSLR-52	core	315.4	ece5fabbf034
+facebook/wav2vec2-xls-r-300m	OpenSLR52SpeakerClassification	6.86	accuracy	speaker	OpenSLR-52	core	315.4	1a640f32ac3e
+baseline/mfcc-40	OpenSLR52SpeakerClustering	64.66	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	0.0	1
+facebook/w2v-bert-2.0	OpenSLR52SpeakerClustering	60.96	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	580.0	da985ba0987f
+facebook/mms-300m	OpenSLR52SpeakerClustering	58.79	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	315.4	4ee317ce793c
+facebook/wav2vec2-xls-r-300m	OpenSLR52SpeakerClustering	54.68	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	315.4	1a640f32ac3e
+facebook/wav2vec2-xls-r-2b	OpenSLR52SpeakerClustering	54.26	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	2162.4	3b6d89d0fabe
+microsoft/wavlm-large	OpenSLR52SpeakerClustering	54.06	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	315.5	c1423ed94bb0
+facebook/wav2vec2-xls-r-1b	OpenSLR52SpeakerClustering	53.59	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	962.8	35eaea9a0ed0
+openai/whisper-tiny	OpenSLR52SpeakerClustering	50.61	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	8.2	main
+openai/whisper-base	OpenSLR52SpeakerClustering	49.18	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	20.6	main
+facebook/hubert-large-ls960-ft	OpenSLR52SpeakerClustering	48.2	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	315.4	ece5fabbf034
+openai/whisper-large-v3	OpenSLR52SpeakerClustering	48.14	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	637.0	main
+openai/whisper-small	OpenSLR52SpeakerClustering	47.35	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	88.2	main
+openai/whisper-medium	OpenSLR52SpeakerClustering	46.91	V-measure (and AMI reported separately)	speaker	OpenSLR-52	core	307.2	main
+baseline/mfcc-40	OpenSLR52SpeakerPairClassification	90.51	accuracy	speaker	OpenSLR-52	core	0.0	1
+facebook/w2v-bert-2.0	OpenSLR52SpeakerPairClassification	87.34	accuracy	speaker	OpenSLR-52	core	580.0	da985ba0987f
+microsoft/wavlm-large	OpenSLR52SpeakerPairClassification	77.72	accuracy	speaker	OpenSLR-52	core	315.5	c1423ed94bb0
+facebook/mms-300m	OpenSLR52SpeakerPairClassification	74.95	accuracy	speaker	OpenSLR-52	core	315.4	4ee317ce793c
+openai/whisper-small	OpenSLR52SpeakerPairClassification	73.85	accuracy	speaker	OpenSLR-52	core	88.2	main
+openai/whisper-base	OpenSLR52SpeakerPairClassification	72.0	accuracy	speaker	OpenSLR-52	core	20.6	main
+openai/whisper-tiny	OpenSLR52SpeakerPairClassification	70.86	accuracy	speaker	OpenSLR-52	core	8.2	main
+facebook/wav2vec2-xls-r-2b	OpenSLR52SpeakerPairClassification	70.76	accuracy	speaker	OpenSLR-52	core	2162.4	3b6d89d0fabe
+openai/whisper-medium	OpenSLR52SpeakerPairClassification	70.66	accuracy	speaker	OpenSLR-52	core	307.2	main
+openai/whisper-large-v3	OpenSLR52SpeakerPairClassification	69.67	accuracy	speaker	OpenSLR-52	core	637.0	main
+facebook/wav2vec2-xls-r-1b	OpenSLR52SpeakerPairClassification	66.25	accuracy	speaker	OpenSLR-52	core	962.8	35eaea9a0ed0
+facebook/wav2vec2-xls-r-300m	OpenSLR52SpeakerPairClassification	62.76	accuracy	speaker	OpenSLR-52	core	315.4	1a640f32ac3e
+facebook/hubert-large-ls960-ft	OpenSLR52SpeakerPairClassification	62.22	accuracy	speaker	OpenSLR-52	core	315.4	ece5fabbf034

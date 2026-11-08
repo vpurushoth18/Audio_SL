@@ -1,0 +1,41 @@
+{
+    "loader_kwargs": {},
+    "name": "facebook/data2vec-audio-large-960h",
+    "revision": "27aba26eed532b86dcd0f17284a0307de4b51f39",
+    "release_date": "2022-02-07",
+    "languages": [
+        "eng-Latn"
+    ],
+    "n_parameters": 313276416,
+    "n_active_parameters_override": null,
+    "n_embedding_parameters": 0,
+    "memory_usage_mb": 1195.0,
+    "max_tokens": null,
+    "embed_dim": 1024,
+    "license": "mit",
+    "open_weights": true,
+    "public_training_code": "https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec",
+    "public_training_data": "https://www.openslr.org/12",
+    "framework": [
+        "PyTorch"
+    ],
+    "reference": "https://huggingface.co/facebook/data2vec-audio-large-960h",
+    "similarity_fn_name": "cosine",
+    "use_instructions": false,
+    "training_datasets": [],
+    "adapted_from": null,
+    "superseded_by": null,
+    "modalities": [
+        "audio"
+    ],
+    "model_type": [
+        "dense"
+    ],
+    "citation": "\n@misc{baevski2022data2vecgeneralframeworkselfsupervised,\n    title={data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language},\n    author={Alexei Baevski and Wei-Ning Hsu and Qiantong Xu and Arun Babu and Jiatao Gu and Michael Auli},\n    year={2022},\n    eprint={2202.03555},\n    archivePrefix={arXiv},\n    primaryClass={cs.LG},\n    url={https://arxiv.org/abs/2202.03555},\n}",
+    "contacts": null,
+    "experiment_kwargs": null,
+    "output_dtypes": null,
+    "extra_requirements_groups": null,
+    "loader": "Data2VecAudioWrapper",
+    "is_cross_encoder": false
+}

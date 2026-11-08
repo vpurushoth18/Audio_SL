@@ -1,0 +1,183 @@
+task	model	split	hf_subset	score	score_key	metric	value_at_declared_key	other_keys_equal_to_main	capability	core_or_diagnostic	corpus
+VoxLingua107SinhalaVideoClustering	facebook/w2v-bert-2.0	test	default	0.97400500000000001	v_measure	V-measure	0.97400500000000001	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	microsoft/wavlm-large	test	default	0.97300799999999998	v_measure	V-measure	0.97300799999999998	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	baseline/mfcc-40	test	default	0.96952300000000002	v_measure	V-measure	0.96952300000000002	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	facebook/hubert-large-ls960-ft	test	default	0.96889099999999995	v_measure	V-measure	0.96889099999999995	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	facebook/wav2vec2-xls-r-1b	test	default	0.96545700000000001	v_measure	V-measure	0.96545700000000001	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	openai/whisper-small	test	default	0.96128199999999997	v_measure	V-measure	0.96128199999999997	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	openai/whisper-medium	test	default	0.96102799999999999	v_measure	V-measure	0.96102799999999999	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	openai/whisper-large-v3	test	default	0.96065400000000001	v_measure	V-measure	0.96065400000000001	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	openai/whisper-base	test	default	0.96050800000000003	v_measure	V-measure	0.96050800000000003	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	openai/whisper-tiny	test	default	0.95962999999999998	v_measure	V-measure	0.95962999999999998	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	facebook/mms-300m	test	default	0.95919600000000005	v_measure	V-measure	0.95919600000000005	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	facebook/wav2vec2-xls-r-300m	test	default	0.95488799999999996	v_measure	V-measure	0.95488799999999996	v_measure	channel	diagnostic	
+VoxLingua107SinhalaVideoClustering	facebook/wav2vec2-xls-r-2b	test	default	0.95233699999999999	v_measure	V-measure	0.95233699999999999	v_measure	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	baseline/mfcc-40	test	default	0.48539700000000002	accuracy	accuracy	0.48539700000000002	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	facebook/mms-300m	test	default	0.466667	accuracy	accuracy	0.466667	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	facebook/wav2vec2-xls-r-2b	test	default	0.44666699999999998	accuracy	accuracy	0.44666699999999998	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	microsoft/wavlm-large	test	default	0.44476199999999999	accuracy	accuracy	0.44476199999999999	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	facebook/wav2vec2-xls-r-1b	test	default	0.39460299999999998	accuracy	accuracy	0.39460299999999998	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	openai/whisper-tiny	test	default	0.37396800000000002	accuracy	accuracy	0.37396800000000002	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	openai/whisper-large-v3	test	default	0.37079400000000001	accuracy	accuracy	0.37079400000000001	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	openai/whisper-medium	test	default	0.37079400000000001	accuracy	accuracy	0.37079400000000001	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	facebook/w2v-bert-2.0	test	default	0.36698399999999998	accuracy	accuracy	0.36698399999999998	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	openai/whisper-base	test	default	0.36222199999999999	accuracy	accuracy	0.36222199999999999	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	openai/whisper-small	test	default	0.360317	accuracy	accuracy	0.360317	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	facebook/hubert-large-ls960-ft	test	default	0.348889	accuracy	accuracy	0.348889	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaQualityClassification	facebook/wav2vec2-xls-r-300m	test	default	0.34381	accuracy	accuracy	0.34381	accuracy|recall_weighted	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	facebook/hubert-large-ls960-ft	test	default	0.92935900000000005	v_measure	V-measure	0.92935900000000005	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	baseline/mfcc-40	test	default	0.92868899999999999	v_measure	V-measure	0.92868899999999999	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	microsoft/wavlm-large	test	default	0.92840599999999995	v_measure	V-measure	0.92840599999999995	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	facebook/mms-300m	test	default	0.92656099999999997	v_measure	V-measure	0.92656099999999997	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	openai/whisper-tiny	test	default	0.91976800000000003	v_measure	V-measure	0.91976800000000003	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	openai/whisper-base	test	default	0.91830100000000003	v_measure	V-measure	0.91830100000000003	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	openai/whisper-medium	test	default	0.91803199999999996	v_measure	V-measure	0.91803199999999996	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	facebook/wav2vec2-xls-r-1b	test	default	0.91779999999999995	v_measure	V-measure	0.91779999999999995	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	facebook/w2v-bert-2.0	test	default	0.91762100000000002	v_measure	V-measure	0.91762100000000002	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	openai/whisper-small	test	default	0.91586400000000001	v_measure	V-measure	0.91586400000000001	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	facebook/wav2vec2-xls-r-2b	test	default	0.91455200000000003	v_measure	V-measure	0.91455200000000003	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	facebook/wav2vec2-xls-r-300m	test	default	0.91425900000000004	v_measure	V-measure	0.91425900000000004	v_measure	channel	diagnostic	
+WorldSpeechSinhalaSessionClustering	openai/whisper-large-v3	test	default	0.91373099999999996	v_measure	V-measure	0.91373099999999996	v_measure	channel	diagnostic	
+OmnilingualSinhalaContentRetrieval	openai/whisper-medium	test	default	0.10428	hit_rate_at_5	hit rate@5	0.10428	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	openai/whisper-small	test	default	0.080210000000000004	hit_rate_at_5	hit rate@5	0.080210000000000004	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	openai/whisper-large-v3	test	default	0.077539999999999998	hit_rate_at_5	hit rate@5	0.077539999999999998	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	openai/whisper-tiny	test	default	0.064170000000000005	hit_rate_at_5	hit rate@5	0.064170000000000005	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	openai/whisper-base	test	default	0.048129999999999999	hit_rate_at_5	hit rate@5	0.048129999999999999	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	facebook/hubert-large-ls960-ft	test	default	0.042779999999999999	hit_rate_at_5	hit rate@5	0.042779999999999999	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	microsoft/wavlm-large	test	default	0.03209	hit_rate_at_5	hit rate@5	0.03209	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	facebook/wav2vec2-xls-r-2b	test	default	0.018720000000000001	hit_rate_at_5	hit rate@5	0.018720000000000001	hit_rate_at_10|hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	facebook/mms-300m	test	default	0.01337	hit_rate_at_5	hit rate@5	0.01337	hit_rate_at_10|hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	baseline/mfcc-40	test	default	0.0080199999999999994	hit_rate_at_5	hit rate@5	0.0080199999999999994	hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	facebook/wav2vec2-xls-r-1b	test	default	0.0080199999999999994	hit_rate_at_5	hit rate@5	0.0080199999999999994	hit_rate_at_3|hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	facebook/wav2vec2-xls-r-300m	test	default	0.0080199999999999994	hit_rate_at_5	hit rate@5	0.0080199999999999994	hit_rate_at_3|hit_rate_at_5	content	core	
+OmnilingualSinhalaContentRetrieval	facebook/w2v-bert-2.0	test	default	0.0053499999999999997	hit_rate_at_5	hit rate@5	0.0053499999999999997	hit_rate_at_10|hit_rate_at_3|hit_rate_at_5|recall_at_20	content	core	
+OpenSLR52AudioReranking	openai/whisper-medium	test	default	0.11996	map_at_5	MAP@5	0.11996	map_at_5	content	core	
+OpenSLR52AudioReranking	openai/whisper-small	test	default	0.084909999999999999	map_at_5	MAP@5	0.084909999999999999	map_at_5	content	core	
+OpenSLR52AudioReranking	openai/whisper-large-v3	test	default	0.084010000000000001	map_at_5	MAP@5	0.084010000000000001	map_at_5	content	core	
+OpenSLR52AudioReranking	openai/whisper-base	test	default	0.080130000000000007	map_at_5	MAP@5	0.080130000000000007	map_at_5	content	core	
+OpenSLR52AudioReranking	openai/whisper-tiny	test	default	0.075410000000000005	map_at_5	MAP@5	0.075410000000000005	map_at_5	content	core	
+OpenSLR52AudioReranking	facebook/hubert-large-ls960-ft	test	default	0.04419	map_at_5	MAP@5	0.04419	map_at_5	content	core	
+OpenSLR52AudioReranking	microsoft/wavlm-large	test	default	0.041640000000000003	map_at_5	MAP@5	0.041640000000000003	map_at_5	content	core	
+OpenSLR52AudioReranking	facebook/w2v-bert-2.0	test	default	0.00363	map_at_5	MAP@5	0.00363	map_at_5	content	core	
+OpenSLR52AudioReranking	facebook/wav2vec2-xls-r-2b	test	default	0.0028700000000000002	map_at_5	MAP@5	0.0028700000000000002	map_at_5	content	core	
+OpenSLR52AudioReranking	facebook/wav2vec2-xls-r-1b	test	default	0.0026199999999999999	map_at_5	MAP@5	0.0026199999999999999	map_at_5	content	core	
+OpenSLR52AudioReranking	facebook/wav2vec2-xls-r-300m	test	default	0.0010300000000000001	map_at_5	MAP@5	0.0010300000000000001	map_at_5	content	core	
+OpenSLR52AudioReranking	baseline/mfcc-40	test	default	0.00089999999999999998	map_at_5	MAP@5	0.00089999999999999998	map_at_10|map_at_5	content	core	
+OpenSLR52AudioReranking	facebook/mms-300m	test	default	0.00012999999999999999	map_at_5	MAP@5	0.00012999999999999999	map_at_5	content	core	
+OpenSLR52AudioRetrieval	openai/whisper-medium	test	default	0.36714999999999998	hit_rate_at_5	hit rate@5	0.36714999999999998	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	openai/whisper-large-v3	test	default	0.28566999999999998	hit_rate_at_5	hit rate@5	0.28566999999999998	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	openai/whisper-base	test	default	0.26701999999999998	hit_rate_at_5	hit rate@5	0.26701999999999998	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	openai/whisper-small	test	default	0.26701999999999998	hit_rate_at_5	hit rate@5	0.26701999999999998	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	openai/whisper-tiny	test	default	0.25229000000000001	hit_rate_at_5	hit rate@5	0.25229000000000001	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	facebook/hubert-large-ls960-ft	test	default	0.15706999999999999	hit_rate_at_5	hit rate@5	0.15706999999999999	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	microsoft/wavlm-large	test	default	0.15314	hit_rate_at_5	hit rate@5	0.15314	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	facebook/wav2vec2-xls-r-1b	test	default	0.02094	hit_rate_at_5	hit rate@5	0.02094	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	facebook/wav2vec2-xls-r-2b	test	default	0.01473	hit_rate_at_5	hit rate@5	0.01473	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	facebook/mms-300m	test	default	0.013089999999999999	hit_rate_at_5	hit rate@5	0.013089999999999999	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	facebook/w2v-bert-2.0	test	default	0.0094900000000000002	hit_rate_at_5	hit rate@5	0.0094900000000000002	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	facebook/wav2vec2-xls-r-300m	test	default	0.0058900000000000003	hit_rate_at_5	hit rate@5	0.0058900000000000003	hit_rate_at_5	content	core	
+OpenSLR52AudioRetrieval	baseline/mfcc-40	test	default	0.0032699999999999999	hit_rate_at_5	hit rate@5	0.0032699999999999999	hit_rate_at_5	content	core	
+OmnilingualSinhalaSpeakerClassification	microsoft/wavlm-large	test	default	0.93064499999999994	accuracy	accuracy	0.93064499999999994	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	baseline/mfcc-40	test	default	0.90887099999999998	accuracy	accuracy	0.90887099999999998	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	facebook/wav2vec2-xls-r-2b	test	default	0.87661299999999998	accuracy	accuracy	0.87661299999999998	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	facebook/wav2vec2-xls-r-1b	test	default	0.84112900000000002	accuracy	accuracy	0.84112900000000002	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	openai/whisper-tiny	test	default	0.83225800000000005	accuracy	accuracy	0.83225800000000005	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	facebook/w2v-bert-2.0	test	default	0.82580600000000004	accuracy	accuracy	0.82580600000000004	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	openai/whisper-base	test	default	0.81854800000000005	accuracy	accuracy	0.81854800000000005	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	openai/whisper-large-v3	test	default	0.81854800000000005	accuracy	accuracy	0.81854800000000005	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	openai/whisper-small	test	default	0.80967699999999998	accuracy	accuracy	0.80967699999999998	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	openai/whisper-medium	test	default	0.80645199999999995	accuracy	accuracy	0.80645199999999995	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	facebook/mms-300m	test	default	0.74193500000000001	accuracy	accuracy	0.74193500000000001	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	facebook/hubert-large-ls960-ft	test	default	0.64919400000000005	accuracy	accuracy	0.64919400000000005	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClassification	facebook/wav2vec2-xls-r-300m	test	default	0.460484	accuracy	accuracy	0.460484	accuracy|recall_weighted	speaker	core	
+OmnilingualSinhalaSpeakerClustering	baseline/mfcc-40	test	default	0.79849599999999998	v_measure	V-measure	0.79849599999999998	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	facebook/mms-300m	test	default	0.79101200000000005	v_measure	V-measure	0.79101200000000005	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	microsoft/wavlm-large	test	default	0.76919000000000004	v_measure	V-measure	0.76919000000000004	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	facebook/wav2vec2-xls-r-2b	test	default	0.75852799999999998	v_measure	V-measure	0.75852799999999998	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	facebook/wav2vec2-xls-r-1b	test	default	0.74611300000000003	v_measure	V-measure	0.74611300000000003	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	facebook/w2v-bert-2.0	test	default	0.73764600000000002	v_measure	V-measure	0.73764600000000002	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	facebook/hubert-large-ls960-ft	test	default	0.67553099999999999	v_measure	V-measure	0.67553099999999999	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	openai/whisper-tiny	test	default	0.66708000000000001	v_measure	V-measure	0.66708000000000001	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	openai/whisper-base	test	default	0.64913699999999996	v_measure	V-measure	0.64913699999999996	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	openai/whisper-small	test	default	0.646262	v_measure	V-measure	0.646262	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	openai/whisper-large-v3	test	default	0.63995899999999994	v_measure	V-measure	0.63995899999999994	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	facebook/wav2vec2-xls-r-300m	test	default	0.63417299999999999	v_measure	V-measure	0.63417299999999999	v_measure	speaker	core	
+OmnilingualSinhalaSpeakerClustering	openai/whisper-medium	test	default	0.61271399999999998	v_measure	V-measure	0.61271399999999998	v_measure	speaker	core	
+OpenSLR30SpeakerClassification	baseline/mfcc-40	test	default	0.92777799999999999	accuracy	accuracy	0.92777799999999999	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	facebook/wav2vec2-xls-r-2b	test	default	0.911111	accuracy	accuracy	0.911111	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	microsoft/wavlm-large	test	default	0.80138900000000002	accuracy	accuracy	0.80138900000000002	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	facebook/wav2vec2-xls-r-1b	test	default	0.71666700000000005	accuracy	accuracy	0.71666700000000005	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	openai/whisper-small	test	default	0.68055600000000005	accuracy	accuracy	0.68055600000000005	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	openai/whisper-medium	test	default	0.65277799999999997	accuracy	accuracy	0.65277799999999997	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	openai/whisper-base	test	default	0.63611099999999998	accuracy	accuracy	0.63611099999999998	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	openai/whisper-large-v3	test	default	0.61250000000000004	accuracy	accuracy	0.61250000000000004	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	openai/whisper-tiny	test	default	0.60833300000000001	accuracy	accuracy	0.60833300000000001	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	facebook/w2v-bert-2.0	test	default	0.50138899999999997	accuracy	accuracy	0.50138899999999997	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	facebook/mms-300m	test	default	0.49166700000000002	accuracy	accuracy	0.49166700000000002	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	facebook/hubert-large-ls960-ft	test	default	0.38055600000000001	accuracy	accuracy	0.38055600000000001	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClassification	facebook/wav2vec2-xls-r-300m	test	default	0.34722199999999998	accuracy	accuracy	0.34722199999999998	accuracy|recall|recall_weighted	speaker	core	
+OpenSLR30SpeakerClustering	baseline/mfcc-40	test	default	0.44292100000000001	v_measure	V-measure	0.44292100000000001	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	microsoft/wavlm-large	test	default	0.39295099999999999	v_measure	V-measure	0.39295099999999999	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	facebook/w2v-bert-2.0	test	default	0.38714700000000002	v_measure	V-measure	0.38714700000000002	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	facebook/mms-300m	test	default	0.34233400000000003	v_measure	V-measure	0.34233400000000003	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	openai/whisper-large-v3	test	default	0.32402199999999998	v_measure	V-measure	0.32402199999999998	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	facebook/hubert-large-ls960-ft	test	default	0.31709900000000002	v_measure	V-measure	0.31709900000000002	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	openai/whisper-base	test	default	0.315359	v_measure	V-measure	0.315359	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	openai/whisper-tiny	test	default	0.31094100000000002	v_measure	V-measure	0.31094100000000002	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	openai/whisper-small	test	default	0.30733700000000003	v_measure	V-measure	0.30733700000000003	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	facebook/wav2vec2-xls-r-1b	test	default	0.30250899999999997	v_measure	V-measure	0.30250899999999997	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	openai/whisper-medium	test	default	0.274449	v_measure	V-measure	0.274449	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	facebook/wav2vec2-xls-r-2b	test	default	0.27351700000000001	v_measure	V-measure	0.27351700000000001	v_measure	speaker	core	
+OpenSLR30SpeakerClustering	facebook/wav2vec2-xls-r-300m	test	default	0.20432900000000001	v_measure	V-measure	0.20432900000000001	v_measure	speaker	core	
+OpenSLR30SpeakerPairClassification	baseline/mfcc-40	test	default	0.87683999999999995	max_ap	max average precision	0.87683999999999995	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	facebook/w2v-bert-2.0	test	default	0.81633599999999995	max_ap	max average precision	0.81633599999999995	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	microsoft/wavlm-large	test	default	0.73278200000000004	max_ap	max average precision	0.73278200000000004	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	facebook/wav2vec2-xls-r-1b	test	default	0.681728	max_ap	max average precision	0.681728	cosine_ap|max_ap|similarity_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	facebook/mms-300m	test	default	0.67943299999999995	max_ap	max average precision	0.67943299999999995	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	facebook/wav2vec2-xls-r-2b	test	default	0.67179900000000004	max_ap	max average precision	0.67179900000000004	cosine_ap|max_ap|similarity_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	openai/whisper-tiny	test	default	0.66392700000000004	max_ap	max average precision	0.66392700000000004	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	openai/whisper-base	test	default	0.65858899999999998	max_ap	max average precision	0.65858899999999998	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	openai/whisper-small	test	default	0.65409700000000004	max_ap	max average precision	0.65409700000000004	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	facebook/hubert-large-ls960-ft	test	default	0.63323799999999997	max_ap	max average precision	0.63323799999999997	cosine_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	openai/whisper-large-v3	test	default	0.62875400000000004	max_ap	max average precision	0.62875400000000004	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	openai/whisper-medium	test	default	0.61798299999999995	max_ap	max average precision	0.61798299999999995	manhattan_ap|max_ap	speaker	core	
+OpenSLR30SpeakerPairClassification	facebook/wav2vec2-xls-r-300m	test	default	0.59380500000000003	max_ap	max average precision	0.59380500000000003	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerClassification	facebook/wav2vec2-xls-r-2b	test	default	0.77561899999999995	accuracy	accuracy	0.77561899999999995	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	baseline/mfcc-40	test	default	0.60854600000000003	accuracy	accuracy	0.60854600000000003	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	facebook/wav2vec2-xls-r-1b	test	default	0.51321899999999998	accuracy	accuracy	0.51321899999999998	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	openai/whisper-small	test	default	0.468887	accuracy	accuracy	0.468887	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	openai/whisper-medium	test	default	0.44084400000000001	accuracy	accuracy	0.44084400000000001	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	microsoft/wavlm-large	test	default	0.43728600000000001	accuracy	accuracy	0.43728600000000001	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	openai/whisper-large-v3	test	default	0.35612100000000002	accuracy	accuracy	0.35612100000000002	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	openai/whisper-base	test	default	0.31981199999999999	accuracy	accuracy	0.31981199999999999	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	openai/whisper-tiny	test	default	0.26752700000000001	accuracy	accuracy	0.26752700000000001	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	facebook/w2v-bert-2.0	test	default	0.22661300000000001	accuracy	accuracy	0.22661300000000001	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	facebook/mms-300m	test	default	0.167492	accuracy	accuracy	0.167492	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	facebook/hubert-large-ls960-ft	test	default	0.071014999999999995	accuracy	accuracy	0.071014999999999995	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClassification	facebook/wav2vec2-xls-r-300m	test	default	0.068642999999999996	accuracy	accuracy	0.068642999999999996	accuracy|recall_weighted	speaker	core	
+OpenSLR52SpeakerClustering	baseline/mfcc-40	test	default	0.64664900000000003	v_measure	V-measure	0.64664900000000003	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	facebook/w2v-bert-2.0	test	default	0.60955700000000002	v_measure	V-measure	0.60955700000000002	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	facebook/mms-300m	test	default	0.58793300000000004	v_measure	V-measure	0.58793300000000004	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	facebook/wav2vec2-xls-r-300m	test	default	0.54677600000000004	v_measure	V-measure	0.54677600000000004	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	facebook/wav2vec2-xls-r-2b	test	default	0.54264500000000004	v_measure	V-measure	0.54264500000000004	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	microsoft/wavlm-large	test	default	0.54058600000000001	v_measure	V-measure	0.54058600000000001	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	facebook/wav2vec2-xls-r-1b	test	default	0.53594299999999995	v_measure	V-measure	0.53594299999999995	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	openai/whisper-tiny	test	default	0.50605599999999995	v_measure	V-measure	0.50605599999999995	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	openai/whisper-base	test	default	0.49176700000000001	v_measure	V-measure	0.49176700000000001	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	facebook/hubert-large-ls960-ft	test	default	0.48195500000000002	v_measure	V-measure	0.48195500000000002	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	openai/whisper-large-v3	test	default	0.48141499999999998	v_measure	V-measure	0.48141499999999998	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	openai/whisper-small	test	default	0.47345900000000002	v_measure	V-measure	0.47345900000000002	v_measure	speaker	core	
+OpenSLR52SpeakerClustering	openai/whisper-medium	test	default	0.46909699999999999	v_measure	V-measure	0.46909699999999999	v_measure	speaker	core	
+OpenSLR52SpeakerPairClassification	baseline/mfcc-40	test	default	0.90508500000000003	max_ap	max average precision	0.90508500000000003	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	facebook/w2v-bert-2.0	test	default	0.87343400000000004	max_ap	max average precision	0.87343400000000004	cosine_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	microsoft/wavlm-large	test	default	0.77718699999999996	max_ap	max average precision	0.77718699999999996	cosine_ap|max_ap|similarity_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	facebook/mms-300m	test	default	0.74950600000000001	max_ap	max average precision	0.74950600000000001	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	openai/whisper-small	test	default	0.738514	max_ap	max average precision	0.738514	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	openai/whisper-base	test	default	0.71998399999999996	max_ap	max average precision	0.71998399999999996	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	openai/whisper-tiny	test	default	0.70863100000000001	max_ap	max average precision	0.70863100000000001	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	facebook/wav2vec2-xls-r-2b	test	default	0.70763500000000001	max_ap	max average precision	0.70763500000000001	max_ap|similarity_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	openai/whisper-medium	test	default	0.70658799999999999	max_ap	max average precision	0.70658799999999999	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	openai/whisper-large-v3	test	default	0.69667900000000005	max_ap	max average precision	0.69667900000000005	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	facebook/wav2vec2-xls-r-1b	test	default	0.66254199999999996	max_ap	max average precision	0.66254199999999996	cosine_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	facebook/wav2vec2-xls-r-300m	test	default	0.62755000000000005	max_ap	max average precision	0.62755000000000005	manhattan_ap|max_ap	speaker	core	
+OpenSLR52SpeakerPairClassification	facebook/hubert-large-ls960-ft	test	default	0.62223799999999996	max_ap	max average precision	0.62223799999999996	cosine_ap|max_ap	speaker	core	

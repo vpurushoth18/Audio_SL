@@ -1,0 +1,2 @@
+comparison	n_checkpoints	spearman	spearman_p	kendall	kendall_p	fam_ci_lo	fam_ci_hi	n_families	n_boot	seed
+speaker_vs_content	45	0.087649927507578732	0.56696185870088001	0.055837563451776658	0.59035688780100437	-0.33518195794365402	0.37528009535532819	12	2000	0

@@ -1,0 +1,15 @@
+task_name	capability	core_or_diagnostic	included_in_each_aggregate	metric	score_key
+OmnilingualSinhalaContentRetrieval	content	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_content_mean	nDCG@10	main_score / ndcg_at_10
+OmnilingualSinhalaSpeakerClassification	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	accuracy	main_score / accuracy
+OmnilingualSinhalaSpeakerClustering	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	V-measure (AMI reported alongside)	main_score / v_measure / ami_scores
+OpenSLR30SpeakerClassification	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	accuracy	main_score / accuracy
+OpenSLR30SpeakerClustering	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	V-measure (AMI reported alongside)	main_score / v_measure / ami_scores
+OpenSLR30SpeakerPairClassification	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	accuracy	main_score / accuracy
+OpenSLR52AudioReranking	content	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_content_mean	nDCG@10	main_score / ndcg_at_10
+OpenSLR52AudioRetrieval	content	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_content_mean	nDCG@10	main_score / ndcg_at_10
+OpenSLR52SpeakerClassification	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	accuracy	main_score / accuracy
+OpenSLR52SpeakerClustering	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	V-measure (AMI reported alongside)	main_score / v_measure / ami_scores
+OpenSLR52SpeakerPairClassification	speaker	core	capability_heatmap | plain_mean | borda | capability_balanced | maeb_sinhala_speaker_mean	accuracy	main_score / accuracy
+VoxLingua107SinhalaVideoClustering	channel	diagnostic	capability_heatmap | plain_mean | borda	V-measure (AMI reported alongside)	main_score / v_measure / ami_scores
+WorldSpeechSinhalaQualityClassification	channel	diagnostic	capability_heatmap | plain_mean | borda	accuracy	main_score / accuracy
+WorldSpeechSinhalaSessionClustering	channel	diagnostic	capability_heatmap | plain_mean | borda	V-measure (AMI reported alongside)	main_score / v_measure / ami_scores

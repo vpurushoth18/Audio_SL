@@ -1,0 +1,42 @@
+{
+    "loader_kwargs": {},
+    "name": "baseline/mfcc-40",
+    "revision": "1",
+    "release_date": "2026-10-02",
+    "languages": [
+        "sin-Sinh",
+        "eng-Latn"
+    ],
+    "n_parameters": 0,
+    "n_active_parameters_override": null,
+    "n_embedding_parameters": null,
+    "memory_usage_mb": 0.0,
+    "max_tokens": null,
+    "embed_dim": 40,
+    "license": "mit",
+    "open_weights": true,
+    "public_training_code": null,
+    "public_training_data": null,
+    "framework": [
+        "NumPy"
+    ],
+    "reference": "https://github.com/vpurushoth18/Audio_SL",
+    "similarity_fn_name": "cosine",
+    "use_instructions": false,
+    "training_datasets": null,
+    "adapted_from": null,
+    "superseded_by": null,
+    "modalities": [
+        "audio"
+    ],
+    "model_type": [
+        "dense"
+    ],
+    "citation": null,
+    "contacts": null,
+    "experiment_kwargs": null,
+    "output_dtypes": null,
+    "extra_requirements_groups": null,
+    "loader": "MFCCBaselineWrapper",
+    "is_cross_encoder": false
+}

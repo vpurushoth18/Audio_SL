@@ -1,0 +1,80 @@
+{
+  "dataset_revision": "main",
+  "task_name": "OpenSLR52SpeakerPairClassification",
+  "mteb_version": "2.21.10",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.0,
+        "similarity_f1": 0.0,
+        "similarity_precision": 0.0,
+        "similarity_recall": 0.0,
+        "similarity_ap": 0.5,
+        "cosine_accuracy": 0.0,
+        "cosine_f1": 0.0,
+        "cosine_precision": 0.0,
+        "cosine_recall": 0.0,
+        "cosine_ap": 0.5,
+        "manhattan_accuracy": 0.0,
+        "manhattan_f1": 0.0,
+        "manhattan_precision": 0.0,
+        "manhattan_recall": 0.0,
+        "manhattan_ap": 0.5,
+        "euclidean_accuracy": 0.0,
+        "euclidean_f1": 0.0,
+        "euclidean_precision": 0.0,
+        "euclidean_recall": 0.0,
+        "euclidean_ap": 0.5,
+        "dot_accuracy": 0.0,
+        "dot_f1": 0.0,
+        "dot_precision": 0.0,
+        "dot_recall": 0.0,
+        "dot_ap": 0.5,
+        "max_accuracy": 0.0,
+        "max_f1": 0.0,
+        "max_precision": 0.0,
+        "max_recall": 0.0,
+        "max_ap": 0.5,
+        "main_score": 0.5,
+        "hf_subset": "default",
+        "languages": [
+          "sin-Sinh"
+        ],
+        "mteb_version": "2.21.10"
+      }
+    ]
+  },
+  "evaluation_time": 394.3808202401269,
+  "kg_co2_emissions": null,
+  "date": 1791361220.845234,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 0.0,
+      "end": 0.009391874074935913,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 0.012797377072274685,
+      "end": 197.851626802003,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 197.85172452614643,
+      "end": 394.0606419411488,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 394.0607122441288,
+      "end": 394.0944030492101,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
+}

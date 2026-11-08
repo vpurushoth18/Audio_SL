@@ -1,0 +1,13 @@
+maeb_subset	n_maeb_tasks	top_k	picked	mean_sinaeb_speaker_rank	mean_sinaeb_content_rank	random_baseline_rank	n_checkpoints
+all	19	1	openai/whisper-medium.en	8	7	23	45
+all	19	3	openai/whisper-medium.en; openai/whisper-medium; openai/whisper-large-v2	18.666666666666668	4	23	45
+all	19	5	openai/whisper-medium.en; openai/whisper-medium; openai/whisper-large-v2; openai/whisper-small.en; openai/whisper-small	16.800000000000001	5.7999999999999998	23	45
+speaker	8	1	microsoft/wavlm-large	7	22	23	45
+speaker	8	3	microsoft/wavlm-large; microsoft/unispeech-sat-large; facebook/hubert-base-ls960	5.666666666666667	24	23	45
+speaker	8	5	microsoft/wavlm-large; microsoft/unispeech-sat-large; facebook/hubert-base-ls960; openai/whisper-medium.en; openai/whisper-large-v2	9.5999999999999996	16.199999999999999	23	45
+content	4	1	openai/whisper-medium	25	3	23	45
+content	4	3	openai/whisper-medium; facebook/mms-1b-fl102; openai/whisper-large-v2	27.666666666666668	2	23	45
+content	4	5	openai/whisper-medium; facebook/mms-1b-fl102; openai/whisper-large-v2; openai/whisper-medium.en; openai/whisper-large-v3-turbo	24	5.2000000000000002	23	45
+non-speech	7	1	openai/whisper-medium.en	8	7	23	45
+non-speech	7	3	openai/whisper-medium.en; openai/whisper-medium; openai/whisper-large-v2	18.666666666666668	4	23	45
+non-speech	7	5	openai/whisper-medium.en; openai/whisper-medium; openai/whisper-large-v2; openai/whisper-small.en; openai/whisper-base.en	17.800000000000001	5.4000000000000004	23	45

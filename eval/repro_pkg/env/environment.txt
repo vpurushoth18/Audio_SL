@@ -1,0 +1,49 @@
+# environment
+
+## git
+b8d2ac8725ba1d54337fa5b3a333751d6a7ee26c
+ M eval/analysis/Q_layer_seeds_uniform.tsv
+ M eval/analysis/S1_full_matrix_long.tsv
+ M eval/analysis/S2_task_inventory.tsv
+ M eval/analysis/S3_aggregation_decomposed.tsv
+ M eval/analysis/S6_maeb_capability_matched.tsv
+ M eval/analysis/T_layer_transfer_classification.tsv
+ M eval/analysis/U_classification_476_speakers.tsv
+ M eval/analysis/V_layer_curves.tsv
+ M eval/audit_padding.py
+ M eval/controlled_matching.py
+ M eval/figures/fig1_layer_curves.png
+ M eval/layer_curves.py
+ M eval/layer_seeds.py
+ M eval/layer_transfer_clf.py
+ M eval/supplementary.py
+?? eval/analysis/Q2_per_seed_scores.tsv
+?? eval/analysis/S10_probe_convergence.tsv
+?? eval/analysis/S11_strict_duration_subset.tsv
+?? eval/analysis/S12_probe_reference_hard.tsv
+?? eval/analysis/S13_classification_split_ids.tsv
+
+## python
+Python 3.13.5
+
+## key packages
+datasets                     4.8.4
+huggingface_hub              1.10.2
+mteb                         2.21.10
+numpy                        2.4.4
+pandas                       3.0.2
+scikit-learn                 1.9.0
+scipy                        1.17.1
+soundfile                    0.13.1
+soxr                         1.1.0
+torch                        2.6.0+cu124
+torchaudio                   2.6.0
+transformers                 5.6.0.dev0
+
+## hardware
+NVIDIA A30, 24576 MiB, 565.57.01
+NVIDIA A30, 24576 MiB, 565.57.01
+
+## host
+nvbaisec4
+5.14.0-503.16.1.el9_5.x86_64
